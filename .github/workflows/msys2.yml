@@ -1,0 +1,24 @@
+name: msys2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Prepare
+      run: git config --global core.autocrlf false
+    - uses: actions/checkout@v2
+    - name: Build
+      run: |
+        python init.py
+        C:\msys64\usr\bin\bash -lc 'cd /d/a/nginx-nosni/nginx-nosni; source init.sh; pacman -S gcc zlib-devel openssl-devel --noconfirm; makepkg'
+    - name: Upload
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: nginx*.zst
+        tag: latest
+        overwrite: true
+        file_glob: true
