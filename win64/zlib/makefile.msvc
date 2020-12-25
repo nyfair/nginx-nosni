@@ -1,0 +1,24 @@
+
+# Copyright (C) Igor Sysoev
+# Copyright (C) Nginx, Inc.
+
+
+CFLAGS = -nologo -O2 -Ob1 -Oi -Gs $(LIBC) $(CPU_OPT) -DASMV -DASMINF /MD
+
+zlib.lib:
+	cd $(ZLIB)
+
+	cl -c $(CFLAGS) adler32.c crc32.c deflate.c \
+		trees.c zutil.c compress.c \
+		inflate.c inffast.c inftrees.c
+	
+	cd contrib/masmx64
+	ml64 /Flinffasx64 /c /Zi inffasx64.asm
+  ml64 /Flgvmat64   /c /Zi gvmat64.asm
+	cl -c $(CFLAGS) -I../../ inffas8664.c
+
+  cd ../../
+	link -lib -out:zlib.lib adler32.obj crc32.obj deflate.obj \
+		trees.obj zutil.obj compress.obj \
+		inflate.obj inffast.obj inftrees.obj \
+		contrib/masmx64/gvmat64.obj contrib/masmx64/inffasx64.obj contrib/masmx64/inffas8664.obj

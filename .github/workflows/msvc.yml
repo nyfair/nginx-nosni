@@ -1,0 +1,41 @@
+name: msvc
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        include:
+        - os: win32
+          bat: vcvars32.bat
+        - os: win64
+          bat: vcvars64.bat
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ilammy/setup-nasm@v1
+    - name: Build
+      shell: cmd
+      run: |
+        python init.py
+        call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\${{ matrix.bat }}"
+        set MSYSTEM=MINGW64
+        set MSYS2_PATH_TYPE=inherit
+        C:\msys64\usr\bin\bash -lc 'cd /d/a/nginx-nosni/nginx-nosni; source init.sh; ./msvc.sh'
+        cd nginx*
+        xcopy ..\${{ matrix.os }} auto\lib /s /y
+        nmake
+        copy objs\nginx.exe ..\
+        cd ..
+        7z a nginx.7z nginx.exe
+        C:\msys64\usr\bin\bash -lc 'cd /d/a/nginx-nosni/nginx-nosni; source init.sh; mv nginx.7z nginx-$_nginxver-${{ matrix.os }}.7z'
+    - name: Upload
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: nginx*.7z
+        tag: latest
+        overwrite: true
+        file_glob: true
