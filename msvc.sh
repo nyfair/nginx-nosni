@@ -17,4 +17,4 @@ auto/configure \
   --http-proxy-temp-path=proxy_temp \
   --with-zlib=../zlib-$_zlibver \
   --with-openssl=../openssl-OpenSSL_$_opensslver \
-  --with-cc-opt=-DFD_SETSIZE=1024 ${_module}
+  --with-cc-opt=-DFD_SETSIZE=65536 ${_module}

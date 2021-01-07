@@ -11,6 +11,7 @@ md5sums=('SKIP')
 
 build() {
   cd $srcdir/nginx-release-$pkgver
+  sed -i '/ -g/d' auto/cc/gcc
   auto/configure \
     --prefix=/etc/nginx \
     --conf-path=/etc/nginx/nginx.conf \
@@ -20,7 +21,7 @@ build() {
     --error-log-path=/tmp/nginx_error.log \
     --http-client-body-temp-path=/tmp/nginx_clientbody \
     --http-proxy-temp-path=/tmp/nginx_proxy \
-    --with-cc-opt="$CFLAGS -DFD_SETSIZE=1024" ${_module}
+    --with-cc-opt="$CFLAGS -DFD_SETSIZE=65536" ${_module}
   make
 }
 

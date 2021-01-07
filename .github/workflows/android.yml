@@ -1,0 +1,61 @@
+name: android
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build
+      run: |
+        python3 init.py
+        source init.sh
+        curl -OL https://github.com/nginx/nginx/archive/release-$_nginxver.tar.gz
+        curl -OL https://boringssl.googlesource.com/boringssl/+archive/7f02881e96e51f1873afcf384d02f782b48967ca.tar.gz
+        for i in *tar*; do tar xf $i; done
+        mkdir build
+        cd build
+        cmake \
+          -DANDROID_ABI=arm64-v8a \
+          -DCMAKE_TOOLCHAIN_FILE=$ANDROID_HOME/ndk-bundle/build/cmake/android.toolchain.cmake \
+          -DANDROID_NATIVE_API_LEVEL=28 \
+          -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=1 ..
+        make
+        mkdir -p /opt/local/lib
+        cp -r ../include /opt/local
+        cp crypto/*.so /opt/local/lib
+        cp ssl/*.so /opt/local/lib
+        cd ../nginx-release-$_nginxver
+        sed -i 's|ngx_feature_run=.*|ngx_feature_run=no|g' auto/cc/name
+        sed -i 's|ngx_size=.*|ngx_size=4|g' auto/types/sizeof
+        sed -i '/-Werror/d' auto/cc/clang
+        sed -i '/ -g/d' auto/cc/clang
+        auto/configure \
+          --crossbuild=android \
+          --with-cc=$ANDROID_HOME/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android28-clang \
+          --prefix=/sdcard/nginx \
+          --conf-path=nginx.conf \
+          --pid-path=nginx.pid \
+          --http-log-path=access.log \
+          --error-log-path=error.log \
+          --sbin-path=nginx \
+          --http-client-body-temp-path=client_body_temp \
+          --http-proxy-temp-path=proxy_temp \
+          --with-cc-opt="-O2 -pipe" ${_module}
+        echo -e '#ifndef NGX_SYS_NERR\n#define NGX_SYS_NERR  132\n#endif' >> objs/ngx_auto_config.h
+        echo -e '#ifndef NGX_HAVE_MAP_ANON\n#define NGX_HAVE_MAP_ANON 1\n#endif' >> objs/ngx_auto_config.h
+        make
+        cp objs/nginx ../
+        cd ..
+        $ANDROID_HOME/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android-strip nginx
+        tar acf nginx-$_nginxver-android-arm64-v8a.tar.gz nginx
+    - name: Upload
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: nginx*.gz
+        tag: latest
+        overwrite: true
+        file_glob: true
