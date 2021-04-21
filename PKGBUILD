@@ -12,6 +12,8 @@ md5sums=('SKIP')
 build() {
   cd $srcdir/nginx-release-$pkgver
   sed -i '/ -g/d' auto/cc/gcc
+  sed -i '/-Werror/d' auto/cc/gcc
+  sed -i 's/NGX_PLATFORM=win32/# NGX_PLATFORM=win32/' auto/configure
   auto/configure \
     --prefix=/etc/nginx \
     --conf-path=/etc/nginx/nginx.conf \
