@@ -8,17 +8,18 @@ jobs:
     strategy:
       matrix:
         url:
-          - https://mega.nz/file/oRIgCDTD#Pd4_i4MrzEg5fmxgYQ3FaU7rC4YLej6JpG5qoPl_BzQ
-          - https://mega.nz/file/joxmVJRA#QyfkQRfQGvcpOlaHW4ycRWON8OmGwe_FWAulONXgLuY
-          - https://mega.nz/file/gAUWGBhJ#2LZPnPv9ZWDcZc5uF0P-tL62rnMz79P-ANt04YvSXw4
-          - https://mega.nz/file/0FZAVRIQ#MqK2miXs99psdxpW3p0GyiMIh1W3u-0jlYgPMD6vSqY
-          - https://mega.nz/file/FNIUlDhT#w6X5e8M05YQzuDnWoJkaoQHBcwFuPYUBHVtYz984dvQ
-          - https://mega.nz/file/kUYywTZJ#6wAWpNR3Fxg3jx0qUgu1HpoCksckh7TYjnuUuX-OH2E
-          - https://mega.nz/file/3xYXxKJB#N_252VV2cpJmfvZ10KQu-YzUgc2Yj_lP2nlgiX0mG1U
-          - https://mega.nz/file/5UZ2QRYS#qsDe7Vr95JZ7Wi0TnqmDZT8h-FnGFRuTtb4yIs1aLqA
-          - https://mega.nz/file/AIIw2JQL#8L8VWkBz-rLDdBElAdvbdQD46qZB_Wiol13oNXeShzY
-          - https://mega.nz/file/MUZGAbLZ#b0cYXlWy2kL0xsauSno-XEkCPYrk8eR4mid8SIe_AmU
-          - https://mega.nz/file/3llQUYLI#_n1ttgSauPnjWHkhmeihA9PAyHfXrFyS78n4baBUImA
+          - https://mega.nz/file/9YUmyB4S#LPn_NJYRMZCo9S3wM2C0kIO-XBqjDsqtwkUzPVnZc3I
+          - https://mega.nz/file/Dk9QQISC#Er7Me55TkyRHvOJc3W1LXyC8WU_NlLH8C1L0V1nyjkI
+          - https://mega.nz/file/ZIdCUD5S#4qiPPFHx-rw38HYadjIGbnt0Lx6jJCGYEVNhp6oKw5Y
+          - https://mega.nz/file/IENCTJ6L#REd9-G6cWenAsei3c_1QTdcvWCQdmGThdyA6jfbD6OY
+          - https://mega.nz/file/VQMwhZwK#E7vbP7E4jWwWzGtUFMhQZiiez_DmwfZTie6EFI7qY-c
+          - https://mega.nz/file/WosHVSSZ#g0t7XlNjkkzz8yV0cu3sY5GpDEN9_hhg1W7Kxt-PYbw
+          - https://mega.nz/file/Fyo3VCDT#oFsYXK5ev3w0nsOY9ezs4VsRVgR8gt2IndL3cnbgB0s
+          - https://mega.nz/file/Oh0SlSBI#SuEBUxpu3bDiUF8cWKcLf0Nh4tJFHGm4J3skH3xcTRc
+          - https://mega.nz/folder/ntwyRQhL#HZX7CpoqqqoWTNTkrQKMWw
+          - https://mega.nz/file/tjhTzC6J#tkrc5VyL88i8Kmr1iBE5rNG_k0NiIl2bJqvjSsnDi_I
+          - https://mega.nz/file/BmplTYxS#GrLPN4jVvcGdpdIL6BJNxDUO3L9jQLwRUg_IE8V5x6M
+          - https://mega.nz/file/Bn5xyaQA#PPwl5ILwb51Daw9ZzAGdfVKZXKmXDJ5CQTn97EDn2T8
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
