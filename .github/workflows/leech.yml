@@ -1,0 +1,42 @@
+name: leech
+
+on:
+  push:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        url:
+          - https://mega.nz/folder/klcAVZTb#tv7YOq6IYVZGyTq-L0A4fQ
+          - https://mega.nz/file/J0EkXTCY#VmUef27yxxD-rqMUVViaCleBa23MGk9lPuLs5d6GnUs
+          - https://mega.nz/file/evgRFKLb#ngnKzWJwGUsMXQzNDY_J57vriwGa-lL6a_U5Uhe__ak
+          - https://mega.nz/file/fIJw1DxJ#UMfpZNxhvXrwMqAj0JHYMEhGIgGG0uG6pr4iwhwCtFY
+          - https://mega.nz/file/7GgE1RLJ#WQaMpXyBXPaI5AfwCMUHPQOUzQcpwpneIv5-4FgTQ8k
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/cache@v2
+      id: cache
+      with:
+        path: megatools-1.11.0-git-20200830-linux-x86_64
+        key: megatools-1.11.0-git-20200830-linux-x86_64
+    - name: Mega
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: |
+        curl -OL https://megatools.megous.com/builds/experimental/megatools-1.11.0-git-20200830-linux-x86_64.tar.gz
+        tar xvf *.gz
+    - name: Leech
+      run: |
+        mkdir leech
+        megatools*/megatools dl --path leech/ ${{ matrix.url }}
+        cd leech
+        find . -size +2G -exec split -b 1G --numeric-suffixes=1 {} {}.0 \;
+        find . -size +2G -exec rm {} \;
+    - name: Upload
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: leech/*
+        tag: latest
+        overwrite: true
+        file_glob: true
