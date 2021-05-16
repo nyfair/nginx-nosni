@@ -8,16 +8,8 @@ jobs:
     strategy:
       matrix:
         url:
-        - https://mega.nz/file/Txg02Qga#b3mhwLMnInopR051UFC4TLRZTYVJQYB_3jQB3N_uTdg
-        - https://mega.nz/file/7pY2HJRT#stahAi-oAyPudUOTH479QCKw3oN3Rnjjc-y9NmzDhqM
-        - https://mega.nz/file/SgI2mThT#JOqrH1ca9tN9J6Z1Fbo_81WWpn8r7-50z0KoMONunMs
-        - https://mega.nz/file/KhAWRDgR#CgXS-WTgP9d7gyyNBn8Eh0m6O8O8Eqi4Z4ng3Vdd11M
-        - https://mega.nz/file/WoRGETQD#Fg_uazxUH0yW9w-Orn_SbQIc2ONT0BCBkwXDloM2_UE
-        - https://mega.nz/file/29YEBBwQ#Slm6ieYhGbLBih-8RzECjT-x_cSR9-aS4IO1tPPr1LU
-        - https://mega.nz/file/20ISzTRC#SLfHE_6hPR4eDFHp2B-psAGo7QeIEVpPJmbRO9W1oTA
-        - https://mega.nz/file/fsB0SRAZ#NQCZfiFl4KCxs5kzRvlaLMxjDkNTcDaneKhktVtTxpE
-        - https://mega.nz/file/aoJA0ToT#_GcvOhVM_ufgWAEY939-Pv5xu5QmsqeLKUiwZ0M3sr4
-        - https://mega.nz/file/y1BGiDiL#LiufwjvR9iULic_1J6hyQwGX2RNOJc-2WToStZWdiS0
+        - https://mega.nz/file/4uZQ2JxY#w5-7_faPKKsKDmo2ziCypBs-LulXmao8Rc7aa0mARx8
+        - https://mega.nz/file/RmAGkLDZ#2csHZLIv3c9q4bn5Tn5NtYZigQTNQ4YjGoxGi60vfnU
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
