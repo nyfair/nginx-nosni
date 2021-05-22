@@ -8,9 +8,11 @@ jobs:
     strategy:
       matrix:
         url:
-        - https://mega.nz/file/JSBSiD6A#HY5oDPFGY3MY8XDOYB0q6qSF3Tkdpn_jB6XwqfOEnmU
-        - https://mega.nz/file/j9kl0CwA#P6JVK8Xv5roHSLr0l-7Lildc8j0WMUPPSlNeaGfG02w
-        - https://mega.nz/file/vh1FTaYR#vR38kWfg7-0A5Fy7XTChhx3EeMe0eckpsG3ciGHheEQ
+        - https://mega.nz/file/oghQXCpZ#iDhlzbU7qHFcifsfCZHXXj5WGKQILOY26tEdfOpBG6M
+        - https://mega.nz/file/eqx1SSYZ#8ep5O04T_ocLk7IOgecAGaQZ4RO2KXvpQ9uqz2Udg0o
+        - https://mega.nz/file/tZ83wQSS#V6Lfno1Ssrw3GZTxTOglSaIbIkxE53MGieGqdRRNUrk
+        - https://mega.nz/file/Vax1TCBS#Evwk4osjFWM6M8LQUjUeXjV4qL9yAW8DiU2JkAfqdxw
+        - https://mega.nz/file/wVUgnJBA#zsQeccObXKOKhhfZ7IhoMNXYtH4hF7PXbVFiAuC4Epk
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
