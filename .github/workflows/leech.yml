@@ -8,9 +8,6 @@ jobs:
     strategy:
       matrix:
         url:
-        - https://mega.nz/folder/4VUgwDoZ#tDCPiMElEqvrhI93LRWgIw
-        - https://mega.nz/folder/FI8SyZDI#mswasWNMUb7W6SMIDZwBeQ
-        - https://mega.nz/folder/tAMBECRL#GHlJnX1cyIV6CtAjuUAPEQ
         - https://mega.nz/folder/occXFSDY#tn5tWiYOf-Mnr4Xrca2l-g
     runs-on: ubuntu-latest
     steps:
