@@ -8,13 +8,13 @@ jobs:
     strategy:
       matrix:
         url:
-        - https://mega.nz/folder/xXpTzI5T#gOPIKjEIwuD8Bxm-quzOKQ/file/sGwGyBbS
-        - https://mega.nz/folder/xXpTzI5T#gOPIKjEIwuD8Bxm-quzOKQ/file/NXQW1RjI
-        - https://mega.nz/folder/xXpTzI5T#gOPIKjEIwuD8Bxm-quzOKQ/file/kDYHkA5T
-        - https://mega.nz/folder/xXpTzI5T#gOPIKjEIwuD8Bxm-quzOKQ/file/dGIWkBAb
-        - https://mega.nz/folder/xXpTzI5T#gOPIKjEIwuD8Bxm-quzOKQ/file/kHASFDKD
-        - https://mega.nz/folder/xXpTzI5T#gOPIKjEIwuD8Bxm-quzOKQ/file/hP4kyCyI
-        - https://mega.nz/folder/xXpTzI5T#gOPIKjEIwuD8Bxm-quzOKQ/file/ROg2DIxQ
+        - https://mega.nz/folder/BV0mBSDK#W67HIl0HNvgccdmlBYplWQ/file/tBk1kYTY
+        - https://mega.nz/folder/BV0mBSDK#W67HIl0HNvgccdmlBYplWQ/file/gMlnXa7Z
+        - https://mega.nz/folder/BV0mBSDK#W67HIl0HNvgccdmlBYplWQ/file/oQcmiJDD
+        - https://mega.nz/folder/BV0mBSDK#W67HIl0HNvgccdmlBYplWQ/file/oVNg1bDQ
+        - https://mega.nz/folder/BV0mBSDK#W67HIl0HNvgccdmlBYplWQ/file/pFtlxawZ
+        - https://mega.nz/folder/BV0mBSDK#W67HIl0HNvgccdmlBYplWQ/file/UAMSRBjC
+        - https://mega.nz/folder/BV0mBSDK#W67HIl0HNvgccdmlBYplWQ/file/ZUU1zaLa
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
