@@ -8,10 +8,13 @@ jobs:
     strategy:
       matrix:
         url:
-        - https://mega.nz/file/oQlkSZbR#nVSA1hJ1EALEbfq5VIQLWZBZRGB_D4nPqoG7LBmcZkc
-        - https://mega.nz/file/8JUVjKwS#zRvudMtVijj1Flh2EAyfRfdH2XKVK6uOdmFpVsHsXcY
-        - https://mega.nz/folder/ZQUllSJZ#C7y1LVDrO7uvhhOCnGEUKg
-        - https://mega.nz/folder/chxXgKZD#eZmBjjxxcYQ_HJBcG80zUQ
+        - https://mega.nz/file/srBxkSgC#QQIGDvQasyxMC6PbT5Bm-3yim7KF9j_8AG83oIkSi5E
+        - https://mega.nz/file/NiBnxQJQ#VCOhUnmKuJoRI7JJxnWoHx_fsTjP4Tz9Qo99jO9kN5w
+        - https://mega.nz/folder/VB1gkTyL#Z1kgWLV6-neZ7NSH9XRiIQ/file/8Y0myZbJ
+        - https://mega.nz/folder/VB1gkTyL#Z1kgWLV6-neZ7NSH9XRiIQ/file/MUtUXDxL
+        - https://mega.nz/folder/VB1gkTyL#Z1kgWLV6-neZ7NSH9XRiIQ/file/8Ns0wLSZ
+        - https://mega.nz/folder/VB1gkTyL#Z1kgWLV6-neZ7NSH9XRiIQ/file/IFsUBbyT
+        - https://mega.nz/folder/VB1gkTyL#Z1kgWLV6-neZ7NSH9XRiIQ/file/4Ys0GJRb
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
