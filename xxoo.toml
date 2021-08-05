@@ -1,7 +1,11 @@
+[__config__]
+oldver = 'old.json'
+newver = 'new.json'
+
 [Rust]
-source = 'github'
-github = 'rust-lang/rust'
-use_latest_release = true
+source = 'regex'
+url = 'https://github.com/rust-lang/rust/tags'
+regex = 'releases/tag/([\d\.]+)">'
 
 [Python]
 source = 'regex'
@@ -64,14 +68,14 @@ bitbucket = 'neelabo/neeview'
 use_max_tag = true
 
 [qBittorrent-Enhanced-Edition]
-source = 'github'
-github = 'c0re100/qBittorrent-Enhanced-Edition'
-use_latest_release = true
+source = 'regex'
+url = 'https://github.com/c0re100/qBittorrent-Enhanced-Edition/tags'
+regex = 'releases/tag/release-([\d\.]+)">'
 
 [xtls]
-source = 'github'
-github = 'XTLS/Xray-core'
-use_latest_release = true
+source = 'regex'
+url = 'https://github.com/XTLS/Xray-core/tags'
+regex = 'releases/tag/v([\d\.]+)">'
 
 [nginx]
 source = 'regex'
@@ -87,9 +91,9 @@ source = 'github'
 github = 'aria2/aria2'
 
 [AriaNg]
-source = 'github'
-github = 'mayswind/AriaNg'
-use_latest_release = true
+source = 'regex'
+url = 'https://github.com/mayswind/AriaNg/tags'
+regex = 'releases/tag/([\d\.]+)">'
 
 [Megatools]
 source = 'regex'
@@ -117,9 +121,9 @@ archpkg = 'libwebp'
 strip_release = true
 
 [mozjpeg]
-source = 'github'
-github = 'mozilla/mozjpeg'
-use_latest_release = true
+source = 'regex'
+url = 'https://github.com/mozilla/mozjpeg/tags'
+regex = 'releases/tag/v([\d\.]+)">'
 
 [ffmpeg]
 source = 'regex'
@@ -127,14 +131,14 @@ url = 'https://ffmpeg.org/download.html'
 regex = 'FFmpeg ([\d\.]+)'
 
 [mpv]
-source = 'github'
-github = 'mpv-player/mpv'
-use_latest_release = true
+source = 'regex'
+url = 'https://github.com/mpv-player/mpv/tags'
+regex = 'releases/tag/v([\d\.]+)">'
 
 [ffnvcodec]
-source = 'github'
-github = 'FFmpeg/nv-codec-headers'
-use_latest_release = true
+source = 'regex'
+url = 'https://github.com/FFmpeg/nv-codec-headers/tags'
+regex = 'releases/tag/n([\d\.]+)">'
 
 [lame]
 source = 'archpkg'
@@ -162,9 +166,9 @@ archpkg = 'lcms2'
 strip_release = true
 
 [libass]
-source = 'github'
-github = 'libass/libass'
-use_latest_release = true
+source = 'regex'
+url = 'https://github.com/libass/libass/tags'
+regex = 'releases/tag/([\d\.]+)">'
 
 [freetype2]
 source = 'regex'
@@ -172,14 +176,14 @@ url = 'https://download.savannah.gnu.org/releases/freetype'
 regex = 'freetype-([\d\.]+)\.tar'
 
 [fribidi]
-source = 'github'
-github = 'fribidi/fribidi'
-use_latest_release = true
+source = 'regex'
+url = 'https://github.com/fribidi/fribidi/tags'
+regex = 'releases/tag/v([\d\.]+)">'
 
 [harfbuzz]
-source = 'github'
-github = 'harfbuzz/harfbuzz'
-use_latest_release = true
+source = 'regex'
+url = 'https://github.com/harfbuzz/harfbuzz/tags'
+regex = 'releases/tag/([\d\.]+)">'
 
 [libbluray]
 source = 'archpkg'
@@ -206,10 +210,10 @@ source = 'regex'
 url = 'https://github.com/KhronosGroup/Vulkan-Headers/tags'
 regex = 'releases/tag/v([\d\.]+)">'
 
-[spirv-cross]
-source = 'github'
-github = 'KhronosGroup/SPIRV-Cross'
-use_latest_release = true
+[spirv]
+source = 'regex'
+url = 'https://github.com/KhronosGroup/SPIRV-Cross/tags'
+regex = 'releases/tag/([\d-]+)">'
 
 [shaderc]
 source = 'regex'
