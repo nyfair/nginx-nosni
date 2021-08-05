@@ -125,6 +125,11 @@ source = 'regex'
 url = 'https://github.com/mozilla/mozjpeg/tags'
 regex = 'releases/tag/v([\d\.]+)">'
 
+[libjpeg-xl]
+source = 'regex'
+url = 'https://github.com/libjxl/libjxl/tags'
+regex = 'releases/tag/v([\d\.]+)">'
+
 [ffmpeg]
 source = 'regex'
 url = 'https://ffmpeg.org/download.html'
@@ -224,3 +229,38 @@ regex = 'releases/tag/v([\d\.]+)">'
 source = 'regex'
 url = 'https://github.com/haasn/libplacebo/tags'
 regex = 'releases/tag/v([\d\.]+)">'
+
+[BepInEx]
+source = 'regex'
+url = 'https://github.com/BepInEx/BepInEx/tags'
+regex = 'releases/tag/v([\d\.]+)">'
+
+[UnityExplorer]
+source = 'regex'
+url = 'https://github.com/sinai-dev/UnityExplorer/tags'
+regex = 'releases/tag/([\d\.]+)">'
+
+[AssetStudio]
+source = 'regex'
+url = 'https://github.com/Perfare/AssetStudio/tags'
+regex = 'releases/tag/v([\d\.]+)">'
+
+[Il2CppDumper]
+source = 'regex'
+url = 'https://github.com/Perfare/Il2CppDumper/tags'
+regex = 'releases/tag/v([\d\.]+)">'
+
+[CheatEngine]
+source = 'regex'
+url = 'https://github.com/cheat-engine/cheat-engine/tags'
+regex = 'releases/tag/([\d\.]+)">'
+
+[Iceraven]
+source = 'regex'
+url = 'https://github.com/fork-maintainers/iceraven-browser/tags'
+regex = 'releases/tag/iceraven-([\d\.]+)">'
+
+[noMeiryoUI]
+source = 'regex'
+url = 'https://github.com/Tatsu-syo/noMeiryoUI/tags'
+regex = 'releases/tag/TAG-([\d\.]+)">'

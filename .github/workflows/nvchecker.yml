@@ -7,14 +7,13 @@ on:
   push:
     paths:
     - 'xxoo.toml'
-    - 'old.json'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Version Check
+    - name: Check Latest Version
       run: |
         sudo apt install python3-pycurl python3-tornado
         pip3 install nvchecker
@@ -24,8 +23,8 @@ jobs:
         then
           mv new.json old.json
           git add old.json
-          git config --global user.name 'GitHub Actions'
-          git config --global user.email 'actions@github.com'
-          git commit -am "Automated report"
+          git config --global user.name 'nyfair'
+          git config --global user.email 'nyfair2012@gmail.com'
+          git commit -am "bot"
           git push
         fi
