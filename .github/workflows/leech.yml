@@ -2,14 +2,15 @@ name: leech
 
 on:
   push:
+    paths:
+    - '.github/workflows/leech.yml'
 
 jobs:
   build:
     strategy:
       matrix:
         url:
-        - https://mega.nz/file/ootglSha#cQ7T8WGwWVpz-MOT3DpArxPy3qNFpAZquWd53BWFzg0
-        - https://mega.nz/file/VtcEGD6I#TUi9bMPwQu7T0DuZWN7RcN5fog0aQ38zwT6Cmepo4o0
+        - http://
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2

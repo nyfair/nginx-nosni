@@ -1,0 +1,217 @@
+[Rust]
+source = 'github'
+github = 'rust-lang/rust'
+use_latest_release = true
+
+[Python]
+source = 'regex'
+url = 'https://www.python.org/downloads'
+regex = 'Python (3.9[\d\.]*)'
+
+[VapourSynth]
+source = 'github'
+github = 'vapoursynth/vapoursynth'
+use_latest_release = true
+
+[LuaJIT]
+source = 'regex'
+url = 'https://luajit.org/download.html'
+regex = 'LuaJIT-([\w\.-]+)'
+
+[Mingw-w64]
+source = 'regex'
+url = 'https://gcc-mcf.lhmouse.com/'
+regex = 'mingw-w64-gcc-mcf_([\d]+_[\d\.]+)_x64-ucrt'
+
+[7-zip]
+source = 'regex'
+url = 'https://www.7-zip.org/download.html'
+regex = 'Download 7-Zip ([\d\.]+) '
+
+[WinRAR]
+source = 'regex'
+url = 'https://www.rarlab.com/download.htm'
+regex = 'WinRAR x64 \(64 bit\) ([\d\.]+)'
+
+[foobar2000]
+source = 'regex'
+url = 'https://www.foobar2000.org/download'
+regex = 'foobar2000 v([\d\.]+)'
+
+[xplorer²]
+source = 'regex'
+url = 'https://www.zabkat.com'
+regex = 'v([\d\.]+) \('
+
+[Everything]
+source = 'regex'
+url = 'https://www.voidtools.com/forum/viewtopic.php?f=12&t=9787'
+regex = 'Everything-([\w\.]+).x64.zip'
+
+[HxD]
+source = 'regex'
+url = 'https://mh-nexus.de/en/hxd/changelog.php'
+regex = 'id="v_([\d\.]+)"'
+
+[AdGuard]
+source = 'github'
+github = 'AdguardTeam/AdGuardHome'
+use_latest_release = true
+
+[NeeView]
+source = 'bitbucket'
+bitbucket = 'neelabo/neeview'
+use_max_tag = true
+
+[qBittorrent-Enhanced-Edition]
+source = 'github'
+github = 'c0re100/qBittorrent-Enhanced-Edition'
+use_latest_release = true
+
+[xtls]
+source = 'github'
+github = 'XTLS/Xray-core'
+use_latest_release = true
+
+[nginx]
+source = 'regex'
+url = 'https://nginx.org/en/download.html'
+regex = 'nginx-([\d\.]+)'
+
+[uEmuera]
+source = 'github'
+github = 'xerysherry/uEmuera'
+
+[aria2]
+source = 'github'
+github = 'aria2/aria2'
+
+[AriaNg]
+source = 'github'
+github = 'mayswind/AriaNg'
+use_latest_release = true
+
+[zlib]
+source = 'archpkg'
+archpkg = 'zlib'
+strip_release = true
+
+[libpng]
+source = 'archpkg'
+archpkg = 'libpng'
+strip_release = true
+
+[libtiff]
+source = 'archpkg'
+archpkg = 'libtiff'
+strip_release = true
+
+[libwebp]
+source = 'archpkg'
+archpkg = 'libwebp'
+strip_release = true
+
+[mozjpeg]
+source = 'github'
+github = 'mozilla/mozjpeg'
+use_latest_release = true
+
+[ffmpeg]
+source = 'regex'
+url = 'https://ffmpeg.org/download.html'
+regex = 'FFmpeg ([\d\.]+)'
+
+[mpv]
+source = 'github'
+github = 'mpv-player/mpv'
+use_latest_release = true
+
+[ffnvcodec]
+source = 'github'
+github = 'FFmpeg/nv-codec-headers'
+use_latest_release = true
+
+[lame]
+source = 'archpkg'
+archpkg = 'lame'
+strip_release = true
+
+[libogg]
+source = 'archpkg'
+archpkg = 'libogg'
+strip_release = true
+
+[libvorbis]
+source = 'archpkg'
+archpkg = 'libvorbis'
+strip_release = true
+
+[opus]
+source = 'archpkg'
+archpkg = 'opus'
+strip_release = true
+
+[lcms2]
+source = 'archpkg'
+archpkg = 'lcms2'
+strip_release = true
+
+[libass]
+source = 'github'
+github = 'libass/libass'
+use_latest_release = true
+
+[freetype2]
+source = 'regex'
+url = 'https://download.savannah.gnu.org/releases/freetype'
+regex = 'freetype-([\d\.]+)\.tar'
+
+[fribidi]
+source = 'github'
+github = 'fribidi/fribidi'
+use_latest_release = true
+
+[harfbuzz]
+source = 'github'
+github = 'harfbuzz/harfbuzz'
+use_latest_release = true
+
+[libbluray]
+source = 'archpkg'
+archpkg = 'libbluray'
+strip_release = true
+
+[libdvdnav]
+source = 'archpkg'
+archpkg = 'libdvdnav'
+strip_release = true
+
+[libdvdread]
+source = 'archpkg'
+archpkg = 'libdvdread'
+strip_release = true
+
+[libdvdcss]
+source = 'archpkg'
+archpkg = 'libdvdcss'
+strip_release = true
+
+[vulkan]
+source = 'regex'
+url = 'https://github.com/KhronosGroup/Vulkan-Headers/tags'
+regex = 'releases/tag/v([\d\.]+)">'
+
+[spirv-cross]
+source = 'github'
+github = 'KhronosGroup/SPIRV-Cross'
+use_latest_release = true
+
+[shaderc]
+source = 'regex'
+url = 'https://github.com/google/shaderc/tags'
+regex = 'releases/tag/v([\d\.]+)">'
+
+[libplacebo]
+source = 'regex'
+url = 'https://github.com/haasn/libplacebo/tags'
+regex = 'releases/tag/v([\d\.]+)">'
