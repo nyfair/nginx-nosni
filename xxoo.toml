@@ -38,7 +38,7 @@ source = 'regex'
 url = 'https://www.foobar2000.org/download'
 regex = 'foobar2000 v([\d\.]+)'
 
-[xplorer²]
+['xplorer²']
 source = 'regex'
 url = 'https://www.zabkat.com'
 regex = 'v([\d\.]+) \('
@@ -90,6 +90,11 @@ github = 'aria2/aria2'
 source = 'github'
 github = 'mayswind/AriaNg'
 use_latest_release = true
+
+[Megatools]
+source = 'regex'
+url = 'https://megatools.megous.com/builds/experimental'
+regex = 'megatools-([\w\.-]+)\.tar\.gz\.asc'
 
 [zlib]
 source = 'archpkg'
