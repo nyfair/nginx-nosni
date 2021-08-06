@@ -2,33 +2,7 @@
 oldver = 'old.json'
 newver = 'new.json'
 
-[Rust]
-source = 'regex'
-url = 'https://github.com/rust-lang/rust/tags'
-regex = 'releases/tag/([\d\.]+)">'
-
-[Python]
-source = 'regex'
-url = 'https://www.python.org/downloads'
-regex = 'Python (3.9[\d\.]*)'
-
-[VapourSynth]
-source = 'github'
-github = 'vapoursynth/vapoursynth'
-use_latest_release = true
-
-[LuaJIT]
-source = 'regex'
-url = 'https://luajit.org/download.html'
-regex = 'LuaJIT-([\w\.-]+)'
-from_pattern = '-'
-to_pattern = '_'
-
-[Mingw-w64]
-source = 'regex'
-url = 'https://gcc-mcf.lhmouse.com/'
-regex = 'mingw-w64-gcc-mcf_([\d]+_[\d\.]+)_x64-ucrt'
-
+# tool
 [7-zip]
 source = 'regex'
 url = 'https://www.7-zip.org/download.html'
@@ -79,59 +53,70 @@ source = 'regex'
 url = 'https://github.com/XTLS/Xray-core/tags'
 regex = 'releases/tag/v([\d\.]+)">'
 
-[nginx]
-source = 'regex'
-url = 'https://nginx.org/en/download.html'
-regex = 'nginx-([\d\.]+)'
-
 [uEmuera]
 source = 'github'
 github = 'xerysherry/uEmuera'
 
-[aria2]
-source = 'github'
-github = 'aria2/aria2'
-
-[AriaNg]
+[CheatEngine]
 source = 'regex'
-url = 'https://github.com/mayswind/AriaNg/tags'
+url = 'https://github.com/cheat-engine/cheat-engine/tags'
 regex = 'releases/tag/([\d\.]+)">'
 
-[Megatools]
+[Iceraven]
 source = 'regex'
-url = 'https://megatools.megous.com/builds/experimental'
-regex = 'megatools-([\w\.-]+)\.tar\.gz\.asc'
+url = 'https://github.com/fork-maintainers/iceraven-browser/tags'
+regex = 'releases/tag/iceraven-([\d\.]+)">'
+
+[noMeiryoUI]
+source = 'regex'
+url = 'https://github.com/Tatsu-syo/noMeiryoUI/tags'
+regex = 'releases/tag/TAG-([\d\.]+)">'
+
+# toy
+[Rust]
+source = 'regex'
+url = 'https://github.com/rust-lang/rust/tags'
+regex = 'releases/tag/([\d\.]+)">'
+
+[Python]
+source = 'regex'
+url = 'https://www.python.org/downloads'
+regex = 'Python (3.9[\d\.]*)'
+
+[VapourSynth]
+source = 'github'
+github = 'vapoursynth/vapoursynth'
+use_latest_release = true
+
+[LuaJIT]
+source = 'regex'
+url = 'https://luajit.org/download.html'
+regex = 'LuaJIT-([\w\.-]+)'
+from_pattern = '-'
+to_pattern = '_'
+
+[Mingw-w64]
+source = 'regex'
+url = 'https://gcc-mcf.lhmouse.com/'
+regex = 'mingw-w64-gcc-mcf_([\d]+_[\d\.]+)_x64-ucrt'
+
+# nginx
+[nginx]
+source = 'regex'
+url = 'https://nginx.org/en/download.html'
+regex = 'nginx-([\d\.]+)'
 
 [zlib]
 source = 'archpkg'
 archpkg = 'zlib'
 strip_release = true
 
-[libpng]
-source = 'archpkg'
-archpkg = 'libpng'
-strip_release = true
-
-[libtiff]
-source = 'archpkg'
-archpkg = 'libtiff'
-strip_release = true
-
-[libwebp]
-source = 'archpkg'
-archpkg = 'libwebp'
-strip_release = true
-
-[mozjpeg]
+[openssl]
 source = 'regex'
-url = 'https://github.com/mozilla/mozjpeg/tags'
-regex = 'releases/tag/v([\d\.]+)">'
+url = 'https://github.com/openssl/openssl/tags'
+regex = 'releases/tag/OpenSSL_([\d_]+[a-z])">'
 
-[libjpeg-xl]
-source = 'regex'
-url = 'https://github.com/libjxl/libjxl/tags'
-regex = 'releases/tag/v([\d\.]+)">'
-
+# mpv
 [ffmpeg]
 source = 'regex'
 url = 'https://ffmpeg.org/download.html'
@@ -234,11 +219,48 @@ source = 'regex'
 url = 'https://github.com/haasn/libplacebo/tags'
 regex = 'releases/tag/v([\d\.]+)">'
 
-[openssl]
-source = 'regex'
-url = 'https://github.com/openssl/openssl/tags'
-regex = 'releases/tag/OpenSSL_([\d_]+[a-z])">'
+# image
+[libpng]
+source = 'archpkg'
+archpkg = 'libpng'
+strip_release = true
 
+[libtiff]
+source = 'archpkg'
+archpkg = 'libtiff'
+strip_release = true
+
+[libwebp]
+source = 'archpkg'
+archpkg = 'libwebp'
+strip_release = true
+
+[mozjpeg]
+source = 'regex'
+url = 'https://github.com/mozilla/mozjpeg/tags'
+regex = 'releases/tag/v([\d\.]+)">'
+
+[libjpeg-xl]
+source = 'regex'
+url = 'https://github.com/libjxl/libjxl/tags'
+regex = 'releases/tag/v([\d\.]+)">'
+
+# leech
+[aria2]
+source = 'github'
+github = 'aria2/aria2'
+
+[AriaNg]
+source = 'regex'
+url = 'https://github.com/mayswind/AriaNg/tags'
+regex = 'releases/tag/([\d\.]+)">'
+
+[Megatools]
+source = 'regex'
+url = 'https://megatools.megous.com/builds/experimental'
+regex = 'megatools-([\w\.-]+)\.tar\.gz\.asc'
+
+# aga-panty
 [BepInEx]
 source = 'regex'
 url = 'https://github.com/BepInEx/BepInEx/tags'
@@ -258,18 +280,3 @@ regex = 'releases/tag/v([\d\.]+)">'
 source = 'regex'
 url = 'https://github.com/Perfare/Il2CppDumper/tags'
 regex = 'releases/tag/v([\d\.]+)">'
-
-[CheatEngine]
-source = 'regex'
-url = 'https://github.com/cheat-engine/cheat-engine/tags'
-regex = 'releases/tag/([\d\.]+)">'
-
-[Iceraven]
-source = 'regex'
-url = 'https://github.com/fork-maintainers/iceraven-browser/tags'
-regex = 'releases/tag/iceraven-([\d\.]+)">'
-
-[noMeiryoUI]
-source = 'regex'
-url = 'https://github.com/Tatsu-syo/noMeiryoUI/tags'
-regex = 'releases/tag/TAG-([\d\.]+)">'
