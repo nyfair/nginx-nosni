@@ -2,6 +2,9 @@ name: android
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+    - 'PKGBUILD'
 
 jobs:
   build:
@@ -50,12 +53,18 @@ jobs:
         cp objs/nginx ../
         cd ..
         $ANDROID_HOME/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android-strip nginx
-        tar acf nginx-$_nginxver-android-arm64-v8a.tar.gz nginx
+        tar acf nginx-$_nginxver-android-arm64-v8a.tar.xz nginx
+    - name: Delete
+      uses: mknejp/delete-release-assets@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        tag: latest
+        assets: nginx*android*
     - name: Upload
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: nginx*.gz
+        file: nginx*android*
         tag: latest
         overwrite: true
         file_glob: true

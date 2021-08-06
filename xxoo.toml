@@ -21,6 +21,8 @@ use_latest_release = true
 source = 'regex'
 url = 'https://luajit.org/download.html'
 regex = 'LuaJIT-([\w\.-]+)'
+from_pattern = '-'
+to_pattern = '_'
 
 [Mingw-w64]
 source = 'regex'
@@ -219,6 +221,8 @@ regex = 'releases/tag/v([\d\.]+)">'
 source = 'regex'
 url = 'https://github.com/KhronosGroup/SPIRV-Cross/tags'
 regex = 'releases/tag/([\d-]+)">'
+from_pattern = '-'
+to_pattern = '.'
 
 [shaderc]
 source = 'regex'
@@ -229,6 +233,11 @@ regex = 'releases/tag/v([\d\.]+)">'
 source = 'regex'
 url = 'https://github.com/haasn/libplacebo/tags'
 regex = 'releases/tag/v([\d\.]+)">'
+
+[openssl]
+source = 'regex'
+url = 'https://github.com/openssl/openssl/tags'
+regex = 'releases/tag/OpenSSL_([\d_]+[a-z])">'
 
 [BepInEx]
 source = 'regex'

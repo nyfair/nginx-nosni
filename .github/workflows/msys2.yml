@@ -2,6 +2,9 @@ name: msys2
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+    - 'PKGBUILD'
 
 jobs:
   build:
@@ -14,11 +17,17 @@ jobs:
       run: |
         python init.py
         C:\msys64\usr\bin\bash -lc 'cd /d/a/nginx-nosni/nginx-nosni; source init.sh; pacman -S gcc zlib-devel openssl-devel --noconfirm; MSYSTEM=msys2 makepkg'
+    - name: Delete
+      uses: mknejp/delete-release-assets@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        tag: latest
+        assets: nginx*pkg*
     - name: Upload
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: nginx*.zst
+        file: nginx*pkg*
         tag: latest
         overwrite: true
         file_glob: true
