@@ -1,4 +1,4 @@
-name: msys2
+name: clean
 
 on:
   workflow_dispatch:
