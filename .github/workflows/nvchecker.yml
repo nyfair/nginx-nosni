@@ -3,7 +3,7 @@ name: nvchecker
 on:
   workflow_dispatch:
   schedule:
-  - cron: '1 1 * * *'
+  - cron: '5 0 * * *'
   push:
     paths:
     - 'xxoo.toml'
