@@ -98,7 +98,7 @@ to_pattern = '_'
 [Mingw-w64]
 source = 'regex'
 url = 'https://gcc-mcf.lhmouse.com/'
-regex = 'mingw-w64-gcc-mcf_([\d]+_[\d\.]+)_x64-ucrt'
+regex = 'mingw-w64-gcc-mcf_([\d]+_[\d\.]+_x64-ucrt.*7z)'
 
 # nginx
 [nginx]
