@@ -207,7 +207,7 @@ source = 'regex'
 url = 'https://github.com/KhronosGroup/Vulkan-Headers/tags'
 regex = 'releases/tag/v([\d\.]+)">'
 
-[spirv]
+[spirv-cross]
 source = 'regex'
 url = 'https://github.com/KhronosGroup/SPIRV-Cross/tags'
 regex = 'releases/tag/([\d-]+)">'
