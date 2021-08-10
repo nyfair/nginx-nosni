@@ -47,7 +47,7 @@
   "openssl": "1_1_1k",
   "qBittorrent-Enhanced-Edition": "4.3.7.10",
   "shaderc": "2021.1",
-  "spirv": "2021.01.15",
+  "spirv-cross": "2021.01.15",
   "uEmuera": "20201219.170420",
   "vulkan": "1.2.187",
   "xplorer²": "5.0.0.3",
