@@ -10,9 +10,15 @@ jobs:
     strategy:
       matrix:
         url:
-        - https://mega.nz/folder/BOZgGLCB#38ehzhs0vUcHXyVY-HpC_w/file/IPRkjB6J
-        - https://mega.nz/folder/BOZgGLCB#38ehzhs0vUcHXyVY-HpC_w/file/NWQmGZpT
-        - https://mega.nz/folder/BOZgGLCB#38ehzhs0vUcHXyVY-HpC_w/file/RDZiUbgA
+        - https://mega.nz/folder/2wEyAT7J#xgNY8nUi9-VMNIio-F7BCw
+        - https://mega.nz/folder/vwUUSLQD#7OyVl2EQHAMU0k0J2DuB8w
+        - https://mega.nz/file/bQ53AC6Q#nd_TlyLsimgyLCw6xvUugqt6xzFm_QpMCA8O6DqC3cI
+        - https://mega.nz/folder/bMMwQDCB#6yDbHuCgAoFUtYspyc-OwA
+        - https://mega.nz/folder/zFcgVbbA#0HFUx_qL-8ol46_Z94pd2Q
+        - https://mega.nz/file/wZwViAoL#rztR3rXO-nmhUc0YsGbt3g9C9JhVl8a6MpNuS7nSwnQ
+        - https://mega.nz/file/e4VT0CII#pzQf_FrDFce1bzxWrihkQdAzNTO99bzb0d0IsKZQPoI
+        - https://mega.nz/file/WlkC3KAT#u-TqFVpGxUIpT6idxwZ7e0nnLlkeFUybi0MOnBjV4lA
+        - https://mega.nz/folder/BtQEXRwb#fT4-OW3HxWmFInoQOUzLEQ
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
