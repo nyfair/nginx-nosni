@@ -1,6 +1,7 @@
 [__config__]
 oldver = 'old.json'
 newver = 'new.json'
+max_concurrency = 4
 
 # tool
 [7-zip]
