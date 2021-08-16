@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     strategy:
+      fail-fast: false
       matrix:
         url:
         - https://mega.nz/file/uFUjXYQb#4WXN0BaVHNemm58HTbYitdGz_DW_Ig0vcvzlA-xUTLM
