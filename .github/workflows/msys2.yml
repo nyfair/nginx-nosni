@@ -16,7 +16,7 @@ jobs:
     - name: Build
       run: |
         python init.py
-        C:\msys64\usr\bin\bash -lc 'cd /d/a/nginx-nosni/nginx-nosni; source init.sh; pacman -S gcc zlib-devel openssl-devel --noconfirm; MSYSTEM=msys2 makepkg'
+        C:\msys64\usr\bin\bash -lc 'cd /d/a/nginx-nosni/nginx-nosni; source init.sh; pacman -Sy gcc zlib-devel openssl-devel --noconfirm; MSYSTEM=msys2 makepkg'
     - name: Delete
       uses: mknejp/delete-release-assets@v1
       with:
