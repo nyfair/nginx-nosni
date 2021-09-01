@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build
       run: |
-        C:\msys64\usr\bin\bash -lc 'pacman -S msys2-devel git fish --noconfirm'
+        C:\msys64\usr\bin\bash -lc 'pacman -Sy msys2-devel git fish --noconfirm'
         C:\msys64\usr\bin\bash -lc 'cd /d/a/nginx-nosni/nginx-nosni; fish build_msys2.fish'
     - name: Upload
       uses: svenstaro/upload-release-action@v2
