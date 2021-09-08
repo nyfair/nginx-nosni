@@ -14,10 +14,10 @@ zlib.lib:
 	
 	cd contrib/masmx64
 	ml64 /Flinffasx64 /c /Zi inffasx64.asm
-  ml64 /Flgvmat64   /c /Zi gvmat64.asm
+	ml64 /Flgvmat64   /c /Zi gvmat64.asm
 	cl -c $(CFLAGS) -I../../ inffas8664.c
 
-  cd ../../
+	cd ../../
 	link -lib -out:zlib.lib adler32.obj crc32.obj deflate.obj \
 		trees.obj zutil.obj compress.obj \
 		inflate.obj inffast.obj inftrees.obj \

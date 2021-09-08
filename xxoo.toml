@@ -120,7 +120,7 @@ strip_release = true
 [openssl]
 source = 'regex'
 url = 'https://github.com/openssl/openssl/tags'
-regex = 'releases/tag/OpenSSL_([\d_]+[a-z])">'
+regex = 'releases/tag/openssl-([\d\.]+)">'
 
 # mpv
 [ffmpeg]

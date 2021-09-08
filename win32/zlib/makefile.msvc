@@ -14,9 +14,9 @@ zlib.lib:
 	
 	cd contrib/masmx86
 	ml /coff /Zi /c /Flmatch686.lst match686.asm
-  ml /coff /Zi /c /Flinffas32.lst inffas32.asm
+	ml /coff /Zi /c /Flinffas32.lst inffas32.asm
 
-  cd ../../
+	cd ../../
 	link -lib -out:zlib.lib adler32.obj crc32.obj deflate.obj \
 		trees.obj zutil.obj compress.obj \
 		inflate.obj inffast.obj inftrees.obj \
