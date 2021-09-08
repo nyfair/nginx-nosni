@@ -6,7 +6,7 @@
 all:
 	cd $(OPENSSL)
 
-	perl Configure VC-WIN32 no-shared no-legacy no-test \
+	perl Configure VC-WIN32 no-shared no-legacy no-tests \
 		--prefix="%cd%/openssl" \
 		--openssldir="%cd%/openssl/ssl" \
 		$(OPENSSL_OPT)
