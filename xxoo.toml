@@ -205,7 +205,7 @@ strip_release = true
 
 [vulkan]
 source = 'regex'
-url = 'https://github.com/KhronosGroup/Vulkan-Headers/tags'
+url = 'https://github.com/KhronosGroup/Vulkan-Loader/tags'
 regex = 'releases/tag/v([\d\.]+)">'
 
 [spirv-cross]
