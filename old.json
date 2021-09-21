@@ -17,7 +17,7 @@
   "Python": "3.9.7",
   "Rust": "1.55.0",
   "UnityExplorer": "4.3.2",
-  "VapourSynth": "R54",
+  "VapourSynth": "R55",
   "WinRAR": "6.02",
   "aria2": "20210821.082600",
   "ffmpeg": "4.4",
@@ -52,6 +52,6 @@
   "uEmuera": "20201219.170420",
   "vulkan": "1.2.192",
   "xplorer²": "5.0.0.3",
-  "xtls": "1.4.3",
+  "xtls": "1.4.4",
   "zlib": "1.2.11"
 }
