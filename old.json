@@ -5,7 +5,7 @@
   "AssetStudio": "0.16.0",
   "BepInEx": "5.4.15",
   "CheatEngine": "7.3",
-  "Everything": "1.5.0.1275a",
+  "Everything": "1.5.0.1276a",
   "GCC": "11.2",
   "HxD": "2.5.0.0",
   "Iceraven": "1.12.0",
@@ -24,7 +24,7 @@
   "ffnvcodec": "11.1.5.0",
   "foobar2000": "1.6.7",
   "freetype2": "2.11.0",
-  "fribidi": "1.0.10",
+  "fribidi": "1.0.11",
   "harfbuzz": "3.0.0",
   "lame": "3.100",
   "lcms2": "2.12",
@@ -52,6 +52,6 @@
   "uEmuera": "20201219.170420",
   "vulkan": "1.2.193",
   "xplorer²": "5.0.0.3",
-  "xtls": "1.4.4",
+  "xtls": "1.4.5",
   "zlib": "1.2.11"
 }
