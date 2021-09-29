@@ -8,7 +8,7 @@
   "Everything": "1.5.0.1277a",
   "GCC": "11.2",
   "HxD": "2.5.0.0",
-  "Iceraven": "1.12.0",
+  "Iceraven": "1.13.0",
   "Il2CppDumper": "6.6.5",
   "LuaJIT": "2.1.0_beta3",
   "Megatools": "1.11.0-git-20210505",
@@ -50,7 +50,7 @@
   "shaderc": "2021.2",
   "spirv-cross": "2021.01.15",
   "uEmuera": "20201219.170420",
-  "vulkan": "1.2.193",
+  "vulkan": "1.2.194",
   "xplorer²": "5.0.0.3",
   "xtls": "1.4.5",
   "zlib": "1.2.11"
