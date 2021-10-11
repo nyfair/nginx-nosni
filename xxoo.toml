@@ -5,10 +5,10 @@ max_concurrency = 4
 
 # tool
 [7-zip]
-cmd = curl https://www.7-zip.org | grep -Po '>7-Zip \d.*</A' | sort -r | head -1 | cut -d'<' -f1 | cut -c 8-
+cmd = "curl https://www.7-zip.org | grep -Po '>7-Zip \\d.*</A' | sort -r | head -1 | cut -d'<' -f1 | cut -c 8-"
 
 [WinRAR]
-cmd = curl https://www.rarlab.com/rarnew.htm | grep 'Version ' | head -1 | cut -c 12-
+cmd = "curl https://www.rarlab.com/rarnew.htm | grep 'Version ' | head -1 | cut -c 12-"
 
 [foobar2000]
 source = 'regex'
