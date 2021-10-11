@@ -5,19 +5,15 @@ max_concurrency = 4
 
 # tool
 [7-zip]
-source = 'regex'
-url = 'https://www.7-zip.org/download.html'
-regex = 'Download 7-Zip ([\d\.]+) '
+cmd = curl https://www.7-zip.org | grep -Po '>7-Zip \d.*</A' | sort -r | head -1 | cut -d'<' -f1 | cut -c 8-
 
 [WinRAR]
-source = 'regex'
-url = 'https://www.rarlab.com/download.htm'
-regex = 'WinRAR x64 \(64 bit\) ([\d\.]+)'
+cmd = curl https://www.rarlab.com/rarnew.htm | grep 'Version ' | head -1 | cut -c 12-
 
 [foobar2000]
 source = 'regex'
-url = 'https://www.foobar2000.org/download'
-regex = 'foobar2000 v([\d\.]+)'
+url = 'https://www.foobar2000.org/?page=News'
+regex = 'foobar2000 v([\d\.]+) final'
 
 ['xplorer²']
 source = 'regex'
