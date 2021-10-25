@@ -1,7 +1,7 @@
 {
   "7-zip": "21.03 beta",
   "AdGuard": "v0.106.3",
-  "AriaNg": "1.2.2",
+  "AriaNg": "1.2.3",
   "AssetStudio": "0.16.0",
   "BepInEx": "5.4.17",
   "CheatEngine": "7.3",
@@ -20,7 +20,7 @@
   "VapourSynth": "R57",
   "WinRAR": "6.10 beta 1",
   "aria2": "20210821.082600",
-  "ffmpeg": "4.4",
+  "ffmpeg": "4.4.1",
   "ffnvcodec": "11.1.5.0",
   "foobar2000": "1.6.7",
   "freetype2": "2.11.0",
