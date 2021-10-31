@@ -11,16 +11,18 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/folder/w7wSwZhT#oVucMdOM56Y3rVjfKVe4Zw/file/Mj5yjRrC
-        - https://mega.nz/folder/w7wSwZhT#oVucMdOM56Y3rVjfKVe4Zw/file/VrAWALbZ
-        - https://mega.nz/folder/w7wSwZhT#oVucMdOM56Y3rVjfKVe4Zw/file/ty4G1IhQ
-        - https://mega.nz/folder/w7wSwZhT#oVucMdOM56Y3rVjfKVe4Zw/file/cmhSDQhJ
-        - https://mega.nz/folder/w7wSwZhT#oVucMdOM56Y3rVjfKVe4Zw/file/ln5giaLC
-        - https://mega.nz/folder/w7wSwZhT#oVucMdOM56Y3rVjfKVe4Zw/file/Yj4CWZzA
-        - https://mega.nz/folder/w7wSwZhT#oVucMdOM56Y3rVjfKVe4Zw/file/BmQyRJYL
-        - https://mega.nz/folder/w7wSwZhT#oVucMdOM56Y3rVjfKVe4Zw/file/hz4xHSxT
-        - https://mega.nz/folder/w7wSwZhT#oVucMdOM56Y3rVjfKVe4Zw/file/kiAwATza
-        - https://mega.nz/folder/w7wSwZhT#oVucMdOM56Y3rVjfKVe4Zw/file/BqwATaLD
+        - https://mega.nz/file/6cVE0ZxR#BRXBq7ISJ8tkwBq6flVyy7CYQ6dQJzSpVgTEORw2EVM
+        - https://mega.nz/folder/y9BShTaD#ZVbvX6TJfcUoZ5kVYfiuQg/file/elRimTTY
+        - https://mega.nz/folder/y9BShTaD#ZVbvX6TJfcUoZ5kVYfiuQg/file/OgASyJhZ
+        - https://mega.nz/folder/y9BShTaD#ZVbvX6TJfcUoZ5kVYfiuQg/file/es4igToZ
+        - https://mega.nz/folder/y9BShTaD#ZVbvX6TJfcUoZ5kVYfiuQg/file/egZE0bDS
+        - https://mega.nz/folder/dN0GnaDK#Zq7eXBhfW0hTFkW2j6Fbvw/file/FEcEFZpB
+        - https://mega.nz/folder/dN0GnaDK#Zq7eXBhfW0hTFkW2j6Fbvw/file/gM0z1A4L
+        - https://mega.nz/folder/dN0GnaDK#Zq7eXBhfW0hTFkW2j6Fbvw/file/oF9GyTRQ
+        - https://mega.nz/folder/dN0GnaDK#Zq7eXBhfW0hTFkW2j6Fbvw/file/sEkVnCCR
+        - https://mega.nz/folder/3l8QEYRJ#vNumFuSRfEhcVyvBNKQBBw/file/HhkX0QTQ
+        - https://mega.nz/folder/3l8QEYRJ#vNumFuSRfEhcVyvBNKQBBw/file/ikk1HahT
+        - https://mega.nz/folder/3l8QEYRJ#vNumFuSRfEhcVyvBNKQBBw/file/jx0TkYaY
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
