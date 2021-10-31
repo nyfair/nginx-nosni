@@ -11,15 +11,22 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/folder/7odRmaAb#CeWB7TV9admkxNObK--ssA/file/GgkUAbYK
-        - https://mega.nz/folder/7odRmaAb#CeWB7TV9admkxNObK--ssA/file/3gsmATzS
-        - https://mega.nz/folder/7odRmaAb#CeWB7TV9admkxNObK--ssA/file/G5kGXJDJ
-        - https://mega.nz/folder/7odRmaAb#CeWB7TV9admkxNObK--ssA/file/a49EnZDY
-        - https://mega.nz/folder/yyo1DYTQ#UumefGv6VSvxBT9PEXLA0g
-        - https://mega.nz/folder/xcNX2ABK#GYncwIiD-2CYzjAEP1Q9kQ/file/xQcTSKrA
-        - https://mega.nz/folder/xcNX2ABK#GYncwIiD-2CYzjAEP1Q9kQ/file/RMMBzKYB
-        - https://mega.nz/folder/xcNX2ABK#GYncwIiD-2CYzjAEP1Q9kQ/file/4INnxIjI
-        - https://mega.nz/folder/xcNX2ABK#GYncwIiD-2CYzjAEP1Q9kQ/file/YREXEQLB
+        - https://mega.nz/folder/ZJUCDZbJ#nMAMN7kD4eaW-QTIwUwuTw/file/Zc0xkKLJ
+        - https://mega.nz/folder/ZJUCDZbJ#nMAMN7kD4eaW-QTIwUwuTw/file/MJtX2YiJ
+        - https://mega.nz/folder/ZJUCDZbJ#nMAMN7kD4eaW-QTIwUwuTw/file/lMMXgASC
+        - https://mega.nz/folder/uD5WUaTB#TD5BfRBSDKpFeC8QzSAQqQ/file/3K5kWZYa
+        - https://mega.nz/folder/uD5WUaTB#TD5BfRBSDKpFeC8QzSAQqQ/file/TSoyDZga
+        - https://mega.nz/file/XSJXVYaA#GPqdwk0rIILSHlPppgRT3tOSvP1weD8S5mTMjeEPvmA
+        - https://mega.nz/file/DTpEzY4b#Fk-X7_IcATMJ1szmMiaMIweJYL6_WwVxyal9gvkSJt8
+        - https://mega.nz/file/31VzHayT#GV7bqxL91wRyHWuZm0FlDzAQDpFySs707j4FjbDouvo
+        - https://mega.nz/folder/AqZUBDRI#S6qVOrkoY6E65uNRzQUI6g/file/9nZ00BQR
+        - https://mega.nz/folder/AqZUBDRI#S6qVOrkoY6E65uNRzQUI6g/file/kmRSSbhJ
+        - https://mega.nz/folder/hyhW2DAL#T76dfyFLhpeCIFTgJJLDWA/file/Z2JSARDJ
+        - https://mega.nz/folder/hyhW2DAL#T76dfyFLhpeCIFTgJJLDWA/file/17AiyJqR
+        - https://mega.nz/folder/hyhW2DAL#T76dfyFLhpeCIFTgJJLDWA/file/g6BQ0ZRa
+        - https://mega.nz/file/GJwlka7T#FOT1jWvdhxAaR6dHBQHv4qNxaKKEYMTKfPGJ8EtfdGM
+        - https://mega.nz/file/ESo0DTwa#zndpFGMc6i4caDcHyrOuaMBqaa7MGDS_r-jGR8uQ64Q
+        - https://mega.nz/file/KBA1UKQA#sKyWVBp_Yy9K9RTBVv-enTBvOcX9oSGYjbzu6-thWLQ
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
