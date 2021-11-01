@@ -11,22 +11,10 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/folder/ZJUCDZbJ#nMAMN7kD4eaW-QTIwUwuTw/file/Zc0xkKLJ
-        - https://mega.nz/folder/ZJUCDZbJ#nMAMN7kD4eaW-QTIwUwuTw/file/MJtX2YiJ
-        - https://mega.nz/folder/ZJUCDZbJ#nMAMN7kD4eaW-QTIwUwuTw/file/lMMXgASC
-        - https://mega.nz/folder/uD5WUaTB#TD5BfRBSDKpFeC8QzSAQqQ/file/3K5kWZYa
-        - https://mega.nz/folder/uD5WUaTB#TD5BfRBSDKpFeC8QzSAQqQ/file/TSoyDZga
-        - https://mega.nz/file/XSJXVYaA#GPqdwk0rIILSHlPppgRT3tOSvP1weD8S5mTMjeEPvmA
-        - https://mega.nz/file/DTpEzY4b#Fk-X7_IcATMJ1szmMiaMIweJYL6_WwVxyal9gvkSJt8
-        - https://mega.nz/file/31VzHayT#GV7bqxL91wRyHWuZm0FlDzAQDpFySs707j4FjbDouvo
-        - https://mega.nz/folder/AqZUBDRI#S6qVOrkoY6E65uNRzQUI6g/file/9nZ00BQR
-        - https://mega.nz/folder/AqZUBDRI#S6qVOrkoY6E65uNRzQUI6g/file/kmRSSbhJ
-        - https://mega.nz/folder/hyhW2DAL#T76dfyFLhpeCIFTgJJLDWA/file/Z2JSARDJ
-        - https://mega.nz/folder/hyhW2DAL#T76dfyFLhpeCIFTgJJLDWA/file/17AiyJqR
-        - https://mega.nz/folder/hyhW2DAL#T76dfyFLhpeCIFTgJJLDWA/file/g6BQ0ZRa
-        - https://mega.nz/file/GJwlka7T#FOT1jWvdhxAaR6dHBQHv4qNxaKKEYMTKfPGJ8EtfdGM
-        - https://mega.nz/file/ESo0DTwa#zndpFGMc6i4caDcHyrOuaMBqaa7MGDS_r-jGR8uQ64Q
-        - https://mega.nz/file/KBA1UKQA#sKyWVBp_Yy9K9RTBVv-enTBvOcX9oSGYjbzu6-thWLQ
+        - https://mega.nz/file/QUcDWaxB#u92AtWh5Uyl_97Fa9BvqIyP1aXddtyCW1KO7i2Qz0Ps
+        - https://mega.nz/file/JcEXFIiZ#XTE2S3mxPVl2eZiXYiRQHykSJg1ok-LJ-B5oBLG-34U
+        - https://mega.nz/file/XOIyBRrI#jz7m-wvGIVYUb62NEDMiqPZNXP3rzWsUEg1S7UqS0lo
+        - https://mega.nz/folder/sJ92wRwS#qLtfCCG4hw_Jjb2OEbUR_g
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
