@@ -5,6 +5,7 @@ for i in *tar*; do bsdtar xf $i; done
 sed -i 's/MT/MD/g' openssl-openssl-$_opensslver/Configurations/10-main.conf
 cd nginx-release-$_nginxver
 sed -i 's/MT/MD/g' auto/cc/msvc
+sed -i '/-WX/d' auto/cc/msvc
 auto/configure \
   --with-cc=cl \
   --prefix= \
