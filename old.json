@@ -12,7 +12,7 @@
   "Il2CppDumper": "6.6.15",
   "LuaJIT": "2.1.0_beta3",
   "Megatools": "1.11.0-git-20211030",
-  "Mingw-w64": "20211124_11.2.1_x64-ucrt_cb933021e978b625df254da8b3e28a3174a8b9e8",
+  "Mingw-w64": "20211207_11.2.1_x64-ucrt_ace16bf691e6fe9567bded60d0e3fe3edd2a210e",
   "NeeView": "1.29",
   "Python": "3.9.9",
   "Rust": "1.57.0",
@@ -50,7 +50,7 @@
   "shaderc": "2021.3",
   "spirv-cross": "2021.01.15",
   "uEmuera": "20201219.170420",
-  "vulkan": "1.2.201",
+  "vulkan": "1.2.202",
   "xplorer²": "5.1.0.3",
   "xtls": "1.5.0",
   "zlib": "1.2.11"
