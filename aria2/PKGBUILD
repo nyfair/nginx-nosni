@@ -1,0 +1,41 @@
+# Maintainer: nyfair <nyfair2012@gmail.com>
+pkgname=aria2
+pkgver=1.36.0
+pkgrel=1
+pkgdesc='Download utility that supports HTTP(S), FTP, and Metalink'
+arch=('x86_64')
+url='http://aria2.sourceforge.net/'
+license=('GPL2')
+source=("https://github.com/aria2/aria2/archive/refs/heads/master.zip")
+md5sums=('SKIP')
+
+build() {
+  cd /usr/lib
+  mv libssl.dll.a libssl.a
+  mv libcrypto.dll.a libcrypto.a
+  mv libz.dll.a libz.a
+  
+  cd $srcdir/aria2-master
+  autoreconf -i
+  patch -p1 -i ../../aria2.patch
+  ./configure \
+    --host=x86_64-pc-msys \
+    --without-included-gettext \
+    --disable-nls \
+    --with-openssl \
+    --with-libz \
+    --without-libgmp \
+    --without-libgcrypt \
+    --without-libnettle \
+    --without-gnutls \
+    --disable-bittorrent \
+    --disable-metalink \
+    ARIA2_STATIC=yes
+  make
+}
+
+package() {
+  cd $srcdir/aria2-master
+  mkdir -p $pkgdir/usr/bin
+  mv src/aria2c.exe $pkgdir/usr/bin
+}
