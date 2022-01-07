@@ -42,9 +42,9 @@ source = 'bitbucket'
 bitbucket = 'neelabo/neeview'
 use_max_tag = true
 
-[qBittorrent-Enhanced-Edition]
+[qBittorrent]
 source = 'regex'
-url = 'https://github.com/c0re100/qBittorrent-Enhanced-Edition/tags'
+url = 'https://github.com/qbittorrent/qBittorrent/tags'
 regex = 'releases/tag/release-([\d\.]+)">'
 
 [xtls]
