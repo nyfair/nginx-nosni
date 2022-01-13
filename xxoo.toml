@@ -66,6 +66,11 @@ source = 'regex'
 url = 'https://github.com/fork-maintainers/iceraven-browser/tags'
 regex = 'releases/tag/iceraven-([\d\.]+)">'
 
+[Iceweasel]
+source = 'regex'
+url = 'https://sourceforge.net/projects/libportable/files/Iceweasel'
+regex = 'Iceweasel ([\d\.]+)'
+
 [noMeiryoUI]
 source = 'regex'
 url = 'https://github.com/Tatsu-syo/noMeiryoUI/tags'
