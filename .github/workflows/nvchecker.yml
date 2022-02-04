@@ -18,7 +18,7 @@ jobs:
     - name: Check Latest Version
       run: |
         sudo apt install python3-pycurl python3-tornado
-        pip3 install nvchecker==2.5 in_place
+        pip3 install nvchecker in_place
         nvchecker -c xxoo.toml
         nvcmp -c xxoo.toml > cmp
         if [ -s cmp ]
