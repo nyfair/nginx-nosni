@@ -15,7 +15,7 @@ jobs:
           bat: vcvars32.bat
         - os: win64
           bat: vcvars64.bat
-    runs-on: windows-latest
+    runs-on: windows-2022
     steps:
     - uses: actions/checkout@v2
     - uses: ilammy/setup-nasm@v1
@@ -23,7 +23,7 @@ jobs:
       shell: cmd
       run: |
         python init.py
-        call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\${{ matrix.bat }}"
+        call "C:\Program Files (x86)\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\${{ matrix.bat }}"
         set MSYSTEM=MINGW64
         set MSYS2_PATH_TYPE=inherit
         C:\msys64\usr\bin\bash -lc 'cd /d/a/nginx-nosni/nginx-nosni; source init.sh; ./msvc.sh'

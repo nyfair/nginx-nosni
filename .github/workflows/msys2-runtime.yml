@@ -5,15 +5,20 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2022
     steps:
     - name: Prepare
       run: git config --global core.autocrlf false
+    - uses: msys2/setup-msys2@v2
+      with:
+        msystem: MSYS
+        update: true
+        install: base-devel gcc git fish
     - uses: actions/checkout@v2
     - name: Build
+      shell: msys2 {0}
       run: |
-        C:\msys64\usr\bin\bash -lc 'pacman -Sy msys2-devel git fish --noconfirm'
-        C:\msys64\usr\bin\bash -lc 'cd /d/a/nginx-nosni/nginx-nosni; fish build_msys2.fish'
+        cd /d/a/nginx-nosni/nginx-nosni; fish build_msys2.fish
     - name: Upload
       uses: svenstaro/upload-release-action@v2
       with:
