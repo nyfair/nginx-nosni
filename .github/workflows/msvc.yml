@@ -12,14 +12,14 @@ jobs:
       matrix:
         include:
         - os: win32
-          bat: vcvars32.bat
         - os: win64
-          bat: vcvars64.bat
     runs-on: windows-2022
     steps:
     - uses: actions/checkout@v2
     - uses: ilammy/setup-nasm@v1
     - uses: ilammy/msvc-dev-cmd@v1
+      with:
+        arch: ${{ matrix.os }}
     - name: Build
       run: |
         python init.py
