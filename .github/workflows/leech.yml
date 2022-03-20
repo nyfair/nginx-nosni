@@ -11,25 +11,12 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/AqARWCAT#nvmcniZC-VjxFqXrFCryo315z0pmYhBC-ycR9wzXofU
-        - https://mega.nz/file/Rg10jYxK#s3uhJCb7yNqomnYWqwxUdEBzgfzHeP7o4zzyEx1pGSw
-        - https://mega.nz/file/mvIUkBQL#Q-UNTyb-LmRe_630knLNB-0bjOfbmSK4NZ-fA9JtEss
-        - https://mega.nz/file/GyIm1R4Y#-vmUCAhjOJQDo5daSnze3EtgZ-qrEjRtvvdbS7UEsU0
-        - https://mega.nz/file/WiRmjRSR#TVD7H6dLP8L2wtl3GoqICOUn5EhnnBb9ez-IMY2SYuY
-        - https://mega.nz/file/riBSWL5Q#JKtdvl6ar6-2vh4iP1YhGSWeEEkZeItupZorHaA5Ol4
-        - https://mega.nz/file/DjRCQBCJ#OG5jIhNHgj8yZr34wX2oUHxqj06Z-XLU9hx6G9zqgYo
-        - https://mega.nz/file/Xs9BiICJ#AU2WkzzxNJMts49_4GnqrJ4S1UzTG-KIKvO_JtMjmyc
-        - https://mega.nz/file/e98zwQxS#wihVgaeEZsVJF-H3P9q2V3O8GPRccht6fUwY2VAdNME
-        - https://mega.nz/file/no11CCiZ#al6U5iJ-OZgiJRAay1MDvdLWiPmjczv9MEZxcywjuLI
-        - https://mega.nz/file/rlk1BaSC#0ISUzcQTWfXyM1l8QV9tQlV86LvXIh0dpO2JVQMOHl8
-        - https://mega.nz/file/ulsj3YjK#6CAce5HJMt1vvIfv8hOTmDUfnJjMawTxeKNP0mptg_E
-        - https://mega.nz/file/Sp1ThQYT#NO7eXZJEb4Sp2UN8GbxLXBDwvhl9o9LmILpuAx3vKr0
-        - https://mega.nz/file/i4UQQbCB#tVYNy4C7sEFaPKrtEiuPzTaR7cPgi8LAw_dwuuwq5bY
-        - https://mega.nz/file/yhk3QYab#6LCsazewx9j5fkrUnVQ7ltygQRHC4cTz5ONkw1f5lrY
-        - https://mega.nz/file/7wM0CJqS#LjaU5BaVjs2eisK9iOgufzwME1Hq72-EuEcg4UHc0kk
-        - https://mega.nz/file/7hdi3DQb#6dBjLqpoNcWFZhztBmdYxXjdQWwrMIwJ4wB3IdB1-yc
-        - https://mega.nz/file/GlMQEJZJ#lxPDBYoGQskUmhryqkdUb1fHW0iujaO7NV_61PIkkYM
-        - https://mega.nz/file/X0FGRJrQ#3O-TQFTY02Pl8p5CVDaZtyj_U20D4YMZCjXPFQke8WY
+        - https://mega.nz/file/BItUVIwD#rTX99yqcHfQtb7IrS8cj2QhkRsch3-LITbx5aG_mKQA
+        - https://mega.nz/folder/h5ESVRDb#BVbFERvGa-69PC2wChqEAg/file/hwskTATI
+        - https://mega.nz/folder/h5ESVRDb#BVbFERvGa-69PC2wChqEAg/file/B902wa6b
+        - https://mega.nz/folder/h5ESVRDb#BVbFERvGa-69PC2wChqEAg/file/Z00EnCAK
+        - https://mega.nz/folder/h5ESVRDb#BVbFERvGa-69PC2wChqEAg/file/l5sCBQJI
+        - https://mega.nz/file/8W4QiaJA#WMN0lfmgoV60dt44IdORCEitkXndyn2Pg2LYUcFyHhs
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
