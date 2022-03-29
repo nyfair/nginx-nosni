@@ -42,10 +42,10 @@ source = 'bitbucket'
 bitbucket = 'neelabo/neeview'
 use_max_tag = true
 
-[qBittorrent]
+[Tixati]
 source = 'regex'
-url = 'https://github.com/qbittorrent/qBittorrent/tags'
-regex = 'releases/tag/release-([\d\.]+)">'
+url = 'https://www.tixati.com/download'
+regex = 'Download Tixati v([\d\.]+)'
 
 [xtls]
 source = 'regex'
