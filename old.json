@@ -1,6 +1,6 @@
 {
   "7-zip": "21.07",
-  "AdGuard": "v0.107.5",
+  "AdGuard": "v0.107.6",
   "AriaNg": "1.2.3",
   "AssetStudio": "0.16.40",
   "BepInEx": "5.4.19",
@@ -18,8 +18,8 @@
   "Python": "3.9.12",
   "Rust": "1.60.0",
   "Tixati": "2.89",
-  "UnityExplorer": "4.7.1",
-  "VapourSynth": "R57",
+  "UnityExplorer": "4.7.2",
+  "VapourSynth": "R58",
   "WinRAR": "6.11",
   "aria2": "20220409.090149",
   "bdp": "3.8.7",
