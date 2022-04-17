@@ -21,7 +21,7 @@ jobs:
     - name: Build
       shell: msys2 {0}
       run: |
-        cd /d/a/nginx-nosni/nginx-nosni; /c/hostedtoolcache/windows/python/3.9.9/x64/python init.py; source init.sh; makepkg
+        cd /d/a/nginx-nosni/nginx-nosni; /c/hostedtoolcache/windows/python/3.7.9/x64/python init.py; source init.sh; makepkg
     - name: Delete
       uses: mknejp/delete-release-assets@v1
       with:
