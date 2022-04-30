@@ -11,26 +11,32 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/HcJyALhR#_QEcy5R0hSfczJ6nYN1Ennvis3gitewCZ5G4baa4I8M
-        - https://mega.nz/file/mFgG0bqC#8woS0obHUrnaPZjFJZTgRWgUgADTpobsfEgvuFJafMA
-        - https://mega.nz/file/CUQjSS4Q#rYbrqgqphZP3ipYjNkSdDl71chkybSzhILllsS9NYXw
-        - https://mega.nz/file/3BgxkRyC#Gw7QGQBxA73fb9zmcd-qK9-LdrVJ9soQ4Zg7B65QcG8
-        - https://mega.nz/file/bdISEDTb#pzd-VBYl42UowIbOHDnoAQhMRpg3Sg9PT7GqDeTx9z0
-        - https://mega.nz/file/2VB2ia6T#7m5pS4HxvhlHbxAA2DisZS5KR7808wxkIsrTk0b17gQ
-        - https://mega.nz/file/rZIkibzT#dX2F4gEm7m3SlehvIHtWORjpnekpe2qrKKterSk2YDk
-        - https://mega.nz/file/6cxiXBJI#lCM6UmOKDwt5ggxOgto3e4RFJBAwsBa2yxqh_3tgLhs
-        - https://mega.nz/file/WQxnQSIA#gmQGwUHJGD6HzOoKitaUIsmS9sSMpPXBzBDYewfbP58
+        - https://mega.nz/folder/eeBFmTID#yKxX6OixpCiBiTyzLfGw6g/file/uKhU2awR
+        - https://mega.nz/folder/8jpzxD7a#wZY6LqcHVKHYdDrFJZvyiw/file/1qxAGAjC
+        - https://mega.nz/folder/8jpzxD7a#wZY6LqcHVKHYdDrFJZvyiw/file/52hWgCKZ
+        - https://mega.nz/folder/8jpzxD7a#wZY6LqcHVKHYdDrFJZvyiw/file/BmoQyY4T
+        - https://mega.nz/folder/8jpzxD7a#wZY6LqcHVKHYdDrFJZvyiw/file/NrpiXCQb
+        - https://mega.nz/folder/8jpzxD7a#wZY6LqcHVKHYdDrFJZvyiw/file/J3ZgDZyY
+        - https://mega.nz/folder/8jpzxD7a#wZY6LqcHVKHYdDrFJZvyiw/file/ZrIWhR6Y
+        - https://mega.nz/folder/s6x3kAKC#pnUY2Lte-sCUfeiJTA8EFg/file/QmRgXbjR
+        - https://mega.nz/folder/8uRASb6D#esNpPrL3y4MvUmwb7_ZggA/file/tiYCWZxR
+        - https://mega.nz/file/wyIVGa5Q#FuRsKZZ3_GmaVx_Ju7cf-JFgJfNynho0oZzXyMjygTg
+        - https://mega.nz/file/EnBgERza#u9d98xRV7dAVkACQU-2L9RpZ0C_VSWiLOCYkzuSYHTg
+        - https://mega.nz/file/U2IzEZha#y6k8Th5fsIkHaDHnBExz4-TamgPbpbwsGGVEjeoOWMo
+        - https://mega.nz/file/xmYREYwC#PzguiN0rYddb8miPeTA1xjcu1MiJ4Y-a25h8wWiONTU
+        - https://mega.nz/file/Yr4h0BIQ#-KEPm72dGs5sIOuRrNXtTE1fBxK6DotTRFsgec6Jsns
+        - https://mega.nz/folder/ovhyBTqL#5sYFx1s6BsPHJiOUo2cp3Q
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
       id: cache
       with:
-        path: megatools-1.11.0-git-20211030-linux-x86_64
-        key: megatools-1.11.0-git-20211030-linux-x86_64
+        path: megatools-1.11.0-git-20220401-linux-x86_64
+        key: megatools-1.11.0-git-20220401-linux-x86_64
     - name: Mega
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
-        curl -OL https://megatools.megous.com/builds/experimental/megatools-1.11.0-git-20211030-linux-x86_64.tar.gz
+        curl -OL https://megatools.megous.com/builds/experimental/megatools-1.11.0-git-20220401-linux-x86_64.tar.gz
         tar xvf *.gz
     - name: Leech
       run: |
