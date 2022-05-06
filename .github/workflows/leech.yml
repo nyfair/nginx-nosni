@@ -11,11 +11,25 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/PEh2XSQD#qV8VQ9qrhlqQMwwXN8ZxNvc_M2VRpPdvpH-8aGYNEfE
-        - https://mega.nz/file/SQokRSpa#MloNs8lFe2ReYuCRpPyFSnnjYyIQBTRvqd5aXAVsXiM
-        - https://mega.nz/file/7MRzjZxa#oSWb-43Foksb-o-7gxz0Q4gAH-j7PNMQK3V36BiUM08
-        - https://mega.nz/file/3FpmEKSI#yLT3TQly9GW8SQCEOMMyPeff9cN-j6voD-suonWtxTg
-        - https://mega.nz/file/HFJVjZyD#m_VhVJ6q5UaxqMn5ugsrep8aDC2sz-Lxe5ac1HIljR4
+        - https://mega.nz/file/74cgyRCL#M9uklWhlrTHizly36iU_CW4i9LHoegIc0FfNpSfzJ3g
+        - https://mega.nz/folder/EzYh2BCJ#E2SndNUOSPRDNM1NBO1MOQ
+        - https://mega.nz/folder/5rogiCbD#SnqQ0wRYb1fskW31hJhaHQ/file/FnoV0AaK
+        - https://mega.nz/folder/5rogiCbD#SnqQ0wRYb1fskW31hJhaHQ/file/tupTxARR
+        - https://mega.nz/folder/5rogiCbD#SnqQ0wRYb1fskW31hJhaHQ/file/1i5DXSjT
+        - https://mega.nz/folder/5rogiCbD#SnqQ0wRYb1fskW31hJhaHQ/file/NjglCCgA
+        - https://mega.nz/file/ZIVkxJqR#_iwe7a8PIB8LeQI5jsRT84DjhEy_BE-MnIKbkN8iUT4
+        - https://mega.nz/folder/onhXxKyS#B0qDKAS64lY5KvbweCjmFw
+        - https://mega.nz/folder/ilMi1YwK#aaRAnxy9JWeDDfyO0y-Ubg/file/jwU1SQYb
+        - https://mega.nz/folder/ilMi1YwK#aaRAnxy9JWeDDfyO0y-Ubg/file/XoFRwaqK
+        - https://mega.nz/folder/ilMi1YwK#aaRAnxy9JWeDDfyO0y-Ubg/file/f1NBUY5K
+        - https://mega.nz/folder/ilMi1YwK#aaRAnxy9JWeDDfyO0y-Ubg/file/v0cRXCoC
+        - https://mega.nz/file/dANw3CpK#lgo0lk7CnRq7BUEfiufuCzvSSHKkFyp3hjh_iqJjJcA
+        - https://mega.nz/folder/I2g0kaBI#vACy9xR4JEXUMtLb7jFesA
+        - https://mega.nz/file/iF9l1SgY#r1LG-Qpa1cfHbT-kzosURbJ-iBiml-Mczt-z53GtiWo
+        - https://mega.nz/folder/XgkjQDrR#E0TcwHasebD_kMzFnGTrvA/file/Xxl2WK6S
+        - https://mega.nz/folder/XgkjQDrR#E0TcwHasebD_kMzFnGTrvA/file/XkskxSwB
+        - https://mega.nz/folder/XgkjQDrR#E0TcwHasebD_kMzFnGTrvA/file/S19QyA4A
+        - https://mega.nz/file/7lVnlZZa#Sq9_J12YSCygGWNn1J0-3TAl6qyzu9RVbxhxNi_BlMs
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
