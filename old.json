@@ -1,6 +1,6 @@
 {
   "7-zip": "21.07",
-  "AdGuard": "v0.107.5",
+  "AdGuard": "v0.107.6",
   "AriaNg": "1.2.3",
   "AssetStudio": "0.16.40",
   "BepInEx": "5.4.19",
@@ -13,7 +13,7 @@
   "Il2CppDumper": "6.7.19",
   "LuaJIT": "2.1.0_beta3",
   "Megatools": "1.11.0-git-20220401",
-  "Mingw-w64": "20220429_12.0.1_x64-ucrt_13f0746dd680e1df89ab23a964c7b8ade13bb59f",
+  "Mingw-w64": "20220506_12.1.1_x64-ucrt_bfd5759d233f0a1210d2511170cd594ee0cd66b8",
   "NeeView": "1.29",
   "Python": "3.10.4",
   "Rust": "1.60.0",
