@@ -5,7 +5,7 @@
   "AssetStudio": "0.16.40",
   "BepInEx": "5.4.19",
   "CheatEngine": "7.4",
-  "Everything": "1.5.0.1313a",
+  "Everything": "1.5.0.1314a",
   "GCC": "12.1",
   "HxD": "2.5.0.0",
   "Iceraven": "1.16.1",
@@ -52,7 +52,7 @@
   "shaderc": "2022.1",
   "spirv-cross": "2021.01.15",
   "uEmuera": "20201219.170420",
-  "vulkan": "1.3.213",
+  "vulkan": "1.3.214",
   "xplorer²": "5.2.0.1",
   "xtls": "1.5.5",
   "zlib": "1.2.12"
