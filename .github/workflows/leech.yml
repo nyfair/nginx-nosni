@@ -11,25 +11,12 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/74cgyRCL#M9uklWhlrTHizly36iU_CW4i9LHoegIc0FfNpSfzJ3g
-        - https://mega.nz/folder/EzYh2BCJ#E2SndNUOSPRDNM1NBO1MOQ
-        - https://mega.nz/folder/5rogiCbD#SnqQ0wRYb1fskW31hJhaHQ/file/FnoV0AaK
-        - https://mega.nz/folder/5rogiCbD#SnqQ0wRYb1fskW31hJhaHQ/file/tupTxARR
-        - https://mega.nz/folder/5rogiCbD#SnqQ0wRYb1fskW31hJhaHQ/file/1i5DXSjT
-        - https://mega.nz/folder/5rogiCbD#SnqQ0wRYb1fskW31hJhaHQ/file/NjglCCgA
-        - https://mega.nz/file/ZIVkxJqR#_iwe7a8PIB8LeQI5jsRT84DjhEy_BE-MnIKbkN8iUT4
-        - https://mega.nz/folder/onhXxKyS#B0qDKAS64lY5KvbweCjmFw
-        - https://mega.nz/folder/ilMi1YwK#aaRAnxy9JWeDDfyO0y-Ubg/file/jwU1SQYb
-        - https://mega.nz/folder/ilMi1YwK#aaRAnxy9JWeDDfyO0y-Ubg/file/XoFRwaqK
-        - https://mega.nz/folder/ilMi1YwK#aaRAnxy9JWeDDfyO0y-Ubg/file/f1NBUY5K
-        - https://mega.nz/folder/ilMi1YwK#aaRAnxy9JWeDDfyO0y-Ubg/file/v0cRXCoC
-        - https://mega.nz/file/dANw3CpK#lgo0lk7CnRq7BUEfiufuCzvSSHKkFyp3hjh_iqJjJcA
-        - https://mega.nz/folder/I2g0kaBI#vACy9xR4JEXUMtLb7jFesA
-        - https://mega.nz/file/iF9l1SgY#r1LG-Qpa1cfHbT-kzosURbJ-iBiml-Mczt-z53GtiWo
-        - https://mega.nz/folder/XgkjQDrR#E0TcwHasebD_kMzFnGTrvA/file/Xxl2WK6S
-        - https://mega.nz/folder/XgkjQDrR#E0TcwHasebD_kMzFnGTrvA/file/XkskxSwB
-        - https://mega.nz/folder/XgkjQDrR#E0TcwHasebD_kMzFnGTrvA/file/S19QyA4A
-        - https://mega.nz/file/7lVnlZZa#Sq9_J12YSCygGWNn1J0-3TAl6qyzu9RVbxhxNi_BlMs
+        - https://mega.nz/file/lwFQnTTY#9C3Oj068SLBnkBuwuvuesulqsWpD2KicmLk908ppbbA
+        - https://mega.nz/folder/kYVTlAYa#aLnuzUlq77qTy2dqPj3aeg/file/QNcj2STT
+        - https://mega.nz/folder/kYVTlAYa#aLnuzUlq77qTy2dqPj3aeg/file/5UM02ZrJ
+        - https://mega.nz/folder/kYVTlAYa#aLnuzUlq77qTy2dqPj3aeg/file/AZlRSQhT
+        - https://mega.nz/folder/kYVTlAYa#aLnuzUlq77qTy2dqPj3aeg/file/dMkWzIZC
+        - https://mega.nz/folder/kYVTlAYa#aLnuzUlq77qTy2dqPj3aeg/file/od9UHCQK
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
