@@ -13,7 +13,7 @@
   "Il2CppDumper": "6.7.19",
   "LuaJIT": "2.1.0_beta3",
   "Megatools": "1.11.0-git-20220401",
-  "Mingw-w64": "20220528_12.1.1_x64-ucrt_0402661e18ab61bcbcc460083eaf363c226fda7f",
+  "Mingw-w64": "20220529_12.1.1_x64-ucrt_5981d6736fca95a43939d4fd406c7cad3f717f4a",
   "NeeView": "1.29",
   "Python": "3.10.4",
   "Rust": "1.61.0",
@@ -54,6 +54,6 @@
   "uEmuera": "20201219.170420",
   "vulkan": "1.3.215",
   "xplorer²": "5.2.0.1",
-  "xtls": "1.5.5",
+  "xtls": "1.5.6",
   "zlib": "1.2.12"
 }
