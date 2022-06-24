@@ -81,6 +81,11 @@ source = 'regex'
 url = 'https://github.com/qjfoidnh/BaiduPCS-Go/tags'
 regex = 'releases/tag/v([\d\.]+)">'
 
+[yt-dlp]
+source = 'regex'
+url = 'https://github.com/yt-dlp/yt-dlp/tags'
+regex = 'releases/tag/([\d\.]+)">'
+
 # toy
 [Rust]
 source = 'regex'
