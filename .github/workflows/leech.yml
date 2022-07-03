@@ -11,14 +11,13 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/d5pkCQ5A#cK8tFvUvcRKTGPq1NvmnZvj--dZNVDtK4JwpxdT2kcc
-        - https://mega.nz/file/UwBXFJ6C#wxK0Ga_RtIl-Gdy2qVdCXwGjbH9SH8hliJ7oaQHvmlY
-        - https://mega.nz/folder/wI8CCD4Z#_fk2NPq59yuQt3fE1V0bUA/file/4UMXnQqY
-        - https://mega.nz/folder/wI8CCD4Z#_fk2NPq59yuQt3fE1V0bUA/file/IVVhXaoS
-        - https://mega.nz/folder/wI8CCD4Z#_fk2NPq59yuQt3fE1V0bUA/file/RAN2lDIY
-        - https://mega.nz/folder/wI8CCD4Z#_fk2NPq59yuQt3fE1V0bUA/file/NZE1SCaB
-        - https://mega.nz/folder/wI8CCD4Z#_fk2NPq59yuQt3fE1V0bUA/file/VBcTBSjS
-        - https://mega.nz/folder/wI8CCD4Z#_fk2NPq59yuQt3fE1V0bUA/file/JRUVFIZQ
+        - https://mega.nz/folder/dRUmxDLJ#WOr0L-i1avupyL-3r_TXIg/file/ldti0AqC
+        - https://mega.nz/folder/dRUmxDLJ#WOr0L-i1avupyL-3r_TXIg/file/VAFQmbbY
+        - https://mega.nz/folder/dRUmxDLJ#WOr0L-i1avupyL-3r_TXIg/file/FYMiyLob
+        - https://mega.nz/file/IRMCRbBa#ySgBzg9-Q57q0M9ZShebAvggVFV16T9QYFIIfsxJndU
+        - https://mega.nz/file/gB0gTK6C#N0X8RGAInI0KPCcTLthchG4-tCyTsYu_GKvXzqdmRNw
+        - https://mega.nz/file/kPtRWSyK#NzO4-_9mTYEEQs53pTxSf6Hy--A5tGtWyLtD88BJWOI
+        - https://mega.nz/file/Na0WwSYQ#lb88kDxzHhsd8BM6vZVw0YszzSQpK5-CGzVuYz5krc8
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
