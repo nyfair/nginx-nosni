@@ -40,7 +40,7 @@ use_latest_release = true
 [NeeView]
 source = 'bitbucket'
 bitbucket = 'neelabo/neeview'
-use_max_tag = true
+use_sorted_tags = true
 
 [Tixati]
 source = 'regex'
