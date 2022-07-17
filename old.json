@@ -1,5 +1,5 @@
 {
-  "7-zip": "22.00",
+  "7-zip": "22.01",
   "AdGuard": "v0.107.8",
   "AriaNg": "1.2.4",
   "AssetStudio": "0.16.47",
@@ -42,7 +42,7 @@
   "libpng": "1.6.37",
   "libtiff": "4.4.0",
   "libvorbis": "1.3.7",
-  "libwebp": "1.2.2",
+  "libwebp": "1.2.3",
   "mozjpeg": "4.0.3",
   "mpv": "0.34.1",
   "nginx": "1.23.0",
