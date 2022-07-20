@@ -11,16 +11,18 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/folder/diIF3DQD#TU6vwWAQnNxoyOTdvjK4fw/file/diYWhJBT
-        - https://mega.nz/folder/diIF3DQD#TU6vwWAQnNxoyOTdvjK4fw/file/AvZmwb5L
-        - https://mega.nz/file/N7BjFZqC#8M1LZVP1gso6mWZwnRDmjUFUAK19ESl9QBrt4p5rcUA
-        - https://mega.nz/folder/E0EiiKrL#VOm_pIhA09mA3s9uYMu8jA/file/4llxlAZD
-        - https://mega.nz/folder/E0EiiKrL#VOm_pIhA09mA3s9uYMu8jA/file/U80m3TCR
-        - https://mega.nz/folder/E0EiiKrL#VOm_pIhA09mA3s9uYMu8jA/file/UotgRDQQ
-        - https://mega.nz/folder/E0EiiKrL#VOm_pIhA09mA3s9uYMu8jA/file/ck1EXJ5A
-        - https://mega.nz/folder/NV0n2S4B#Pi4KYu_ugVkxbY1agS7_zQ/file/VZ1HXaTS
-        - https://mega.nz/folder/NV0n2S4B#Pi4KYu_ugVkxbY1agS7_zQ/file/IctBgaKJ
-        - https://mega.nz/file/5pZ1lJwR#pgh_4O4J5KjelzKFoshomiDtOFbm7HH38Fx8Xw5IU4E
+        - https://mega.nz/file/gcczHYpb#7kLfDd4ZMHQBT-iI2GPV00aTJacwKnkR-tT7Mb-Fe-w
+        - https://mega.nz/file/M7IABBRb#e6MxvNPcGhSGu1GG2fhCq_wrFa_xnvGqDcWH3FDkOos
+        - https://mega.nz/folder/VLshiBbD#kdd0iGFURGzFL6Z2ot0Jmg/file/8H01kQiT
+        - https://mega.nz/folder/VLshiBbD#kdd0iGFURGzFL6Z2ot0Jmg/file/YTt3DY7D
+        - https://mega.nz/folder/VLshiBbD#kdd0iGFURGzFL6Z2ot0Jmg/file/5b0lXKBQ
+        - https://mega.nz/folder/ZAUmFLYA#dLbi3gN04G3vCH2olcJnFg/file/MddQiRIK
+        - https://mega.nz/folder/ZAUmFLYA#dLbi3gN04G3vCH2olcJnFg/file/wVVmwBpR
+        - https://mega.nz/folder/ZAUmFLYA#dLbi3gN04G3vCH2olcJnFg/file/9FNG0JJZ
+        - https://mega.nz/file/Bm4l1KBD#II5mL3ZY34evDHM4HCLAjik7xjJu-j0vN87MBERM9h8
+        - https://mega.nz/file/5zp2TY5b#cTHJCk35r8r1nuJzqwjs1roXQ1rcESDIroi3T0gjVCw
+        - https://mega.nz/file/9rQ0DT4K#mY6jN3rZ-uXJ2wyPx1hC_6514Fhra148dWv0vOdoCa4
+        - https://mega.nz/file/Jn42iazY#VHm9eRRjkckeRfDZXahexqvwJda5CvYiIu4ygzvIL48
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
