@@ -50,7 +50,7 @@ regex = 'Download Tixati v([\d\.]+)'
 [xtls]
 source = 'regex'
 url = 'https://github.com/XTLS/Xray-core/tags'
-regex = 'releases/tag/v([\d\.]+)">'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [uEmuera]
 source = 'github'
@@ -59,12 +59,12 @@ github = 'xerysherry/uEmuera'
 [CheatEngine]
 source = 'regex'
 url = 'https://github.com/cheat-engine/cheat-engine/tags'
-regex = 'releases/tag/([\d\.]+)">'
+regex = 'releases/tag/([\d\.]+)"'
 
 [Iceraven]
 source = 'regex'
 url = 'https://github.com/fork-maintainers/iceraven-browser/tags'
-regex = 'releases/tag/iceraven-([\d\.]+)">'
+regex = 'releases/tag/iceraven-([\d\.]+)"'
 
 [Iceweasel]
 source = 'regex'
@@ -74,23 +74,23 @@ regex = 'Iceweasel ([\d\.]+)'
 [noMeiryoUI]
 source = 'regex'
 url = 'https://github.com/Tatsu-syo/noMeiryoUI/tags'
-regex = 'releases/tag/TAG-([\d\.]+)">'
+regex = 'releases/tag/TAG-([\d\.]+)"'
 
 [bdp]
 source = 'regex'
 url = 'https://github.com/qjfoidnh/BaiduPCS-Go/tags'
-regex = 'releases/tag/v([\d\.]+)">'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [yt-dlp]
 source = 'regex'
 url = 'https://github.com/yt-dlp/yt-dlp/tags'
-regex = 'releases/tag/([\d\.]+)">'
+regex = 'releases/tag/([\d\.]+)"'
 
 # toy
 [Rust]
 source = 'regex'
 url = 'https://github.com/rust-lang/rust/tags'
-regex = 'releases/tag/([\d\.]+)">'
+regex = 'releases/tag/([\d\.]+)"'
 
 [Python]
 source = 'regex'
@@ -133,7 +133,7 @@ strip_release = true
 [openssl]
 source = 'regex'
 url = 'https://github.com/openssl/openssl/tags'
-regex = 'releases/tag/openssl-([\d\.]+)">'
+regex = 'releases/tag/openssl-([\d\.]+)"'
 
 # mpv
 [ffmpeg]
@@ -144,12 +144,12 @@ regex = 'FFmpeg ([\d\.]+)'
 [mpv]
 source = 'regex'
 url = 'https://github.com/mpv-player/mpv/tags'
-regex = 'releases/tag/v([\d\.]+)">'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [ffnvcodec]
 source = 'regex'
 url = 'https://github.com/FFmpeg/nv-codec-headers/tags'
-regex = 'releases/tag/n([\d\.]+)">'
+regex = 'releases/tag/n([\d\.]+)"'
 
 [lame]
 source = 'archpkg'
@@ -179,7 +179,7 @@ strip_release = true
 [libass]
 source = 'regex'
 url = 'https://github.com/libass/libass/tags'
-regex = 'releases/tag/([\d\.]+)">'
+regex = 'releases/tag/([\d\.]+)"'
 
 [freetype2]
 source = 'regex'
@@ -189,12 +189,12 @@ regex = 'freetype-([\d\.]+)\.tar'
 [fribidi]
 source = 'regex'
 url = 'https://github.com/fribidi/fribidi/tags'
-regex = 'releases/tag/v([\d\.]+)">'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [harfbuzz]
 source = 'regex'
 url = 'https://github.com/harfbuzz/harfbuzz/tags'
-regex = 'releases/tag/([\d\.]+)">'
+regex = 'releases/tag/([\d\.]+)"'
 
 [libbluray]
 source = 'archpkg'
@@ -219,24 +219,24 @@ strip_release = true
 [vulkan]
 source = 'regex'
 url = 'https://github.com/KhronosGroup/Vulkan-Loader/tags'
-regex = 'releases/tag/sdk-([\d\.]+)">'
+regex = 'releases/tag/sdk-([\d\.]+)"'
 
 [spirv-cross]
 source = 'regex'
 url = 'https://github.com/KhronosGroup/SPIRV-Cross/tags'
-regex = 'releases/tag/([\d-]+)">'
+regex = 'releases/tag/([\d-]+)"'
 from_pattern = '-'
 to_pattern = '.'
 
 [shaderc]
 source = 'regex'
 url = 'https://github.com/google/shaderc/tags'
-regex = 'releases/tag/v([\d\.]+)">'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [libplacebo]
 source = 'regex'
 url = 'https://github.com/haasn/libplacebo/tags'
-regex = 'releases/tag/v([\d\.]+)">'
+regex = 'releases/tag/v([\d\.]+)"'
 
 # image
 [libpng]
@@ -257,12 +257,12 @@ strip_release = true
 [mozjpeg]
 source = 'regex'
 url = 'https://github.com/mozilla/mozjpeg/tags'
-regex = 'releases/tag/v([\d\.]+)">'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [libjpeg-xl]
 source = 'regex'
 url = 'https://github.com/libjxl/libjxl/tags'
-regex = 'releases/tag/v([\d\.]+)">'
+regex = 'releases/tag/v([\d\.]+)"'
 
 # leech
 [aria2]
@@ -272,7 +272,7 @@ github = 'aria2/aria2'
 [AriaNg]
 source = 'regex'
 url = 'https://github.com/mayswind/AriaNg/tags'
-regex = 'releases/tag/([\d\.]+)">'
+regex = 'releases/tag/([\d\.]+)"'
 
 [Megatools]
 source = 'regex'
@@ -283,19 +283,19 @@ regex = 'megatools-([\w\.-]+)\.tar\.gz\.asc'
 [BepInEx]
 source = 'regex'
 url = 'https://github.com/BepInEx/BepInEx/tags'
-regex = 'releases/tag/v([\d\.]+)">'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [UnityExplorer]
 source = 'regex'
 url = 'https://github.com/sinai-dev/UnityExplorer/tags'
-regex = 'releases/tag/([\d\.]+)">'
+regex = 'releases/tag/([\d\.]+)"'
 
 [AssetStudio]
 source = 'regex'
 url = 'https://github.com/Perfare/AssetStudio/tags'
-regex = 'releases/tag/v([\d\.]+)">'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [Il2CppDumper]
 source = 'regex'
 url = 'https://github.com/Perfare/Il2CppDumper/tags'
-regex = 'releases/tag/v([\d\.]+)">'
+regex = 'releases/tag/v([\d\.]+)"'
