@@ -11,7 +11,12 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/yRJ1lRxC#_gdmr2ivlW8wNXGEZB24fOErDIIS-jjUaRBSeuBwWeo
+        - https://mega.nz/file/wAMgXJjK#MYCJW455eWiQznFXhLcZyi-tOBXGsOQzBD6JL7biqMM
+        - https://mega.nz/folder/wNUkUSTQ#ZG_eVeVXjHg51mIX-mJv2Q/file/dAVkTDJT
+        - https://mega.nz/folder/wNUkUSTQ#ZG_eVeVXjHg51mIX-mJv2Q/file/BFVm1LQB
+        - https://mega.nz/folder/wNUkUSTQ#ZG_eVeVXjHg51mIX-mJv2Q/file/JFVUUD5T
+        - https://mega.nz/folder/wNUkUSTQ#ZG_eVeVXjHg51mIX-mJv2Q/file/JNtgQC4a
+        - https://mega.nz/folder/wNUkUSTQ#ZG_eVeVXjHg51mIX-mJv2Q/file/FQUgzTBT
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
