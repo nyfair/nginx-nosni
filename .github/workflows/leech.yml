@@ -11,16 +11,44 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/2Bl3kLIQ#eKAvNzcvl-DtEniO7E887tj3L2p0bX5049npqwQubKM
-        - https://mega.nz/file/WQ0V0DAC#cv2yzC_ySMHWnESAAmgZ2cO99m-vZsU8s0mfGD7AljE
-        - https://mega.nz/file/OYlnmYIQ#8A9JFReEx1eoCdMDTrcyFH4rzQNu6bXbBqaymPsyEiE
-        - https://mega.nz/file/zFsEAZxT#kjElM-2XKWOx75a5spvquTZN-YA0S3c9P-SXHlWwXIY
-        - https://mega.nz/file/jdESGazY#bvWM72_fvkE6QjCmlsuNR4c8M0LuQrTWBQlPofnONak
-        - https://mega.nz/file/mUkXyZKZ#SMoSuq18AExJppXnM-4tfrcc0efX1PXixwUu4dkAR-U
-        - https://mega.nz/file/LZdRgYwY#uOS-uENNxE_RytecCWPvNon7S6VfXHOHxDndAxInprg
-        - https://mega.nz/file/GFlVxAIT#WkAZjtlnWSDhcSIyLLibMGu9UrXnerY4r28QMI1KPhM
-        - https://mega.nz/file/WBE0kLQI#ALmLxjg9NpFknYnCGtC6Lio-oxJDy8uvSUu3qzhAkyE
-        - https://mega.nz/file/WU0CwKDJ#krbsdQIz3b6FWAExoV1RX2YftzfymGTtpwn87U2vOHk
+        - https://mega.nz/folder/xCNRzYIZ#nxF61DdT-87c7XpzclCZXw/file/sLF2QJJb
+        - https://mega.nz/folder/xCNRzYIZ#nxF61DdT-87c7XpzclCZXw/file/YLUU3LiR
+        - https://mega.nz/folder/xCNRzYIZ#nxF61DdT-87c7XpzclCZXw/file/tGE00JAL
+        - https://mega.nz/folder/BWtUCLpR#hmdQoVRNrFM61PoyDYvafg/file/pSdk2LIa
+        - https://mega.nz/folder/BWtUCLpR#hmdQoVRNrFM61PoyDYvafg/file/MLVwSLyJ
+        - https://mega.nz/folder/BWtUCLpR#hmdQoVRNrFM61PoyDYvafg/file/NCF2FTBY
+        - https://mega.nz/folder/VKFj2Q5I#_IFsaabKuy1Uu_eMKqr2Vw/file/kOFW1Z6Z
+        - https://mega.nz/file/W65XRS7R#ZXVysPHd2aUR0PDXRazp_V5jJh3sx6xN6eq_Zy-EqcM
+        - https://mega.nz/folder/JHdSAT5B#hbRiBbK-ycf4ha7-sDeBQA/file/dedkkDjY
+        - https://mega.nz/folder/sfMxkbwT#BCAPgfH81Fm_lHw1McsYdQ/file/ZKFg1ZgA
+        - https://mega.nz/folder/sfMxkbwT#BCAPgfH81Fm_lHw1McsYdQ/file/pbcgzT6b
+        - https://mega.nz/folder/V8ZGUCJR#MBMwYOU4YNS9-DS6yfXk7A/file/YgxzAKCA
+        - https://mega.nz/folder/V8ZGUCJR#MBMwYOU4YNS9-DS6yfXk7A/file/Y8xhlBIY
+        - https://mega.nz/file/C6xWADoS#Z3HVWyTXPkBTDCtgnzoGQ5cRzBp0im5JGZpG5HI5P08
+        - https://mega.nz/file/n353wATR#qEPNPG5wpgwmG6zKBVFlDdH1VgtL9cou-DjTy3HIkOA
+        - https://mega.nz/file/n7ISiKwI#-3uXu4U0VveL9nLY4yaLsjfqoYP7KE_qYz_ATk09RGk
+        - https://mega.nz/file/FU4E2KAB#YD6CmJ9BXkm7Tjn8mr2JjBPLrbi8ckNfPL-DPhf0yGo
+        - https://mega.nz/file/lXF3jRhA#JvVw7zmbzuv0jyzy6jxc17YxszedoB4v0UH9y9T0tng
+        - https://mega.nz/file/X1tzDA4I#632SwDgjHA9hQ18rg2lmIhe9agFczX2K-ik_5-LAQ9w
+        - https://mega.nz/folder/MM1ixD7b#_bBe508aqpPmYKqo_HDPSw/file/kA1yDRRI
+        - https://mega.nz/folder/MM1ixD7b#_bBe508aqpPmYKqo_HDPSw/file/FV9EDaTA
+        - https://mega.nz/folder/MM1ixD7b#_bBe508aqpPmYKqo_HDPSw/file/FRl2FAxC
+        - https://mega.nz/folder/MM1ixD7b#_bBe508aqpPmYKqo_HDPSw/file/8MkUwAjS
+        - https://mega.nz/folder/Ik8y1Q7Q#zM9mQhZ4gyP-ZMOaGy_wEQ/file/gssnAYZL
+        - https://mega.nz/folder/Ik8y1Q7Q#zM9mQhZ4gyP-ZMOaGy_wEQ/file/Eo0xBYzR
+        - https://mega.nz/folder/Ik8y1Q7Q#zM9mQhZ4gyP-ZMOaGy_wEQ/file/0ltFnCpL
+        - https://mega.nz/folder/Ik8y1Q7Q#zM9mQhZ4gyP-ZMOaGy_wEQ/file/xslzTIbS
+        - https://mega.nz/folder/Ik8y1Q7Q#zM9mQhZ4gyP-ZMOaGy_wEQ/file/Yo1FDYDB
+        - https://mega.nz/folder/Ik8y1Q7Q#zM9mQhZ4gyP-ZMOaGy_wEQ/file/A8sHFQiS
+        - https://mega.nz/folder/Ik8y1Q7Q#zM9mQhZ4gyP-ZMOaGy_wEQ/file/Uh8XVCbJ
+        - https://mega.nz/folder/Ik8y1Q7Q#zM9mQhZ4gyP-ZMOaGy_wEQ/file/9tsBDIxK
+        - https://mega.nz/folder/Ik8y1Q7Q#zM9mQhZ4gyP-ZMOaGy_wEQ/file/8x1FxApL
+        - https://mega.nz/folder/Ik8y1Q7Q#zM9mQhZ4gyP-ZMOaGy_wEQ/file/VtsTCQwT
+        - https://mega.nz/file/Ue9TWI5Q#BOJiZ03AVurBhxh8lppesCh9l2DpjoDkeJDxigbE0_8
+        - https://mega.nz/file/wRMHxTqB#GwYMHTrUIeRbvpq9klRbHUiy95ns1j3uDX7uBhizopY
+        - https://mega.nz/file/tZNkST7Z#78Vr5eedgOLkom-T-yt0rdK4nT2JpRjlyy0GHGAbNhQ
+        - https://mega.nz/file/0Od2kBjJ#B1XOEsrh4sDVRiKqPqU4Q0ThVZFtcrfBnq7lpKRzmUw
+        - https://mega.nz/file/JO1lnb6S#j6tF42ytkNCV0aa1XwDP-ITMH7ahlgcboUMq4JJqst8
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
