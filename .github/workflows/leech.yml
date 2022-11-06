@@ -11,19 +11,27 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/FVNmxQCZ#488mlTjmaQSZBh4Vd6gzDpTwGc3VbA0NMgeS6rt-Xhc
-        - https://mega.nz/folder/JTcgQSyD#Y9kxpGLyVmkAk8u-Kr2OqA/file/MO0xmABK
-        - https://mega.nz/folder/RJsgFKQJ#i4KenKtmbyN14xHTxrCxUA/file/MIciVTrQ
-        - https://mega.nz/folder/RJsgFKQJ#i4KenKtmbyN14xHTxrCxUA/file/EJsiFTba
-        - https://mega.nz/folder/JTcgQSyD#Y9kxpGLyVmkAk8u-Kr2OqA/file/ca9X3aiY
-        - https://mega.nz/folder/UbNQ3YpJ#WBTme2QUvhb6HXFZet7tzQ/file/UP8nWAxQ
-        - https://mega.nz/folder/UbNQ3YpJ#WBTme2QUvhb6HXFZet7tzQ/file/BGsRQKCI
-        - https://mega.nz/folder/UbNQ3YpJ#WBTme2QUvhb6HXFZet7tzQ/file/gflxFAbK
-        - https://mega.nz/folder/QTlkjawI#0TzNG7SlrNQGBxI_TiaxWw/file/JK1nzYqZ
-        - https://mega.nz/folder/QTlkjawI#0TzNG7SlrNQGBxI_TiaxWw/file/4D1FCQYA
-        - https://mega.nz/folder/QTlkjawI#0TzNG7SlrNQGBxI_TiaxWw/file/sf9hUAbT
-        - https://mega.nz/folder/QTlkjawI#0TzNG7SlrNQGBxI_TiaxWw/file/xD0lxarD
-        - https://mega.nz/folder/xHFkDaDA#is3MXIU53tbF6K4Rktc56g/file/YSkVTKAa
+        - https://mega.nz/folder/NqBgFZ4C#Y7sY3qMYcfAbYNXQEp3XaQ/file/ly5W3I4A
+        - https://mega.nz/folder/NqBgFZ4C#Y7sY3qMYcfAbYNXQEp3XaQ/file/Rj5ySYqI
+        - https://mega.nz/folder/NqBgFZ4C#Y7sY3qMYcfAbYNXQEp3XaQ/file/lu4EAaTJ
+        - https://mega.nz/folder/prI1CAAC#vzMuN_AaCJ5_F9_T5cSEng/file/9uog3I4A
+        - https://mega.nz/folder/prI1CAAC#vzMuN_AaCJ5_F9_T5cSEng/file/AvpGEIiA
+        - https://mega.nz/folder/prI1CAAC#vzMuN_AaCJ5_F9_T5cSEng/file/wrgm0IQa
+        - https://mega.nz/folder/prI1CAAC#vzMuN_AaCJ5_F9_T5cSEng/file/Y3gQySZQ
+        - https://mega.nz/folder/1vJgCYBJ#Moeht42AgRTVkyzpnrN3NQ/file/9qok3CRT
+        - https://mega.nz/folder/1vJgCYBJ#Moeht42AgRTVkyzpnrN3NQ/file/czpQwIaS
+        - https://mega.nz/folder/1vJgCYBJ#Moeht42AgRTVkyzpnrN3NQ/file/FvwGVAYD
+        - https://mega.nz/folder/1vJgCYBJ#Moeht42AgRTVkyzpnrN3NQ/file/gmpm1aQI
+        - https://mega.nz/folder/1vJgCYBJ#Moeht42AgRTVkyzpnrN3NQ/file/97xkAKQT
+        - https://mega.nz/folder/1vJgCYBJ#Moeht42AgRTVkyzpnrN3NQ/file/QroWySwI
+        - https://mega.nz/folder/1vJgCYBJ#Moeht42AgRTVkyzpnrN3NQ/file/Nu5iQIBA
+        - https://mega.nz/folder/97R3WBob#iCjs-QU8BQ8BRk-TWMrF_w/file/h74TQCzS
+        - https://mega.nz/folder/97R3WBob#iCjs-QU8BQ8BRk-TWMrF_w/file/YyojAQAR
+        - https://mega.nz/folder/E25nEILS#lSe1s6-M-4FLWl3ukpKUAA/file/hnp3DKiS
+        - https://mega.nz/folder/E25nEILS#lSe1s6-M-4FLWl3ukpKUAA/file/NyxVlS6I
+        - https://mega.nz/folder/E25nEILS#lSe1s6-M-4FLWl3ukpKUAA/file/I7ojWYwI
+        - https://mega.nz/folder/la0WHZza#kO8KbyFauMsujyCzTsfypQ/file/wDtXkTSA
+        - https://mega.nz/folder/la0WHZza#kO8KbyFauMsujyCzTsfypQ/file/wK0XTLQR
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
