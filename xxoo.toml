@@ -2,6 +2,7 @@
 oldver = 'old.json'
 newver = 'new.json'
 max_concurrency = 4
+tries = 3
 
 # tool
 [7-zip]
@@ -229,9 +230,7 @@ regex = 'releases/tag/sdk-([\d\.]+)"'
 [spirv-cross]
 source = 'regex'
 url = 'https://github.com/KhronosGroup/SPIRV-Cross/tags'
-regex = 'releases/tag/([\d-]+)"'
-from_pattern = '-'
-to_pattern = '.'
+regex = 'releases/tag/sdk-([\d\.]+)"'
 
 [shaderc]
 source = 'regex'
