@@ -1,6 +1,6 @@
 # Maintainer: nyfair <nyfair2012@gmail.com>
 pkgname=nginx
-pkgver=1.23.2
+pkgver=1.23.3
 pkgrel=1
 pkgdesc='Lightweight HTTP server'
 arch=('x86_64')
