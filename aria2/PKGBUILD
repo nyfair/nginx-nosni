@@ -14,6 +14,7 @@ build() {
   autoreconf -i
   patch -p1 -i ../../aria2.patch
   ./configure \
+    --prefix=/usr \
     --host=x86_64-pc-msys \
     --without-included-gettext \
     --disable-nls \
@@ -30,6 +31,5 @@ build() {
 
 package() {
   cd $srcdir/aria2-master
-  mkdir -p $pkgdir/usr/bin
-  mv src/aria2c.exe $pkgdir/usr/bin
+  make DESTDIR=$pkgdir install
 }
