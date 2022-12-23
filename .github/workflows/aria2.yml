@@ -16,7 +16,7 @@ jobs:
       with:
         msystem: MSYS
         update: true
-        install: base-devel gcc autotools zlib-devel openssl-devel gettext-devel
+        install: base-devel gcc autotools zlib-devel libgnutls-devel gettext-devel
     - uses: actions/checkout@v2
     - name: Build
       shell: msys2 {0}

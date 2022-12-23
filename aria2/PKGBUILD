@@ -10,11 +10,6 @@ source=("https://github.com/aria2/aria2/archive/refs/heads/master.zip")
 md5sums=('SKIP')
 
 build() {
-  cd /usr/lib
-  mv libssl.dll.a libssl.a
-  mv libcrypto.dll.a libcrypto.a
-  mv libz.dll.a libz.a
-  
   cd $srcdir/aria2-master
   autoreconf -i
   patch -p1 -i ../../aria2.patch
@@ -22,15 +17,14 @@ build() {
     --host=x86_64-pc-msys \
     --without-included-gettext \
     --disable-nls \
-    --with-openssl \
     --with-libz \
     --without-libgmp \
     --without-libgcrypt \
     --without-libnettle \
-    --without-gnutls \
+    --without-openssl \
     --disable-bittorrent \
     --disable-metalink \
-    ARIA2_STATIC=yes
+    --with-gnutls
   make
 }
 
