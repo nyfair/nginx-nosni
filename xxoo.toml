@@ -280,7 +280,7 @@ regex = 'releases/tag/([\d\.]+)"'
 
 [Megatools]
 source = 'regex'
-url = 'https://megatools.megous.com/builds/builds/experimental'
+url = 'https://megatools.megous.com/builds/builds'
 regex = 'megatools-([\w\.-]+)\.tar\.gz\.asc'
 
 # aga-panty
