@@ -11,18 +11,11 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/folder/BGUTwDaD#HbUn0BY19CbtrAsZBUtJyg/file/QblDQI6A
-        - https://mega.nz/folder/BGUTwDaD#HbUn0BY19CbtrAsZBUtJyg/file/RStRAaYQ
-        - https://mega.nz/folder/BGUTwDaD#HbUn0BY19CbtrAsZBUtJyg/file/dakBiCID
-        - https://mega.nz/folder/FS0zgAZS#Npz_uZ4CGkW1R3EwAgr37g/file/MCkBzS4K
-        - https://mega.nz/folder/FS0zgAZS#Npz_uZ4CGkW1R3EwAgr37g/file/wftX1QzL
-        - https://mega.nz/folder/FS0zgAZS#Npz_uZ4CGkW1R3EwAgr37g/file/1SlTkCAb
-        - https://mega.nz/folder/FS0zgAZS#Npz_uZ4CGkW1R3EwAgr37g/file/xP8RUQJJ
-        - https://mega.nz/folder/1vQGHZzI#foHh7R74OH-6tTSm9ABbWg/file/1vxWVSKL
-        - https://mega.nz/folder/1vQGHZzI#foHh7R74OH-6tTSm9ABbWg/file/97gg2TCA
-        - https://mega.nz/folder/pqRghSYT#-9ekyhrJdjx2t1efUZRU1A/file/NqxGgKaY
-        - https://mega.nz/folder/pqRghSYT#-9ekyhrJdjx2t1efUZRU1A/file/dyxyCSpI
-        - https://mega.nz/folder/pqRghSYT#-9ekyhrJdjx2t1efUZRU1A/file/k2BkTLbI
+        - https://mega.nz/folder/Cdl0nSJT#KP6UDSUQ6Lv1S8FhrWN9lg/file/rRFGhTpL
+        - https://mega.nz/folder/Cdl0nSJT#KP6UDSUQ6Lv1S8FhrWN9lg/file/uZ9iTYiQ
+        - https://mega.nz/folder/gBdUDLhA#aoskZfI4tNdrp_bKOdrpuA/file/1UVAERib
+        - https://mega.nz/folder/gBdUDLhA#aoskZfI4tNdrp_bKOdrpuA/file/FMUmET7T
+        - https://mega.nz/file/Zr4FgJyL#hUEDHbLGvQC84TnXfbaCWe1y50z4jlbEMJVvCWVXxk4
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
@@ -33,7 +26,7 @@ jobs:
     - name: Mega
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
-        curl -OL https://megatools.megous.com/builds/builds/experimental/megatools-1.11.x.20220919-linux-x86_64.tar.gz
+        curl -OL https://megatools.megous.com/builds/builds/megatools-1.11.1.20230212-linux-x86_64.tar.gz
         tar xvf *.gz
     - name: Leech
       run: |
