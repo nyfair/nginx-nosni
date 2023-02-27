@@ -11,11 +11,14 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/folder/Cdl0nSJT#KP6UDSUQ6Lv1S8FhrWN9lg/file/rRFGhTpL
-        - https://mega.nz/folder/Cdl0nSJT#KP6UDSUQ6Lv1S8FhrWN9lg/file/uZ9iTYiQ
-        - https://mega.nz/folder/gBdUDLhA#aoskZfI4tNdrp_bKOdrpuA/file/1UVAERib
-        - https://mega.nz/folder/gBdUDLhA#aoskZfI4tNdrp_bKOdrpuA/file/FMUmET7T
-        - https://mega.nz/file/Zr4FgJyL#hUEDHbLGvQC84TnXfbaCWe1y50z4jlbEMJVvCWVXxk4
+        - https://mega.nz/file/PrgXFKbI#-cJUYcfEH3kN8eHbzEGQlrcWDRsBI4CqdPjRoY9fGg4
+        - https://mega.nz/folder/luICDYrK#MB5_yEh0tTj7RK0D_N4NyA/file/d3gWGDoQ
+        - https://mega.nz/folder/E2ICDDpI#Anzpvx7Xqb83ut_ZwDtY-A/file/Q7xU2bRC
+        - https://mega.nz/folder/MmgnUICI#OVYiAD0eV89C_6lATW8BSA/file/hm50ETjA
+        - https://mega.nz/folder/MmgnUICI#OVYiAD0eV89C_6lATW8BSA/file/czo2mbbS
+        - https://mega.nz/folder/MmgnUICI#OVYiAD0eV89C_6lATW8BSA/file/834EXLAY
+        - https://mega.nz/file/Oih1mSSY#mNNraU9-0KnAdM63uwDQxmfT7Oi2mvOtpRSVPPu7PC8
+        - https://mega.nz/file/7AJXiJoQ#EpKJWqf6fgh-BoajTCzESz6VVM45eQ4aat0KblzRbF8
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v2
