@@ -207,6 +207,11 @@ source = 'archpkg'
 archpkg = 'libbluray'
 strip_release = true
 
+[libdovi]
+source = 'regex'
+url = 'https://github.com/quietvoid/dovi_tool/tags'
+regex = 'releases/tag/libdovi-([\d\.]+)"'
+
 [libdvdnav]
 source = 'archpkg'
 archpkg = 'libdvdnav'
