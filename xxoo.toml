@@ -188,9 +188,9 @@ url = 'https://github.com/libass/libass/tags'
 regex = 'releases/tag/([\d\.]+)"'
 
 [freetype2]
-source = 'regex'
-url = 'https://download.savannah.gnu.org/releases/freetype'
-regex = 'freetype-([\d\.]+)\.tar'
+source = 'archpkg'
+archpkg = 'freetype2'
+strip_release = true
 
 [fribidi]
 source = 'regex'
