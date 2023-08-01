@@ -230,7 +230,7 @@ strip_release = true
 [vulkan]
 source = 'regex'
 url = 'https://vulkan.lunarg.com/sdk/files.json'
-regex = 'VulkanSDK-([\d\.]+)-Installer"'
+regex = 'VulkanSDK-([\d\.]+)-Installer'
 
 [spirv-cross]
 source = 'regex'
