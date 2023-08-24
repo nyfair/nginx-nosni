@@ -108,13 +108,6 @@ source = 'github'
 github = 'vapoursynth/vapoursynth'
 use_latest_release = true
 
-[LuaJIT]
-source = 'regex'
-url = 'https://luajit.org/download.html'
-regex = 'LuaJIT-([\w\.-]+)'
-from_pattern = '-'
-to_pattern = '_'
-
 [GCC]
 source = 'regex'
 url = 'https://gcc.gnu.org'
