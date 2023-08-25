@@ -14,8 +14,8 @@
   "Megatools": "1.11.1.20230212",
   "Mingw-w64": "20230823_13.2.1_x64-ucrt_55eadb6293f5367fad79ad6fe59c8d07740f67b4",
   "NeeView": "39.5",
-  "Python": "3.11.4",
-  "Rust": "1.71.1",
+  "Python": "3.11.5",
+  "Rust": "1.72.0",
   "Tixati": "3.19",
   "UnityExplorer": "4.9.0",
   "VapourSynth": "R63",
@@ -57,5 +57,5 @@
   "xplorer²": "5.4.0.2",
   "xtls": "1.8.3",
   "yt-dlp": "2023.07.06",
-  "zlib": "1.2.13"
+  "zlib": "1.3"
 }
