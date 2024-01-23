@@ -164,7 +164,7 @@ prepare() {
   fi
   del_file_exists winsup/cygwin/msys2_path_conv.cc \
     winsup/cygwin/msys2_path_conv.h
- sed -i 's/NAME_MAX 255/NAME_MAX 1024/' winsup/cygwin/include/cygwin/limits.h'
+ sed -i 's/NAME_MAX 255/NAME_MAX 1024/' winsup/cygwin/include/cygwin/limits.h
  apply_git_am_with_msg 0001-Add-MSYS2-triplet.patch \
   0002-Fix-msys-library-name-in-import-libraries.patch \
   0003-Rename-dll-from-cygwin-to-msys.patch \
