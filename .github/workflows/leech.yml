@@ -12,11 +12,7 @@ jobs:
       matrix:
         url:
         - https://mega.nz/file/ZFFQjZpL#e4InXrix6so7M5OKoC_pBJTwsmLHjI-OEFIkFYi0mF0
-        - https://mega.nz/file/tEMnQLwI#nWCl0WotcRRDpaE5GbbmznkcOxWvibhfQQPV3OGrbLQ
         - https://mega.nz/file/wRMW2RyJ#SkLj0IugIUeFpJCy3_4qiUCDIXBcMzJAOId6boWUbLI
-        - https://mega.nz/file/YN1FTYxb#FOULKtvZqXRIRXphvhLA0xAJXW5Hk8CMubcrNsDTJtU
-        - https://mega.nz/file/QJsWBawY#3xylSYYGc5hSg6nDUIMmkt5oQEABKJrIpBJUu7ve6V4
-        - https://mega.nz/file/JZVXQDSY#H9822T1lQ1LOqM8FkvaKwkg46THNlmHSaFOKsdfE8Bw
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v3
@@ -33,6 +29,9 @@ jobs:
       run: |
         mkdir leech
         megatools*/megatools dl --path leech/ ${{ matrix.url }}
+        cd leech
+        find . -size +1900M -exec split -b 1G --numeric-suffixes=1 {} {}.0 \;
+        find . -size +1900M -exec rm {} \;
     - name: Upload
       uses: svenstaro/upload-release-action@v2
       with:
