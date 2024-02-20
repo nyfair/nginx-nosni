@@ -11,9 +11,17 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/aBFgUCCA#rLAwzUfnrEIuSt7tG_CYDGD8SO1VwyyyAa_4X-44zto
-        - https://mega.nz/file/UH13iAba#fSeIicqDHt0AvodvfEoQDiOLF1ggyKpeGntbVu0zWk4
-        - https://mega.nz/file/EGkUUR4Y#8lPgSG7ZL-o6bqDeSrE6WkV7IQhqO43ZCNCHp4TFSQI
+        - https://mega.nz/file/cO1nUTZZ#OBM4ENikgmHoQm_GzbwaImoAdmfc_8BHMr9yW3DjGeo
+        - https://mega.nz/file/tT9DQZIL#jVTSZ1u1bx_qvXYDBELVmb-s_T6OpuwoiEFYg6IDFRY
+        - https://mega.nz/file/Mr1HiQjB#hXwTbFdWCCboC_1kiWWqveNFOZqftf0QnAoqu_Yv_qI
+        - https://mega.nz/file/Q2VlSAhZ#A4hYysQ5xLFdNPXlmGsKNSW07B9gFdTOfuL2Pw71tn8
+        - https://mega.nz/file/UHcn2SgB#AVIJkgy_tdymUhbq6uO7Df2OnMvzUILxton10rO29pk
+        - https://mega.nz/file/wKcB3KzC#_ncu_o9xLtKOWCEa7h46h8yDqaXRi6LHW-fXHDjRe4k
+        - https://mega.nz/file/kGcVTApb#MiUrpIJip1CGk4X4XyobEUhw_Ks4PaeD3OqYghaNBzI
+        - https://mega.nz/file/dm11DIhA#uMqQi2P-mjw68xar-TMfwceCPpwnTF71gCHu-7Kkgis
+        - https://mega.nz/file/EytWSLyB#wChLOXRHKI-PrOK_f6SBHksa20H5MlulBlpeF5nNcCg
+        - https://mega.nz/file/hD1GULQR#y0sPHvf7foE02o8Bt2A0yOrfGKSu_fnNuxk_ce_TINU
+        - https://mega.nz/file/JSFVGCYS#1YQeUMgQCFiGEUhkoYn4JurcrDZLz0D7B1GLXmIna5I
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v3
