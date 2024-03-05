@@ -280,24 +280,3 @@ regex = 'releases/tag/([\d\.]+)"'
 source = 'regex'
 url = 'https://megatools.megous.com/builds/builds'
 regex = 'megatools-([\w\.-]+)\.tar\.gz\.asc'
-
-# aga-panty
-[BepInEx]
-source = 'regex'
-url = 'https://github.com/BepInEx/BepInEx/tags'
-regex = 'releases/tag/v([\d\.]+)"'
-
-[UnityExplorer]
-source = 'regex'
-url = 'https://github.com/sinai-dev/UnityExplorer/tags'
-regex = 'releases/tag/([\d\.]+)"'
-
-[AssetStudio]
-source = 'regex'
-url = 'https://github.com/Perfare/AssetStudio/tags'
-regex = 'releases/tag/v([\d\.]+)"'
-
-[Il2CppDumper]
-source = 'regex'
-url = 'https://github.com/Perfare/Il2CppDumper/tags'
-regex = 'releases/tag/v([\d\.]+)"'
