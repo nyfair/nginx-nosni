@@ -15,8 +15,8 @@ cmd = "curl https://www.rarlab.com/rarnew.htm | grep 'Version ' | head -1 | cut 
 
 [foobar2000]
 source = 'regex'
-url = 'https://www.foobar2000.org/?page=News'
-regex = 'foobar2000 v([\d\.]+) final'
+url = 'https://www.foobar2000.org/download'
+regex = 'foobar2000 v([\d\.]+) :'
 
 ['xplorer²']
 source = 'regex'
