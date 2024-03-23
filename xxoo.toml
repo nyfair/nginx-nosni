@@ -33,20 +33,10 @@ source = 'regex'
 url = 'https://mh-nexus.de/en/hxd/changelog.php'
 regex = 'id="v_([\d\.]+)"'
 
-[AdGuard]
-source = 'github'
-github = 'AdguardTeam/AdGuardHome'
-use_latest_release = true
-
 [NeeView]
 source = 'bitbucket'
 bitbucket = 'neelabo/neeview'
 use_sorted_tags = true
-
-[Tixati]
-source = 'regex'
-url = 'https://www.tixati.com/download'
-regex = 'Download Tixati v([\d\.]+)'
 
 [xtls]
 source = 'regex'
@@ -71,11 +61,6 @@ regex = 'releases/tag/iceraven-([\d\.]+)"'
 source = 'regex'
 url = 'https://sourceforge.net/projects/libportable/files/Iceweasel'
 regex = 'Iceweasel ([\d\.]+)'
-
-[noMeiryoUI]
-source = 'regex'
-url = 'https://github.com/Tatsu-syo/noMeiryoUI/tags'
-regex = 'releases/tag/TAG-([\d\.]+)"'
 
 [bdp]
 source = 'regex'
