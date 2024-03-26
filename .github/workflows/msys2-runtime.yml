@@ -19,6 +19,7 @@ jobs:
       shell: msys2 {0}
       run: |
         cd /d/a/nginx-nosni/nginx-nosni; fish build_msys2.fish
+    - uses: mxschmitt/action-tmate@v3
     - name: Upload
       uses: svenstaro/upload-release-action@v2
       with:
