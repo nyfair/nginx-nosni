@@ -2,6 +2,7 @@ import json
 
 with open('old.json') as f:
   x = json.load(f)
+  x = dict(map(lambda p: (p, x['data'][p]['version']), x['data'].keys()))
 with open('init.sh', 'a', newline='') as w:
   w.write('export _nginxver=%s\n' % x['nginx'])
   w.write('export _opensslver=%s\n' % x['openssl'])
