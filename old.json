@@ -14,7 +14,7 @@
       "version": "1.5.0.1373a"
     },
     "GCC": {
-      "version": "13.2"
+      "version": "14.1"
     },
     "HxD": {
       "version": "2.5.0.0"
@@ -169,7 +169,7 @@
       "version": "5.5.0.1"
     },
     "xtls": {
-      "version": "1.8.10"
+      "version": "1.8.11"
     },
     "yt-dlp": {
       "version": "2024.04.09"
