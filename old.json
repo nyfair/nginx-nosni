@@ -42,9 +42,9 @@
       "version": "1.78.0"
     },
     "VapourSynth": {
-      "version": "R66",
-      "gitref": "refs/tags/R66",
-      "url": "https://github.com/vapoursynth/vapoursynth/releases/tag/R66"
+      "version": "R67",
+      "gitref": "refs/tags/R67",
+      "url": "https://github.com/vapoursynth/vapoursynth/releases/tag/R67"
     },
     "WinRAR": {
       "version": "7.01 beta 1"
