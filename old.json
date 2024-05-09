@@ -29,7 +29,7 @@
       "version": "1.11.1.20230212"
     },
     "Mingw-w64": {
-      "version": "20240501_14.0.1_x64-ucrt_f434ce2a9f16a26268a47c074e2428cacfd85bde"
+      "version": "20240508_14.1.0_x64-ucrt_c44d97477083fdca88c01519e3b0dc356881e20a"
     },
     "NeeView": {
       "version": "40.8",
@@ -42,9 +42,9 @@
       "version": "1.78.0"
     },
     "VapourSynth": {
-      "version": "R67",
-      "gitref": "refs/tags/R67",
-      "url": "https://github.com/vapoursynth/vapoursynth/releases/tag/R67"
+      "version": "R68",
+      "gitref": "refs/tags/R68",
+      "url": "https://github.com/vapoursynth/vapoursynth/releases/tag/R68"
     },
     "WinRAR": {
       "version": "7.01 beta 1"
