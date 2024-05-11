@@ -11,7 +11,7 @@
       "version": "7.5"
     },
     "Everything": {
-      "version": "1.5.0.1374a"
+      "version": "1.5.0.1375a"
     },
     "GCC": {
       "version": "14.1"
@@ -32,8 +32,8 @@
       "version": "20240508_14.1.0_x64-ucrt_c44d97477083fdca88c01519e3b0dc356881e20a"
     },
     "NeeView": {
-      "version": "40.8",
-      "url": "https://bitbucket.org/neelabo/neeview/commits/tag/40.8"
+      "version": "41.0",
+      "url": "https://bitbucket.org/neelabo/neeview/commits/tag/41.0"
     },
     "Python": {
       "version": "3.12.3"
