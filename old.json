@@ -32,8 +32,8 @@
       "version": "20240514_14.1.1_x64-ucrt_2f7e29b6e7b6e9740b8fb5cbfcb37f6ec5d3fa23"
     },
     "NeeView": {
-      "version": "41.0",
-      "url": "https://bitbucket.org/neelabo/neeview/commits/tag/41.0"
+      "version": "41.1",
+      "url": "https://bitbucket.org/neelabo/neeview/commits/tag/41.1"
     },
     "Python": {
       "version": "3.12.3"
