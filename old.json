@@ -29,7 +29,7 @@
       "version": "1.11.1.20230212"
     },
     "Mingw-w64": {
-      "version": "20240514_14.1.1_x64-ucrt_2f7e29b6e7b6e9740b8fb5cbfcb37f6ec5d3fa23"
+      "version": "20240522_14.1.1_x64-ucrt_a0344c5c5424b7ac788173b8ddd64dc0a4c2fc08"
     },
     "NeeView": {
       "version": "41.1",
@@ -169,7 +169,7 @@
       "version": "5.5.0.1"
     },
     "xtls": {
-      "version": "1.8.11"
+      "version": "1.8.13"
     },
     "yt-dlp": {
       "version": "2024.04.09"
