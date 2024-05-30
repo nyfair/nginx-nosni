@@ -139,7 +139,7 @@
       "version": "0.38.0"
     },
     "nginx": {
-      "version": "1.26.0"
+      "version": "1.27.0"
     },
     "openssl": {
       "version": "3.3.0"
