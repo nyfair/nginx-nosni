@@ -28,9 +28,6 @@
     "Megatools": {
       "version": "1.11.1.20230212"
     },
-    "Mingw-w64": {
-      "version": "20240522_14.1.1_x64-ucrt_a0344c5c5424b7ac788173b8ddd64dc0a4c2fc08"
-    },
     "NeeView": {
       "version": "41.2",
       "url": "https://bitbucket.org/neelabo/neeview/commits/tag/41.2"
@@ -142,7 +139,7 @@
       "version": "1.27.0"
     },
     "openssl": {
-      "version": "3.3.0"
+      "version": "3.3.1"
     },
     "opus": {
       "version": "1.5.2",
