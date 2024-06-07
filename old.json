@@ -11,13 +11,10 @@
       "version": "7.5"
     },
     "Everything": {
-      "version": "1.5.0.1378a"
+      "version": "1.5.0.1379a"
     },
     "GCC": {
       "version": "14.1"
-    },
-    "HxD": {
-      "version": "2.5.0.0"
     },
     "Iceraven": {
       "version": "2.18.4"
@@ -36,7 +33,7 @@
       "url": "https://bitbucket.org/neelabo/neeview/commits/tag/41.2"
     },
     "Python": {
-      "version": "3.12.3"
+      "version": "3.12.4"
     },
     "Rust": {
       "version": "1.78.0"
