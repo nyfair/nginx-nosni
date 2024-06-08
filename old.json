@@ -11,10 +11,13 @@
       "version": "7.5"
     },
     "Everything": {
-      "version": "1.5.0.1379a"
+      "version": "1.5.0.1380a"
     },
     "GCC": {
       "version": "14.1"
+    },
+    "HxD": {
+      "version": "2.5.0.0"
     },
     "Iceraven": {
       "version": "2.18.4"
@@ -68,7 +71,7 @@
       "url": "https://archlinux.org/packages/extra/x86_64/freetype2/"
     },
     "fribidi": {
-      "version": "1.0.14"
+      "version": "1.0.15"
     },
     "harfbuzz": {
       "version": "8.5.0"
@@ -163,7 +166,7 @@
       "version": "1.3.283.0"
     },
     "xplorer²": {
-      "version": "6.0.0.0"
+      "version": "6.0.0.1"
     },
     "xtls": {
       "version": "1.8.13"
