@@ -23,7 +23,7 @@
       "version": "2.19.1"
     },
     "Iceweasel": {
-      "version": "126.0.1"
+      "version": "127.0"
     },
     "Megatools": {
       "version": "1.11.1.20230212"
@@ -50,9 +50,9 @@
       "version": "7.01"
     },
     "aria2": {
-      "version": "20240124.122055",
-      "revision": "a8cb271b044230f38085be7fc185c30eb1f52d36",
-      "url": "https://github.com/aria2/aria2/commit/a8cb271b044230f38085be7fc185c30eb1f52d36"
+      "version": "20240610.112153",
+      "revision": "999a5915b2c172aa6f31459e592cf1c349199144",
+      "url": "https://github.com/aria2/aria2/commit/999a5915b2c172aa6f31459e592cf1c349199144"
     },
     "bdp": {
       "version": "3.9.5"
