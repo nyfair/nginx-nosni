@@ -11,7 +11,7 @@
       "version": "7.5"
     },
     "Everything": {
-      "version": "1.5.0.1380a"
+      "version": "1.5.0.1382a"
     },
     "GCC": {
       "version": "14.1"
@@ -39,7 +39,7 @@
       "version": "3.12.4"
     },
     "Rust": {
-      "version": "1.78.0"
+      "version": "1.79.0"
     },
     "VapourSynth": {
       "version": "R68",
