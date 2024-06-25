@@ -16,9 +16,6 @@
     "GCC": {
       "version": "14.1"
     },
-    "HxD": {
-      "version": "2.5.0.0"
-    },
     "Iceraven": {
       "version": "2.20.2"
     },
@@ -50,9 +47,9 @@
       "version": "7.01"
     },
     "aria2": {
-      "version": "20240610.112153",
-      "revision": "999a5915b2c172aa6f31459e592cf1c349199144",
-      "url": "https://github.com/aria2/aria2/commit/999a5915b2c172aa6f31459e592cf1c349199144"
+      "version": "20240624.092339",
+      "revision": "c78560f6d477e0e3376c8137e47bd158c8d60518",
+      "url": "https://github.com/aria2/aria2/commit/c78560f6d477e0e3376c8137e47bd158c8d60518"
     },
     "bdp": {
       "version": "3.9.5"
