@@ -20,7 +20,7 @@
       "version": "2.5.0.0"
     },
     "Iceraven": {
-      "version": "2.20.2"
+      "version": "2.20.3"
     },
     "Iceweasel": {
       "version": "127.0.2"
@@ -74,7 +74,7 @@
       "version": "1.0.15"
     },
     "harfbuzz": {
-      "version": "8.5.0"
+      "version": "9.0.0"
     },
     "lame": {
       "version": "3.100",
@@ -107,7 +107,7 @@
       "url": "https://archlinux.org/packages/extra/x86_64/libdvdread/"
     },
     "libjpeg-xl": {
-      "version": "0.10.2"
+      "version": "0.10.3"
     },
     "libogg": {
       "version": "1.3.5",
