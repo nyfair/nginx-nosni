@@ -50,9 +50,9 @@
       "version": "7.01"
     },
     "aria2": {
-      "version": "20240624.092339",
-      "revision": "c78560f6d477e0e3376c8137e47bd158c8d60518",
-      "url": "https://github.com/aria2/aria2/commit/c78560f6d477e0e3376c8137e47bd158c8d60518"
+      "version": "20240630.124736",
+      "revision": "b519ce04e3f3a0651fcec43550bc71f09771b069",
+      "url": "https://github.com/aria2/aria2/commit/b519ce04e3f3a0651fcec43550bc71f09771b069"
     },
     "bdp": {
       "version": "3.9.5"
