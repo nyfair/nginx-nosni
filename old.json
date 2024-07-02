@@ -16,9 +16,6 @@
     "GCC": {
       "version": "14.1"
     },
-    "HxD": {
-      "version": "2.5.0.0"
-    },
     "Iceraven": {
       "version": "2.20.3"
     },
@@ -172,7 +169,7 @@
       "version": "1.8.16"
     },
     "yt-dlp": {
-      "version": "2024.05.27"
+      "version": "2024.07.01"
     },
     "zlib": {
       "version": "1.3.1",
