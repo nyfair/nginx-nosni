@@ -20,13 +20,16 @@
       "version": "2.5.0.0"
     },
     "Iceraven": {
-      "version": "2.20.3"
+      "version": "2.21.0"
     },
     "Iceweasel": {
       "version": "128.0"
     },
     "Megatools": {
       "version": "1.11.1.20230212"
+    },
+    "Mingw-w64": {
+      "version": "20240705_14.1.1_x64-ucrt_5c6638848e18d93f871154900404f780db0043d4"
     },
     "NeeView": {
       "version": "41.2",
