@@ -39,7 +39,7 @@
       "version": "3.12.4"
     },
     "Rust": {
-      "version": "1.79.0"
+      "version": "1.80.0"
     },
     "VapourSynth": {
       "version": "R69",
@@ -172,7 +172,7 @@
       "version": "1.8.21"
     },
     "yt-dlp": {
-      "version": "2024.07.16"
+      "version": "2024.07.25"
     },
     "zlib": {
       "version": "1.3.1",
