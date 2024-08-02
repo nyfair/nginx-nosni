@@ -14,7 +14,7 @@
       "version": "1.5.0.1383a"
     },
     "GCC": {
-      "version": "14.1"
+      "version": "14.2"
     },
     "HxD": {
       "version": "2.5.0.0"
@@ -29,7 +29,7 @@
       "version": "1.11.1.20230212"
     },
     "Mingw-w64": {
-      "version": "20240723_14.1.1_x64-ucrt_a30981a4c50f731c91e359e7c0a5be1be1c2281d"
+      "version": "20240801_14.2.0_x64-ucrt_ee5ef80a192bb06ebfb22f9a847e73c4328d9a58"
     },
     "NeeView": {
       "version": "41.3",
@@ -172,7 +172,7 @@
       "version": "1.8.23"
     },
     "yt-dlp": {
-      "version": "2024.07.25"
+      "version": "2024.08.01"
     },
     "zlib": {
       "version": "1.3.1",
