@@ -67,7 +67,7 @@
       "version": "2.1.5"
     },
     "freetype2": {
-      "version": "2.13.2",
+      "version": "2.13.3",
       "url": "https://archlinux.org/packages/extra/x86_64/freetype2/"
     },
     "fribidi": {
@@ -139,7 +139,7 @@
       "version": "0.38.0"
     },
     "nginx": {
-      "version": "1.27.0"
+      "version": "1.27.1"
     },
     "openssl": {
       "version": "3.3.1"
