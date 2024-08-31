@@ -28,9 +28,6 @@
     "Megatools": {
       "version": "1.11.1.20230212"
     },
-    "Mingw-w64": {
-      "version": "20240821_14.2.1_x64-ucrt_09b612f2101afc42acbb996f524895e0e95b35dd"
-    },
     "NeeView": {
       "version": "41.3",
       "url": "https://bitbucket.org/neelabo/neeview/commits/tag/41.3"
@@ -169,7 +166,7 @@
       "version": "6.0.0.3"
     },
     "xtls": {
-      "version": "1.8.23"
+      "version": "1.8.24"
     },
     "yt-dlp": {
       "version": "2024.08.06"
