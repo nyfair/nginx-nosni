@@ -11,9 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/I5FzyShT#WEImFLmhPADmam0CS4H2tyiebPYOYj0YEDgouxb5iA4
-        - https://mega.nz/file/lxsWELIY#mee47NM--se9j917HjElOgStQiRNZ5UerrrYOAYHTDE
-        - https://mega.nz/file/Q41n3Kyb#-v7EpFF1Z5dYtJHXs_SJcFVu8XyfBOTfZYCglnXTFsQ
+        - https://d80.roseserver.top/d/MDAwMDAwMDAwMJOAeZ280K3dgMuDqrF1haaydoqtgnp9YpN4m2x_4IDMfn-GzbCYqZqBy3yhspt-nbSGoaSMrX6ck4t5aoCYe9aTpX7drdO6mpaonq2-h3Fgxolqo4OHeWWGnologOB72H6MfdHEvqWfgMuDrrCbm2KxnH5qf519rIebcXU/DLJ-01131017_v24.01.05-CHS.part08.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
@@ -29,8 +27,9 @@ jobs:
     - name: Leech
       run: |
         mkdir leech
-        megatools*/megatools dl --path leech/ ${{ matrix.url }}
+        # megatools*/megatools dl --path leech/ ${{ matrix.url }}
         cd leech
+        curl -OL ${{ matrix.url }}
         find . -size +1960M -exec split -b 1G --numeric-suffixes=1 {} {}.0 \;
         find . -size +1960M -exec rm {} \;
     - name: Upload
