@@ -33,7 +33,7 @@
       "url": "https://bitbucket.org/neelabo/neeview/commits/tag/41.3"
     },
     "Python": {
-      "version": "3.12.5"
+      "version": "3.12.6"
     },
     "Rust": {
       "version": "1.81.0"
@@ -166,7 +166,7 @@
       "version": "6.0.0.3"
     },
     "xtls": {
-      "version": "1.8.24"
+      "version": "24.9.7"
     },
     "yt-dlp": {
       "version": "2024.08.06"
