@@ -100,7 +100,7 @@ regex = '>GCC ([\d\.]+)<'
 
 [Mingw-w64]
 source = 'regex'
-url = 'https://gcc-mcf.lhmouse.com/'
+url = 'https://gcc--mcf-lhmouse-com.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en-US&_x_tr_hl=en-US'
 regex = 'mingw-w64-gcc-mcf_([\d]+_[\d\.]+_x64-ucrt_\w+)\.7z'
 
 # nginx
