@@ -11,7 +11,9 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/VfNGnAiZ#HYu--apnvu9pTrdzetgOgNf1ntnJhYn8HREnEV2wpHc
+        - https://srv997.mexa.sh:183/d/2vshliekxoy775ghvtyaubs4awyg66kiorsqscfbnzkyauo2rljpewgin7zclzbu2ikptvgk/Game-RJ01243453.rar
+        - https://srv136.mexa.sh:183/d/gfsl3jvixoy775gh5lzf6fy2ddpylqcnu3dpqqcemcublv54uclnqyqoaqfxya6rydcbe5af/G-RJ264858-v19.11.15.rar
+        - https://srv709.mexa.sh:183/d/z5sldtnixoy775gh53zaufcdksondnoxndx2ts6zrk7cp5fbi4ttyue3cbi4osny7pvklm7j/Game-RJ01094238_v23.11.17.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
@@ -27,7 +29,9 @@ jobs:
     - name: Leech
       run: |
         mkdir leech
-        megatools*/megatools dl --path leech/ ${{ matrix.url }}
+        # megatools*/megatools dl --path leech/ ${{ matrix.url }}
+        cd leech
+        curl -OL ${{ matrix.url }}
         find . -size +1960M -exec split -b 1G --numeric-suffixes=1 {} {}.0 \;
         find . -size +1960M -exec rm {} \;
     - name: Upload
