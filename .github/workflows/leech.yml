@@ -24,7 +24,7 @@ jobs:
     - name: Mega
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
-        curl -OL https://megatools.megous.com/builds/builds/megatools-1.11.1.20230212-linux-x86_64.tar.gz
+        curl -kOL https://megatools.megous.com/builds/builds/megatools-1.11.1.20230212-linux-x86_64.tar.gz
         tar xvf *.gz
     - name: Leech
       run: |
