@@ -11,14 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv241.mexa.sh:183/d/7jsoau4kxoy775ghxdybadspchzger7bx2w46npfj73ljzsex5lospzcreliyulpyx5gysqr/vst2854170_v1.02-CHS-EN.part01.rar
-        - https://srv734.mexa.sh:183/d/zfso4u4kxoy775ghxdya4tsmaduq5q6bfyubttmmggg6jaba43u5xwdsecdy4kz3mtzqlihh/vst2854170_v1.02-CHS-EN.part02.rar
-        - https://srv365.mexa.sh:183/d/6nsosu4kxoy775ghxdyfyesyb5wlcfsd7yyebykxtxihncso5wtstfeoperm3tlfxa5fihlb/vst2854170_v1.02-CHS-EN.part04.rar
-        - https://srv846.mexa.sh:183/d/y5so2u4kxoy775ghxdyb4cc3lccxtqxllbbvz2w4g2kxahynztw6tom7jexaxqkkoq6a5aw6/vst2854170_v1.02-CHS-EN.part03.rar
-        - https://srv116.mexa.sh:183/d/grsneu4kxoy775ghxdybcek2kh533bnwzvwlfpajasxsv6s3k2tcologgrpvhba2bqqgvbkq/vst2854170_v1.02-CHS-EN.part05.rar
-        - https://srv755.mexa.sh:183/d/zjsnsu4kxoy775ghxdyfwdk3cusbmojjdnyo3jsasdtv2c46m2xzr5spdoy5t36c25jdczm2/vst2854170_v1.02-CHS-EN.part06.rar
-        - https://srv116.mexa.sh:183/d/grshixekxoy775ghxdybqgktkvlxdefshmnaoorzgsdwqeu3qcun52r7hxbsuy5cjhhhsxst/vst2854170_v1.02-CHS-EN.part08.rar
-        - https://srv846.mexa.sh:183/d/y5scyxekxoy775ghxdyfye2tbqzaibj3qqxaqwaqnybkgfpbbqm6ev5solqmwpbf2zrfjwzo/vst2854170_v1.02-CHS-EN.part07.rar
+        - https://srv403.mexa.sh:183/d/vvsmiaulxoy775ghs7ybqdy2laginfib5udjfscbngmxiaifvx2nlksk4ohzhspan6ssmwiy/Game-RJ01226398.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
@@ -35,8 +28,7 @@ jobs:
       run: |
         mkdir leech
         # megatools*/megatools dl --path leech/ ${{ matrix.url }}
-        cd leech
-        curl -OL --insecure ${{ matrix.url }}
+        cd leech && curl -OL --insecure ${{ matrix.url }}
         find . -size +1960M -exec split -b 1G --numeric-suffixes=1 {} {}.0 \;
         find . -size +1960M -exec rm {} \;
     - name: Upload
