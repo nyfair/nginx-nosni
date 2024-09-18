@@ -26,9 +26,9 @@ jobs:
         tar xvf *.gz
     - name: Leech
       run: |
-        mkdir leech
-        # megatools*/megatools dl --path leech/ ${{ matrix.url }}
-        # cd leech && curl -OL --insecure ${{ matrix.url }}
+        mkdir leech && cd leech
+        # megatools*/megatools dl --path ./ ${{ matrix.url }}
+        # curl -OL --insecure ${{ matrix.url }}
         pip install gdown && gdown ${{ matrix.url }}
         find . -size +1960M -exec split -b 1G --numeric-suffixes=1 {} {}.0 \;
         find . -size +1960M -exec rm {} \;
