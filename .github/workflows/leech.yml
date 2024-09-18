@@ -11,7 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - 1CA9QHQmvXhK5HLObXF3I63QQbEb5WioB
+        - https://srv182.mexa.sh:183/d/7zskgbekxoy775ghutyaegq4bh72jk6b3dbz4gjwhjadedsrn32ui6tvl3pxu6xzbmwcv3ot/Game-RJ01222589-v24.08.29.rar
+        - https://srv901.mexa.sh:183/d/3rsjweulxoy775ghvdyf2bsrc23e4dmxjabzt6ihhxpugqdbyrodpqb5xadtut3ewewolb5u/Game-RJ01080936.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
@@ -28,8 +29,8 @@ jobs:
       run: |
         mkdir leech && cd leech
         # megatools*/megatools dl --path ./ ${{ matrix.url }}
-        # curl -OL --insecure ${{ matrix.url }}
-        pip install gdown && gdown ${{ matrix.url }}
+        curl -OL --insecure ${{ matrix.url }}
+        # pip install gdown && gdown ${{ matrix.url }}
         find . -size +1960M -exec split -b 1G --numeric-suffixes=1 {} {}.0 \;
         find . -size +1960M -exec rm {} \;
     - name: Upload
