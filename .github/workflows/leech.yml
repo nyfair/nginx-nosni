@@ -11,7 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv13.mexa.sh:183/d/kvsakxesxoy775ghmpyqufkakjf5tuov3nx4knhoso6aiej3xg44nxgae4rkt4x4f47raemt/DLJ-080686_v12.11.28-JP.rar
+        - 1CA9QHQmvXhK5HLObXF3I63QQbEb5WioB
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
@@ -28,7 +28,8 @@ jobs:
       run: |
         mkdir leech
         # megatools*/megatools dl --path leech/ ${{ matrix.url }}
-        cd leech && curl -OL --insecure ${{ matrix.url }}
+        # cd leech && curl -OL --insecure ${{ matrix.url }}
+        pip install gdown && gdown ${{ matrix.url }}
         find . -size +1960M -exec split -b 1G --numeric-suffixes=1 {} {}.0 \;
         find . -size +1960M -exec rm {} \;
     - name: Upload
