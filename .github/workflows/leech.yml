@@ -11,8 +11,9 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv734.mexa.sh:183/d/zfsbtqxfxoy775ghg3wqysa2av3gwahouvfrnba3ihoqms3e4km3sd7vj7qcpbvmybn7fghp/G-HS2207068.rar
-        - https://srv10.mexa.sh:183/d/ljsgieluxoy775ghtpyb4dq5aolibyux7j2gqgtpeaofud3osfwbcxzttvlrfxbnrjptah7e/G-RJ01222427.zip
+        - https://srv539.mexa.sh:183/d/vnsplt57xoy775ghzxzq2dkhakdcm4dm2y3e3vcszlkziy6le5liqawocmpxnbvfmkjiwfvj/DLJ-01102532-CHS.rar
+        - https://srv642.mexa.sh:183/d/dzsfqm3uxoy775ghthyamgkylb7ru3xztf2nrty5inq3a2nm2igdxajlack36pqry54i3ftb/G-RJ01226398-v1.02.part2.rar
+        - https://srv427.mexa.sh:183/d/zrsfwm3uxoy775ghthybscq7kdkg6j42cqj23daksgjypg4zx6pdvq5x6522oneclp4a76bk/G-RJ01226398-v1.02.part1.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
