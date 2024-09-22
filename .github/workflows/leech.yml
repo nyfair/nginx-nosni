@@ -12,10 +12,6 @@ jobs:
       matrix:
         url:
         - https://mega.nz/file/5UcnlaDR#MFTvH5aCyov5V5fSKApLAPwS30Ky0hBIdRcn5FNtbGs
-        - https://srv24.mexa.sh:183/d/fbsd7qunxoy775ghmlybcgkkcg24rd23qmfthe52jv2cfw6alj2drblhsrrhhn6d4jtv2z2d/Game-RJ01118122-v1.13.rar
-        - https://srv7.mexa.sh:183/d/znspd54lxoy775ghspyfse24c2wavdyufazibhh3pvxr7czg6hdmmxyvv7moqy7gjkp3qzps/Game-VJ01002463.rar
-        - https://srv332.mexa.sh:183/d/7rsp754lxoy775ghspyb6g2okj6h3vaa3d7cmyew4wwut244hjw6buzwuhyvofv6s2wx7pjx/Game-VJ01002464.rar
-        - https://srv825.mexa.sh:183/d/yvspx54lxoy775ghspyb6taqkpmoj6rfa2hh33qj6hxpnarln7vi7skae5svtjkeyyouqa6g/Game-VJ01002462.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
@@ -33,7 +29,7 @@ jobs:
         mkdir leech && cd leech
         if [[ ${{ matrix.url }} == *"mega.nz"* ]]
         then
-          megatools*/megatools dl --path ./ ${{ matrix.url }}
+          ../megatools*/megatools dl --path ./ ${{ matrix.url }}
         elif [[ ${{ matrix.url }} == *"drive.google"* ]]
         then
           pip install gdown && gdown ${{ matrix.url }}
