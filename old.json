@@ -71,7 +71,7 @@
       "url": "https://archlinux.org/packages/extra/x86_64/freetype2/"
     },
     "fribidi": {
-      "version": "1.0.15"
+      "version": "1.0.16"
     },
     "harfbuzz": {
       "version": "10.0.1"
