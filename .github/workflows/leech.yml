@@ -11,9 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv22.mexa.sh:183/d/dbsa5mtuxoy775ghqpyaudy5b56rlsdme73irzrjg77twwkgtwszyivyxzons3z7a4owawso/DLJ-329482_v24.03.26-JP.part3.rar
-        - https://srv997.mexa.sh:183/d/2vsajmtuxoy775ghqpyb4dkgdaajv7e32d6lnzh3jzb64k3vrhvguqimp6jpyk2miqi5uis2/DLJ-329482_v24.03.26-JP.part1.rar
-        - https://srv932.mexa.sh:183/d/35sahmtuxoy775ghqpyaws2ac4xhper73twjaa44hly5sd6h7iiaptdkk3zd4zrgf7elep3o/DLJ-329482_v24.03.26-JP.part2.rar
+        - https://srv2.mexa.sh:183/d/2jsjvqmyxoy775ghtxyqary6c5xft6hr4cxaouhcup4uu3opnphyqfpuqphawk6awrvmdbp7/Game-RJ01113293.part1.rar
+        - https://srv932.mexa.sh:183/d/35si7qmyxoy775ghtxyv6gs5c4hjvpvojtg53dmbqsol464pyvzlhea3rm6ztdf4l4266f5e/Game-RJ01113293.part2.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
