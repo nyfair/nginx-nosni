@@ -11,18 +11,9 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv734.mexa.sh:183/d/zfsdxw6exoy775ghudwbwtc4bb2cqop5aqdulewkjbowy253wmauv3l6nfxj3auettsce7rl/G-RJ304663-v1.22.rar
-        - https://srv43.mexa.sh:183/d/v5sbnff5xoy775gh2xzqitkqbs3j5kahahhvntdgqrynafgfr3a5txba2sdoh77kbditye66/G-RJ01026164-v23.06.19N.part3.rar
-        - https://srv73.mexa.sh:183/d/hvsbfff5xoy775gh2xzrafq3b2ttfs74xpus4gdui2wnakjs2jffqpr7o4y6joi5earyag55/G-RJ01026164-v23.06.19N.part1.rar
-        - https://srv825.mexa.sh:183/d/yvsblff5xoy775gh2xzv4hcgdmnnukr6aknymfqzzfzaaa77xajgfkajm5p2t7gs7lcfdzyf/G-RJ01026164-v23.06.19N.part2.rar
-        - https://srv997.mexa.sh:183/d/2vsmag46xoy775ghxpyqoty7lhxbw6gruokj6cv6tpgeaqegztyc24btuk6pwkflktak72dq/Game-RJ01026171-Ver.2024.04.16.part1.rar
-        - https://srv68.mexa.sh:183/d/7nsm6g46xoy775ghxpyquti7k6szlczas4wpeb3a2d5mty7t6wifws7xbvf3vhthr6jkb6ip/Game-RJ01026171-Ver.2024.04.16.part2.rar
-        - https://srv721.mexa.sh:183/d/zbsmcg46xoy775ghxpyrwrsfc6horojvu3hyjb35pezx5ln5nhm3d5me2lhvc6a3ex55x3lj/Game-RJ01026171-Ver.2024.04.16.part3.rar
-        - https://srv683.mexa.sh:183/d/zzslx4umxoy775ghp7ybuhkdaqxvb5a2r7d4ilows2fubcedpiv3fqvcl7r75775madrxjso/G-RJ01205268-v24.06.19-N.part4.rar
-        - https://srv427.mexa.sh:183/d/zrsl74umxoy775ghp7yfsdk7kau3pcbexfelwoafwxx5hb4mzcv5gotb26bje5kf2lxwif4f/G-RJ01205268-v24.06.19-N.part5.rar
-        - https://srv3.mexa.sh:183/d/ijskf4umxoy775ghp7yamskbkwidsvci3ef6hp7szu5lrfd6urehrry2vbfd7fetyyuif2li/G-RJ01205268-v24.06.19-N.part1.rar
-        - https://srv427.mexa.sh:183/d/zrskt4umxoy775ghp7yaorshcewsgdzxnn57kpn3h64ut6gzzq3e5r6yt7dihj6otcscrnkn/G-RJ01205268-v24.06.19-N.part3.rar
-        - https://srv683.mexa.sh:183/d/zzsjd4umxoy775ghp7yfasi5a3hgwr7mxzrc3ez45ft5ghivzeescwpkqpab7slxngd2u6e4/G-RJ01205268-v24.06.19-N.part2.rar
+        - https://srv520.mexa.sh:183/d/ajsgomnqxoy775ghvtzr6ecfaahedw2fdzeumzlzbdz2dgd5d5mz7nmsdfkrntilzwhdsgzn/G-RJ01013985-v1.03.rar
+        - https://srv825.mexa.sh:183/d/yvsdpx5qxoy775ghvlzv6sy2bgb5xwuag2aafve2lyukb6e5wokqg6k6l7jc4jtkdy6otdvw/G-RJ01082799-v1.02.rar
+        - https://srv18.mexa.sh:183/d/cnsotcecxoy775gha3yaksy7c4k4icvnauyaefqzjmyt7fre34g7checr3rojbxhv7igpews/DMJ-176573_v24.05.31-JP.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
