@@ -11,8 +11,14 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv2.mexa.sh:183/d/2jsjvqmyxoy775ghtxyqary6c5xft6hr4cxaouhcup4uu3opnphyqfpuqphawk6awrvmdbp7/Game-RJ01113293.part1.rar
-        - https://srv932.mexa.sh:183/d/35si7qmyxoy775ghtxyv6gs5c4hjvpvojtg53dmbqsol464pyvzlhea3rm6ztdf4l4266f5e/Game-RJ01113293.part2.rar
+        - https://srv941.mexa.sh:183/d/3bsa7medxoy775ghbhyb2ssiarw45vvecpffnphe3cxdyp3qsdnrznq7yvdkbgpuadygeyzo/G-RJ01194633.part01.rar
+        - https://srv755.mexa.sh:183/d/zjsa5medxoy775ghbhybwgk4lgxp2vxkld2if6zsx32ofsdyxstf6lha33u6vbuixzvmrhfv/G-RJ01194633.part02.rar
+        - https://srv103.mexa.sh:183/d/hfsgbmedxoy775ghbhyb2ssbbrxntaryveujl3vuavjbdst5lnulwlimba3ou5c4lqmkurss/G-RJ01194633.part03.rar
+        - https://srv20.mexa.sh:183/d/frsatmedxoy775ghbhyf4dk4bhxxogcyuhuwqjctuxyd6tzopyt4zgwzocibw64qdp5cgqys/G-RJ01194633.part04.rar
+        - https://srv941.mexa.sh:183/d/3bsgpmedxoy775ghbhyawbsikyon3wjczjgxs3yor4rhppp5brbsmbkhuypnzv5ofkc3dkmw/G-RJ01194633.part06.rar
+        - https://srv8.mexa.sh:183/d/55shzmedxoy775ghbhyb4dcokq4rt6ofhvb6eb7bmnnld3alls5prcezco4jwmy4vpz2xqqo/G-RJ01194633.part05.rar
+        - https://srv755.mexa.sh:183/d/zjsgjmedxoy775ghbhyf4rq7bp24rkxghwal6ego2qutr6uxq6ejdz46ukag6xxojkfmnwyi/G-RJ01194633.part07.rar
+        - https://srv20.mexa.sh:183/d/frsgfmedxoy775ghbhybgssfamujxzvwengyui57iar7skuvgugoghdssahjohcqyhtl2hwl/G-RJ01194633.part08.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
