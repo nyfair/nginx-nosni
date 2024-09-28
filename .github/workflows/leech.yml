@@ -11,22 +11,9 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv2.mexa.sh:183/d/2jslf75mxoy775ghslzaeek6doki4ihyntts4k4hhoz6qrsfkull3ha74rxj65xny7pwj3y6/DLJ-01092739_v23.10.28-ML.part1.rar
-        - https://srv427.mexa.sh:183/d/zrsl775mxoy775ghslzbudkpcofhkmq622dmzj5joz72ir4pmrfpaotl2qazujsbv4srftgx/DLJ-01092739_v23.10.28-ML.part2.rar
-        - https://srv241.mexa.sh:183/d/7jspbumpxoy775ghlhya4ek6k5sefxccpzukuagav6mv2mhqlhj5feidhomhy5huumcf5yfd/DLJ-01050745_v23.10.07-JP-CN-EN.part1.rar
-        - https://srv122.mexa.sh:183/d/4jsp7umpxoy775ghlhybwfccchocu3pc4mfr5dnwhtd52morocryqgd5fugpnvmpnpkubagw/DLJ-01050745_v23.10.07-JP-CN-EN.part2.rar
-        - https://srv445.mexa.sh:183/d/yjsbcy4lxoy775ghvhyaqgcbdo76o6cuxsvhajijdbgzhj5v7kl35imf4jjofez4o6el3t2v/G-RJ137361-v17.10.31.zip
-        - https://srv164.mexa.sh:183/d/brsp5umpxoy775ghlhya6dspcfvpobosedx6vlhgilcpzuzktjzd2634pd3mbwj2koekdhtk/DLJ-01050745_v23.10.07-JP-CN-EN.part3.rar
-        - https://srv122.mexa.sh:183/d/4jsbsrulxoy775ghvpyaiba4dpkpzkhhv5hgxcgmwbs6zdge5cdjebfxixjtmezmi3nqt7db/Game-RJ01186364-v1.5.10.rar
-        - https://srv107.mexa.sh:183/d/hjsbay4lxoy775ghvhybsdkpa5zchspayeatph7p4wy6dziviyzqq7wg4scpylkr2xyb4a6r/G-RJ198392-v19.03.31.zip
-        - https://srv859.mexa.sh:183/d/ybsh5q47xoy775ghvlyrwdqzbw67w43zzcmk65windytpx3whulo6kca5ppzhjbvu6rvgcf6/DLJ-01087134_v23.08.21-JP.rar
-        - https://srv9.mexa.sh:183/d/2bscz7mrxoy775ghpdyrwsk5db2bygb5evl3qoxeoliowdv673kgmt4w7qxl2m5pa3jnywhi/Ani-RJ01159376.part1.rar
-        - https://srv976.mexa.sh:183/d/3nshuummxoy775gho7yfce2clhuogdyyxso6s64tnbmkongtcagml3lxgq45lt3noyf6tlln/DLJ-386658_v24.07.05-JP-CN-EN.rar
-        - https://srv709.mexa.sh:183/d/z5sa5rmexoy775gh5hyrytcob2ho7oy4fadexdt26qtzyfcetue6fnwqeon3ol2ax5gv3oot/DLJ-01202242_v24.05.27-JP.rar
-        - https://srv427.mexa.sh:183/d/zrsbj7mrxoy775ghpdyv2ek4ktmxhbofhiujyzel3bswbgahm3ejdja6axozwvi7aekkhxyf/Ani-RJ01159376.part2.rar
-        - https://srv198.mexa.sh:183/d/vjsbb7mrxoy775ghpdyr4skkboyj3mqjuhvjls7yfdcwqvsj2rgre6ougujtdro7amptdqm5/Ani-RJ01159376.part3.rar
-        - https://srv932.mexa.sh:183/d/35sgm55cxoy775ghwpzbwtkfayk7xs5s5nsvylzlftair7pjmome2mlfhvci5mf4zj22imus/Game-RJ01113985-Ver23.11.02.rar
-        - https://srv198.mexa.sh:183/d/vjsps5dvxoy775ghqdya4ecab3ngy67kdojxdg776ycdusig3m54l5zpflxcvd5krega4u2d/G-RJ01250092.zip
+        - https://srv111.mexa.sh:183/d/vbsnb5ukxoy775ghudyb2rskbiucber2foqzlxssactwzjhcfwqnh2jlhek7ptn5l3fedmyy/vst2795270_v24.09.04-JP-CN-EN.part1.rar
+        - https://srv16.mexa.sh:183/d/6jsn75ukxoy775ghudybcry6ca3yka757mcc5jm3i233y3ayxgy67dh7phu7vbl3dvfahvkq/vst2795270_v24.09.04-JP-CN-EN.part2.rar
+        - https://srv55.mexa.sh:183/d/efsn55ukxoy775ghudyfws2faqgtt3mbogi3pw6g232rxj6o6mkbv2r3h55aqli3jcxvwm7a/vst2795270_v24.09.04-JP-CN-EN.part3.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
