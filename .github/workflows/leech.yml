@@ -11,9 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv111.mexa.sh:183/d/vbsnb5ukxoy775ghudyb2rskbiucber2foqzlxssactwzjhcfwqnh2jlhek7ptn5l3fedmyy/vst2795270_v24.09.04-JP-CN-EN.part1.rar
-        - https://srv16.mexa.sh:183/d/6jsn75ukxoy775ghudybcry6ca3yka757mcc5jm3i233y3ayxgy67dh7phu7vbl3dvfahvkq/vst2795270_v24.09.04-JP-CN-EN.part2.rar
-        - https://srv55.mexa.sh:183/d/efsn55ukxoy775ghudyfws2faqgtt3mbogi3pw6g232rxj6o6mkbv2r3h55aqli3jcxvwm7a/vst2795270_v24.09.04-JP-CN-EN.part3.rar
+        - https://pd.cybar.xyz/Aaroq1Ne
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
