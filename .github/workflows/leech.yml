@@ -11,7 +11,9 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://pd.cybar.xyz/Aaroq1Ne
+        - https://srv642.mexa.sh:183/d/dzskgwojxoy775ghbtzqmsy3csfnnosijjjbzf3gkc57zbtq57oizuhxarpuv56wa4s32qjm/G-RJ01022907-v1.02.rar
+        - https://srv365.mexa.sh:183/d/6nsdhsekxoy775ghuhyf2c2laq5wkdt6al75tcdpyv64rp3bkn5jatq6exwysmami2eiwpkv/G-RJ01061381-v1.09-DLC.zip
+        - https://srv846.mexa.sh:183/d/y5skkklvxoy775ghrpyfyccdcnxd7h3hikctqxntfxozmpfpi3eflcg27t54bs2r3txh6qes/G-RJ01164597.zip
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
@@ -43,6 +45,6 @@ jobs:
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: leech/*
-        tag: latest
+        tag: cache
         overwrite: true
         file_glob: true

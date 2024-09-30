@@ -11,5 +11,5 @@ jobs:
       uses: mknejp/delete-release-assets@v1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        tag: latest
-        assets: RJ*
+        tag: cache
+        assets: '*'
