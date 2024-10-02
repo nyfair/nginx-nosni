@@ -20,7 +20,7 @@
       "version": "2.5.0.0"
     },
     "Iceraven": {
-      "version": "2.23.1"
+      "version": "2.24.0"
     },
     "Iceweasel": {
       "version": "131.0"
@@ -36,7 +36,7 @@
       "url": "https://bitbucket.org/neelabo/neeview/commits/tag/41.3"
     },
     "Python": {
-      "version": "3.12.6"
+      "version": "3.12.7"
     },
     "Rust": {
       "version": "1.81.0"
