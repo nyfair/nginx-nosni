@@ -16,6 +16,9 @@
     "GCC": {
       "version": "14.2"
     },
+    "HxD": {
+      "version": "2.5.0.0"
+    },
     "Iceraven": {
       "version": "2.24.0"
     },
