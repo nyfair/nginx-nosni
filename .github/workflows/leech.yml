@@ -11,9 +11,9 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv928.mexa.sh:183/d/3zsouftwxoy775gh6hyfqg26cyzczw3uugsgrgjwf47h3ezafozbdnub643feqsl42etalca/G-RJ01085472-v2.2.part1.rar
-        - https://srv913.mexa.sh:183/d/3vsnmftwxoy775gh6hyfcb22kalfndheebb7jr4fbf2odu2fbuqhipglhni3yh46gdomeu3r/G-RJ01085472-v2.2.part2.rar
-        - https://srv111.mexa.sh:183/d/vbsnkftwxoy775gh6hyb6ry3dczm3stcvlv4c2hg5me5whc6wchq774his6puvx72tmach2m/G-RJ01085472-v2.2.part3.rar
+        - https://mega.nz/file/YZ5TgCiL#8tcMbGqIL-FR6rwit1FSLi1C_RRySoEP-6HAv6OK5kY
+        - https://mega.nz/#!wYBijA5J!pTWeuKAwwnp8eSc7IEgF1EA6usYkwryHz2lwLIHoqHU
+        - https://mega.nz/#!kEwnSb4J!OYcolE3YXQN4tmnf1YfpIGniWhyIJVhwtVMok9gUVoY
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
