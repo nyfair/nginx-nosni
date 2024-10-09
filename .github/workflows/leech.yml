@@ -11,9 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/YZ5TgCiL#8tcMbGqIL-FR6rwit1FSLi1C_RRySoEP-6HAv6OK5kY
-        - https://mega.nz/#!wYBijA5J!pTWeuKAwwnp8eSc7IEgF1EA6usYkwryHz2lwLIHoqHU
-        - https://mega.nz/#!kEwnSb4J!OYcolE3YXQN4tmnf1YfpIGniWhyIJVhwtVMok9gUVoY
+        - https://srv1.mexa.sh:183/d/lvsen6dwxoy775gh7pybsdq4kamvyxl4qhh2z3y2qcoz52bn5hfhhhjophozgmm26i4axbwc/G-RJ01186364-v2.6.12.zip
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
