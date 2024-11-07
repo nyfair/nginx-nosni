@@ -20,7 +20,7 @@
       "version": "2.5.0.0"
     },
     "Iceraven": {
-      "version": "2.25.0"
+      "version": "2.25.2"
     },
     "Iceweasel": {
       "version": "132.0"
@@ -47,7 +47,7 @@
       "url": "https://github.com/vapoursynth/vapoursynth/releases/tag/R70"
     },
     "WinRAR": {
-      "version": "7.01"
+      "version": "7.10 beta 1"
     },
     "aria2": {
       "version": "20240630.124736",
