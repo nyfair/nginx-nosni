@@ -23,7 +23,7 @@
       "version": "2.25.3"
     },
     "Iceweasel": {
-      "version": "132.0.2"
+      "version": "133.0"
     },
     "Megatools": {
       "version": "1.11.1.20241028"
@@ -64,7 +64,7 @@
       "version": "12.2.72.0"
     },
     "foobar2000": {
-      "version": "2.1.6"
+      "version": "2.24"
     },
     "freetype2": {
       "version": "2.13.3",
