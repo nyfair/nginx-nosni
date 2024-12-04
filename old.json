@@ -11,7 +11,7 @@
       "version": "7.5"
     },
     "Everything": {
-      "version": "1.5.0.1385a"
+      "version": "1.5.0.1386a"
     },
     "GCC": {
       "version": "14.2"
@@ -36,7 +36,7 @@
       "url": "https://bitbucket.org/neelabo/neeview/commits/tag/42.1"
     },
     "Python": {
-      "version": "3.12.7"
+      "version": "3.12.8"
     },
     "Rust": {
       "version": "1.83.0"
@@ -172,7 +172,7 @@
       "version": "24.11.30"
     },
     "yt-dlp": {
-      "version": "2024.11.18"
+      "version": "2024.12.03"
     },
     "zlib": {
       "version": "1.3.1",
