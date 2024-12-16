@@ -11,7 +11,7 @@
       "version": "7.5"
     },
     "Everything": {
-      "version": "1.5.0.1388a"
+      "version": "1.5.0.1389a"
     },
     "GCC": {
       "version": "14.2"
@@ -169,7 +169,7 @@
       "version": "6.0.0.3"
     },
     "xtls": {
-      "version": "24.11.30"
+      "version": "24.12.15"
     },
     "yt-dlp": {
       "version": "2024.12.13"
