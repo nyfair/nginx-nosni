@@ -13,6 +13,9 @@
     "Everything": {
       "version": "1.5.0.1391a"
     },
+    "GCC": {
+      "version": "14.2"
+    },
     "HxD": {
       "version": "2.5.0.0"
     },
@@ -146,7 +149,7 @@
       "url": "https://archlinux.org/packages/extra/x86_64/opus/"
     },
     "revanced": {
-      "version": "1.23.2"
+      "version": "1.23.3"
     },
     "shaderc": {
       "version": "2024.4"
@@ -169,7 +172,7 @@
       "version": "25.1.1"
     },
     "yt-dlp": {
-      "version": "2025.01.12"
+      "version": "2025.01.15"
     },
     "zlib": {
       "version": "1.3.1",
