@@ -11,8 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv133.mexa.sh:183/d/2nslpad6xoy775ghad3qeesokihwxqt3vtjw5ym6yc25z6kjz7w7s6kmnlzzlvgiaifnaets/Game-RJ269588-Ver.2024.01.12.rar
-        - https://srv837.mexa.sh:183/d/yfsl4zu7xoy775ghv7yvycshbdskhkb3fpvr6rhlbdnmx2pjcv73b4u3ke3v4bg6zyf5gxq3/DLJ-151500_v18.05.23-JP.rar
+        - https://srv3.mexa.sh:183/d/ijsgzbtgxoy775ghvd3rcfc2ki5aqbaf3oakegm63zr3a3usrhpvaodbhvd3rxfaema74v37/G-RJ01320589-v25.02.03.zip
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
