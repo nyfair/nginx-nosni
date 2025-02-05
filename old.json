@@ -23,7 +23,7 @@
       "version": "2.27.0"
     },
     "Iceweasel": {
-      "version": "134.0.2"
+      "version": "135.0"
     },
     "Megatools": {
       "version": "1.11.3.20250203"
@@ -36,7 +36,7 @@
       "url": "https://bitbucket.org/neelabo/neeview/commits/tag/42.5"
     },
     "Python": {
-      "version": "3.12.8"
+      "version": "3.12.9"
     },
     "Rust": {
       "version": "1.84.1"
