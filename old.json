@@ -20,7 +20,7 @@
       "version": "2.5.0.0"
     },
     "Iceraven": {
-      "version": "2.27.0"
+      "version": "2.28.0"
     },
     "Iceweasel": {
       "version": "135.0"
@@ -29,7 +29,7 @@
       "version": "1.11.3.20250203"
     },
     "Mingw-w64": {
-      "version": "20250205_14.2.1_x64-ucrt_c52b2fd6dc152158f225787eff0b91fae094df66"
+      "version": "20250206_15.0.1_x64-ucrt_dc87372e0111969dc14e6a6728eb3e10eb671c43"
     },
     "NeeView": {
       "version": "42.5",
