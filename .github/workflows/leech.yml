@@ -11,8 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv43.mexa.sh:183/d/v5sfljm6xoy775ghulyqqdkgazs5puh6fimhfle3ojillojhsn77xacrr2elq2rorchnxg2h/DLJ-354175_v22.03.01-JP.rar
-        - https://srv13.mexa.sh:183/d/kvsggvdgxoy775ghul3rgty3laqmliwlmwenqq5wl4r3n7q6effo5nry2xtcaabo7ukmgiuo/DLJ-01315765_v25.01.26-JP.rar
+        - https://srv8.mexa.sh:183/d/55sciv3hxoy775ghsx3rgbcokmbwratj3lpb7lh7w226dypyexan5ikyn77okbp4owimr4cw/DLJ-01162898_v25.02.03-JP.part2.rar
+        - https://srv140.mexa.sh:183/d/gjscmv3hxoy775ghsx3r2hkdab5gzmsziqa2zgp5tz4kw4bgje63ge3ievfhlxkfeodtervk/DLJ-01162898_v25.02.03-JP.part1.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
