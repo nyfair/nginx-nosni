@@ -23,7 +23,7 @@
       "version": "2.28.0"
     },
     "Iceweasel": {
-      "version": "135.0"
+      "version": "135.0.1"
     },
     "Megatools": {
       "version": "1.11.3.20250203"
@@ -47,7 +47,7 @@
       "url": "https://github.com/vapoursynth/vapoursynth/releases/tag/R70"
     },
     "WinRAR": {
-      "version": "7.10 beta 3"
+      "version": "7.10"
     },
     "aria2": {
       "version": "20240630.124736",
