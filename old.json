@@ -64,7 +64,7 @@
       "version": "13.0.19.0"
     },
     "foobar2000": {
-      "version": "2.24.1"
+      "version": "2.24.2"
     },
     "freetype2": {
       "version": "2.13.3",
@@ -169,7 +169,7 @@
       "version": "6.1.0.0"
     },
     "xtls": {
-      "version": "25.1.30"
+      "version": "25.2.18"
     },
     "yt-dlp": {
       "version": "2025.01.26"
