@@ -29,7 +29,7 @@
       "version": "1.11.3.20250203"
     },
     "Mingw-w64": {
-      "version": "20250206_15.0.1_x64-ucrt_dc87372e0111969dc14e6a6728eb3e10eb671c43"
+      "version": "20250221_15.0.1_x64-ucrt_5570e65989a9d9c8e646bbca96c280d0b871d89b"
     },
     "NeeView": {
       "version": "42.5",
@@ -39,7 +39,7 @@
       "version": "3.12.9"
     },
     "Rust": {
-      "version": "1.84.1"
+      "version": "1.85.0"
     },
     "VapourSynth": {
       "version": "R70",
@@ -74,7 +74,7 @@
       "version": "1.0.16"
     },
     "harfbuzz": {
-      "version": "10.2.0"
+      "version": "10.3.0"
     },
     "lame": {
       "version": "3.100",
