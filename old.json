@@ -26,7 +26,7 @@
       "version": "1.11.3.20250203"
     },
     "Mingw-w64": {
-      "version": "20250221_15.0.1_x64-ucrt_5570e65989a9d9c8e646bbca96c280d0b871d89b"
+      "version": "20250304_15.0.1_x64-ucrt_3c29bc2dbfafd5c894f8bd7bfa87b5fd81263fb8"
     },
     "NeeView": {
       "version": "42.5",
@@ -166,7 +166,7 @@
       "version": "6.1.0.1"
     },
     "xtls": {
-      "version": "25.2.21"
+      "version": "25.3.3"
     },
     "yt-dlp": {
       "version": "2025.02.19"
