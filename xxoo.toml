@@ -72,11 +72,6 @@ source = 'regex'
 url = 'https://github.com/yt-dlp/yt-dlp/tags'
 regex = 'releases/tag/([\d\.]+)"'
 
-[revanced]
-source = 'regex'
-url = 'https://github.com/revanced/revanced-manager/tags'
-regex = 'releases/tag/v([\d\.]+)"'
-
 # toy
 [Rust]
 source = 'regex'
