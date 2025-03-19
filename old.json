@@ -23,7 +23,7 @@
       "version": "2.29.0"
     },
     "Iceweasel": {
-      "version": "136.0.1"
+      "version": "136.0.2"
     },
     "Megatools": {
       "version": "1.11.3.20250203"
@@ -39,7 +39,7 @@
       "version": "3.12.9"
     },
     "Rust": {
-      "version": "1.85.0"
+      "version": "1.85.1"
     },
     "VapourSynth": {
       "version": "R70",
