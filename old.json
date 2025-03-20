@@ -29,7 +29,7 @@
       "version": "1.11.3.20250203"
     },
     "Mingw-w64": {
-      "version": "20250304_15.0.1_x64-ucrt_3c29bc2dbfafd5c894f8bd7bfa87b5fd81263fb8"
+      "version": "20250319_15.0.1_x64-ucrt_6d39d5abce99fbaed6433ed82bd07ab0f3115e66"
     },
     "NeeView": {
       "version": "42.5",
@@ -123,10 +123,6 @@
     "libtiff": {
       "version": "4.7.0",
       "url": "https://archlinux.org/packages/extra/x86_64/libtiff/"
-    },
-    "libvorbis": {
-      "version": "1.3.7",
-      "url": "https://archlinux.org/packages/extra/x86_64/libvorbis/"
     },
     "libwebp": {
       "version": "1.5.0",
