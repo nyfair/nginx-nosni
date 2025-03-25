@@ -47,7 +47,7 @@
       "url": "https://github.com/vapoursynth/vapoursynth/releases/tag/R70"
     },
     "WinRAR": {
-      "version": "7.11 beta 1"
+      "version": "7.11"
     },
     "aria2": {
       "version": "20240630.124736",
@@ -165,7 +165,7 @@
       "version": "25.3.6"
     },
     "yt-dlp": {
-      "version": "2025.03.21"
+      "version": "2025.03.25"
     },
     "zlib": {
       "version": "1.3.1",
