@@ -132,7 +132,7 @@
       "version": "4.1.5"
     },
     "mpv": {
-      "version": "0.39.0"
+      "version": "0.40.0"
     },
     "nginx": {
       "version": "1.27.4"
@@ -165,7 +165,7 @@
       "version": "25.3.6"
     },
     "yt-dlp": {
-      "version": "2025.03.25"
+      "version": "2025.03.26"
     },
     "zlib": {
       "version": "1.3.1",
