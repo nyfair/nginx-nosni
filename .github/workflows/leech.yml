@@ -11,10 +11,15 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv721.mexa.sh:183/d/zbsmrblmxoy775gh3h3vqcsiax3km5nbvebaafjngv4b5q7rher54jxhqduiv6yjzg4hhphl/G-RJ01026177.part3.rar
-        - https://srv13.mexa.sh:183/d/kvsmxblmxoy775gh3h3vyca7acq5wcvvza43p2t6vxofvyzibpexbax7ehbs2thk5vdd4kvk/G-RJ01026177.part1.rar
-        - https://srv14.mexa.sh:183/d/kzsmvblmxoy775gh3h3rsfi3cnqismxbbxk3z44u2kgozguyb3ckot47zjigekcaqc3hfvqj/G-RJ01026177.part2.rar
-        - https://srv610.mexa.sh:183/d/6vsm3blmxoy775gh3h3qqt2ebptswjjou7qieflrdt33nzj2zkprkklxw7oox3lc3x7sbg3q/G-RJ01026177.part4.rar
+        - https://srv26.mexa.sh:183/d/fjsddqthxoy775ght33qgc2tktee3z6t27uvnkuyva4ebgnqax7eckomfdgf3duhd4xd72qo/Game-RJ01277982-v24.12.04.part3.rar
+        - https://srv837.mexa.sh:183/d/yfscnqthxoy775ght33r2rshcf4wjx47f5dvaeexayc4inrbawhpa7cmqnicypkclhezrtlx/Game-RJ01277982-v24.12.04.part2.rar
+        - https://srv140.mexa.sh:183/d/gjscdqthxoy775ght33qefchkilu3ks7or2q2xon43p66tfno34eqyd6ggumqqle2tpdz4ps/Game-RJ01277982-v24.12.04.part1.rar
+        - https://srv403.mexa.sh:183/d/vvsj2dtoxoy775ghgx3bwskobv266rr6t2do4xy3xmbbnultqnsh4krd66mlrevmytrxo77r/Game-RJ01356701-Ver1.2.rar
+        - https://srv495.mexa.sh:183/d/vfseubolxoy775ghn3zr2f2oavo3lx5tlltwa2bwe5ddg24o6bikrntoyabpddbefy7sosaa/G-RJ01052320-v1.3.part2.rar
+        - https://srv825.mexa.sh:183/d/yvsesbolxoy775ghn3zq6c2kb4cxo7gclnmcbfb3rsoupipcqjxiph7dy7kdly7hdkj3gcf4/G-RJ01052320-v1.3.part1.rar
+        - https://srv976.mexa.sh:183/d/3nsphk3dxoy775gh2t3rqd2fkefdnqd5bef2aubmlw6lu22m5yxrsiszjnjfevwqaktzibte/G-RJ01186021-v25.03.02.part1.rar
+        - https://srv20.mexa.sh:183/d/frsnrk3dxoy775gh2t3qehcya2mhaav7wjoufnolvbn4i2ajipuumkehzmic6q3rfyzfrmox/G-RJ01186021-v25.03.02.part3.rar
+        - https://srv941.mexa.sh:183/d/3bsotk3dxoy775gh2t3rcba2knpnhkn5jvnho5rysyqj3vvrwum2equ22oaq7ff6ofqucfso/G-RJ01186021-v25.03.02.part2.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
