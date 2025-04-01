@@ -124,10 +124,6 @@
       "version": "4.7.0",
       "url": "https://archlinux.org/packages/extra/x86_64/libtiff/"
     },
-    "libvorbis": {
-      "version": "1.3.7",
-      "url": "https://archlinux.org/packages/extra/x86_64/libvorbis/"
-    },
     "libwebp": {
       "version": "1.5.0",
       "url": "https://archlinux.org/packages/extra/x86_64/libwebp/"
@@ -166,10 +162,10 @@
       "version": "6.1.0.2"
     },
     "xtls": {
-      "version": "25.3.6"
+      "version": "25.3.31"
     },
     "yt-dlp": {
-      "version": "2025.03.27"
+      "version": "2025.03.31"
     },
     "zlib": {
       "version": "1.3.1",
