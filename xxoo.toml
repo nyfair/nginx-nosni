@@ -1,7 +1,7 @@
 [__config__]
 oldver = 'old.json'
 newver = 'new.json'
-max_concurrency = 4
+max_concurrency = 1
 tries = 3
 
 # tool
