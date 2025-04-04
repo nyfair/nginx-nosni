@@ -29,7 +29,7 @@
       "version": "1.11.3.20250401"
     },
     "Mingw-w64": {
-      "version": "20250319_15.0.1_x64-ucrt_6d39d5abce99fbaed6433ed82bd07ab0f3115e66"
+      "version": "20250403_15.0.1_x64-ucrt_5b66a01b3b085996b8a50400bb38034fee1aa730"
     },
     "NeeView": {
       "version": "42.5",
@@ -39,7 +39,7 @@
       "version": "3.12.9"
     },
     "Rust": {
-      "version": "1.85.1"
+      "version": "1.86.0"
     },
     "VapourSynth": {
       "version": "R70",
