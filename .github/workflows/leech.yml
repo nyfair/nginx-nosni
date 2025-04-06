@@ -11,13 +11,11 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv10.mexa.sh:183/d/ljsodd3vxoy775gh63yf4tkekhdiilqh6q3p4jq3fk2ym7htioodwggvb3owgcopm6dkqb4y/DMJ-aman_0828no-JP.part1.rar
-        - https://srv734.mexa.sh:183/d/zfsotd3vxoy775gh63ybwc2ccecsjyna7djcza4avzncfzqiudqnuexcq5abwys63f4b3vw4/DMJ-aman_0828no-JP.part2.rar
-        - https://srv8.mexa.sh:183/d/55scftlwxoy775gh7tyfcgcqbqzcyexbckvcx4khfjbje3igrcl3u4ul5ntwb6xdnxgna4aq/DMJ-aman_0619no-JP.part2.rar
-        - https://srv997.mexa.sh:183/d/2vsogtlqxoy775gh5hybcbsgb55ba4kerxhzzj6gw4qdbfszf2uyqbw5fnt7d4m6hhgwvbg7/DMJ-aman_0671no-JP.part1.rar
-        - https://srv837.mexa.sh:183/d/yfso2tlqxoy775gh5hyaidsikruh7ve4nfcwon2bou2h5jgskvkbmy3ewywc33kjmkqzqyiw/DMJ-aman_0671no-JP.part2.rar
-        - https://srv17.mexa.sh:183/d/vzsb7kdvxoy775gh6tyaocc4aqoute7mjyothkqmv7pz2fawxib5qrs3clcaltqqhx36wd2c/DMJ-aman_0525no-JP.part1.rar
-        - https://srv103.mexa.sh:183/d/hfsgjkdvxoy775gh6tyawe24kp2egfx5tmwaatmblqwx23ohirllv73uquarl7akjxdpflsc/DMJ-aman_0525no-JP.part2.rar
+        - https://srv9.mexa.sh:183/d/2bsimalwxoy775gh6dyais2mbphn2ggcx6jsmtiys7uqm7u3k3bvdokq7j7cw4nlfepxhn5r/DMJ-aman_0570no-JP.part1.rar
+        - https://srv2.mexa.sh:183/d/2jsiaalwxoy775gh6dyb6f2qcchms4njococ5brnwstvrf6trfstgpfaa5lskxgbzdsefqez/DMJ-aman_0570no-JP.part2.rar
+        - https://srv8.mexa.sh:183/d/55slve3zxoy775ghnl3rsekacs3ctz6i27s6skvfelnbo637y7wdfs6bpgd6pjhnrrlueyw5/DMJ-aman_0595no-JP.part1.rar
+        - https://srv2.mexa.sh:183/d/2jsk7e3zxoy775ghnl3qyd24acbn2uj7lap3oea6f7uq2uiamwpb6jz4tvovnwlkdf67ogbu/DMJ-aman_0595no-JP.part2.rar
+        - https://srv2.mexa.sh:183/d/2jscltlwxoy775gh7tya4t2yb6ftm4gafejs3zbb6r6lws4upoqjuuh3e5tlo6arlnz6v7w7/DMJ-aman_0619no-JP.part1.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
