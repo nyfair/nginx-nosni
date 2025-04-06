@@ -11,13 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/byoWHAyA#N4Q9t99CAzTO4sOtEfQF6DECphWPGjBC9frrcOjsNzI
-        - https://mega.nz/file/SnoXibIb#_LNbAJ3N00eq9zHh-qSaNuU1p8XmKSs5YEcBp-hTAIU
-        - https://mega.nz/file/xusgjCjS#zoBy1UyX6rwHaq4rp4N-3dgsf8hpyeJMbgQ5sVTGkSU
-        - https://mega.nz/file/s3V2BABS#ZDVii7X22Zmzpg6VTnw0zwu1ZUZDHLVjg5tJ7z8IKXE
-        - https://mega.nz/file/gedCXL7Y#KuGDP10pBr_lwHz3a_IBsWJ3M3WOXA5OpNthXB90dEQ
-        - https://mega.nz/file/9eVAFQgT#67fnIfkgArGhktkSKlex18jLD8dRcUPcxZYi9fwJpf4
-        - https://mega.nz/file/NG8lkbgR#Od7QfUKANGhyD1MJQX3zlPIizac4xeILRBuxTmJUx-Q
+        - https://mega.nz/file/1utQ1ITT#jq29TkHuTAemol58xeVisHpH_RJv2lT6Y4xUungZYWI
+        - https://mega.nz/file/wzVE2azI#0xFQ3CZzO2ouXwAsir0AHLxWWNFAYZIVcViULtlj2jc
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
