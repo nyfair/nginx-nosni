@@ -36,7 +36,7 @@
       "url": "https://bitbucket.org/neelabo/neeview/commits/tag/42.5"
     },
     "Python": {
-      "version": "3.12.9"
+      "version": "3.12.10"
     },
     "Rust": {
       "version": "1.86.0"
@@ -142,7 +142,7 @@
       "version": "1.27.4"
     },
     "openssl": {
-      "version": "3.4.1"
+      "version": "3.5.0"
     },
     "opus": {
       "version": "1.5.2",
