@@ -11,22 +11,18 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv9.mexa.sh:183/d/2bsimalwxoy775gh6dyais2mbphn2ggcx6jsmtiys7uqm7u3k3bvdokq7j7cw4nlfepxhn5r/DMJ-aman_0570no-JP.part1.rar
-        - https://srv2.mexa.sh:183/d/2jsiaalwxoy775gh6dyb6f2qcchms4njococ5brnwstvrf6trfstgpfaa5lskxgbzdsefqez/DMJ-aman_0570no-JP.part2.rar
-        - https://srv8.mexa.sh:183/d/55slve3zxoy775ghnl3rsekacs3ctz6i27s6skvfelnbo637y7wdfs6bpgd6pjhnrrlueyw5/DMJ-aman_0595no-JP.part1.rar
-        - https://srv2.mexa.sh:183/d/2jsk7e3zxoy775ghnl3qyd24acbn2uj7lap3oea6f7uq2uiamwpb6jz4tvovnwlkdf67ogbu/DMJ-aman_0595no-JP.part2.rar
-        - https://srv2.mexa.sh:183/d/2jscltlwxoy775gh7tya4t2yb6ftm4gafejs3zbb6r6lws4upoqjuuh3e5tlo6arlnz6v7w7/DMJ-aman_0619no-JP.part1.rar
+        - https://srv28.mexa.sh:183/d/urscdhdpxoy775ghel3bgtcgcyzlir3lswhmlm55sk33ekmqfwkvwpa4tgh7wcdcaqlmdldv/G-RJ01356701-v25.03.30.zip
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
       id: cache
       with:
-        path: megatools-1.11.3.20250203-linux-x86_64
-        key: megatools-1.11.3.20250203-linux-x86_64
+        path: megatools-1.11.4.20250411-linux-x86_64
+        key: megatools-1.11.4.20250411-linux-x86_64
     - name: Mega
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
-        curl -OL https://xff.cz/megatools/builds/builds/megatools-1.11.3.20250203-linux-x86_64.tar.gz
+        curl -OL https://xff.cz/megatools/builds/builds/megatools-1.11.4.20250411-linux-x86_64.tar.gz
         tar xvf *.gz
     - name: Leech
       run: |
