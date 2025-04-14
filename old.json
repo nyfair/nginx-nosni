@@ -13,9 +13,6 @@
     "Everything": {
       "version": "1.5.0.1391a"
     },
-    "GCC": {
-      "version": "14.2"
-    },
     "HxD": {
       "version": "2.5.0.0"
     },
@@ -163,7 +160,7 @@
       "version": "1.4.309.0"
     },
     "xplorer²": {
-      "version": "6.1.0.2"
+      "version": "6.1.0.3"
     },
     "xtls": {
       "version": "25.3.31"
