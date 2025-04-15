@@ -13,6 +13,9 @@
     "Everything": {
       "version": "1.5.0.1391a"
     },
+    "GCC": {
+      "version": "14.2"
+    },
     "HxD": {
       "version": "2.5.0.0"
     },
