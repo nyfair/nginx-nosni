@@ -23,7 +23,7 @@
       "version": "2.30.0"
     },
     "Iceweasel": {
-      "version": "137.0"
+      "version": "137.0.2"
     },
     "Megatools": {
       "version": "1.11.4.20250411"
@@ -42,9 +42,9 @@
       "version": "1.86.0"
     },
     "VapourSynth": {
-      "version": "R70",
-      "gitref": "refs/tags/R70",
-      "url": "https://github.com/vapoursynth/vapoursynth/releases/tag/R70"
+      "version": "R71",
+      "gitref": "refs/tags/R71",
+      "url": "https://github.com/vapoursynth/vapoursynth/releases/tag/R71"
     },
     "WinRAR": {
       "version": "7.11"
