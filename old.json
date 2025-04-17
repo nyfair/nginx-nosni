@@ -74,7 +74,7 @@
       "version": "1.0.16"
     },
     "harfbuzz": {
-      "version": "11.0.1"
+      "version": "11.1.0"
     },
     "lame": {
       "version": "3.100",
@@ -139,7 +139,7 @@
       "version": "0.40.0"
     },
     "nginx": {
-      "version": "1.27.4"
+      "version": "1.27.5"
     },
     "openssl": {
       "version": "3.5.0"
