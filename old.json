@@ -139,7 +139,7 @@
       "version": "0.40.0"
     },
     "nginx": {
-      "version": "1.27.5"
+      "version": "1.28.0"
     },
     "openssl": {
       "version": "3.5.0"
@@ -149,7 +149,7 @@
       "url": "https://archlinux.org/packages/extra/x86_64/opus/"
     },
     "shaderc": {
-      "version": "2025.1"
+      "version": "2025.2"
     },
     "spirv-cross": {
       "version": "1.3.261.1"
