@@ -11,10 +11,9 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv18.mexa.sh:183/d/cnskqjw2xoy775ghjpwaye2cb4eeirm4mguf57gweotsd4rc5wbjxv5piwyyfppoxxhh2hns/G-HS2109081-v21.09.21.rar
-        - https://srv8.mexa.sh:183/d/55sgwdtkxoy775ghad3akds3bqgw5wwhnw2s3lx3ww44avnd3xd3fhq67rhpblab3kq73s3n/G-RJ01336419-v25.04.25.part1.rar
-        - https://srv55.mexa.sh:183/d/efsfodtkxoy775ghad3fqfq2kdepxwa3rzqokvjpzthyhu3omrbdukxryib2frxswx6xepuf/G-RJ01336419-v25.04.25.part2.rar
-        - https://srv941.mexa.sh:183/d/3bsfidtkxoy775ghad3bug26cevqeyv2askhbdfbtg33i365blgvxjvaueqjcbaxheeahb7t/G-RJ01336419-v25.04.25.part3.rar
+        - https://srv683.mexa.sh:183/d/zzsflqdkxoy775ghb33bsgklb4ijr6hpeyx4mdieozs6hrczg4ht3dunc4wgti5kt35r5lp3/DLJ-01181208_v25.01.22-JP.part1.rar
+        - https://srv36.mexa.sh:183/d/djskpqdkxoy775ghb33fctkzkhcnmmv5rxea7wlyttxotg24dfgqevzcxnh6gtb3cpkrmdp3/DLJ-01181208_v25.01.22-JP.part2.rar
+        - https://srv131.mexa.sh:183/d/5vskdqdkxoy775ghb33fcr2bklol4kmu4vjtyxxqla77c56feu52rx54wjawpndj5u7yszqe/DLJ-01181208_v25.01.22-JP.part3.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
