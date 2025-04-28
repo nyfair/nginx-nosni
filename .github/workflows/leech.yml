@@ -11,13 +11,14 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv13.mexa.sh:183/d/kvsfgh7hxoy775ghf7wrsccibjheojkzkfzypab7sb2zfnnepk6f3r72vwajxfirr3iqqbje/G-HS2112102-v2.1.part2.rar
-        - https://srv997.mexa.sh:183/d/2vsctjgexoy775ghvpwaetkdb5kmvmaccizwjfrka6zvtcc5p6boxzgpbrinjog7aubnbmjp/G-RJ270634-v1.17.rar
-        - https://srv981.mexa.sh:183/d/2rskcavxxoy775ghxhzq6s2tlagoeq35bgoni3cvj3s4y7rpit345z76umbsqybupnjuwwsj/DLJ-259126_v23.01.15-JP.rar
-        - https://srv734.mexa.sh:183/d/zfsihidvxoy775gh6xyb4si5a6dw2z4uhphvcqtwyf4mtu3e2ei5g65zw6ecapehaczye3cm/G-RJ01038491-v1.23.zip
-        - https://srv846.mexa.sh:183/d/y5souxoexoy775ghu3wakscmkroztsa7rd7pb7z6idu5p4k7vaqhr4sxg6owdxzyjxvfpn3b/G-RJ323898-v3.03.part1.rar
-        - https://srv642.mexa.sh:183/d/dzsbrjgexoy775ghvpwfcfcabevuzqprmaoizv67wmt3go53vxnu4qcfzagysz3tcmyc25jd/G-RJ242040-v1.17.rar
-        - https://srv116.mexa.sh:183/d/grslkh7hxoy775ghf7wvsfsnb7db6xjd6p3tg53s3nrjsmhamkv3jdhjfym2dmgnh2kynzcj/G-HS2112102-v2.1.part1.rar
+        - https://srv22.mexa.sh:183/d/dbsoggdexoy775ghjh3rygcrknzivdruragvqclbtpsw6hl6ivjrauunfeegaqjsatfp4xai/G-RJ01173120-v1.2.part3.rar
+        - https://srv15.mexa.sh:183/d/cjspqgdexoy775ghjh3qiea2bdtlcosqnobvwbv4tvtmdm3dzhf4swaog5obxzhid63kwxmq/G-RJ01173120-v1.2.part2.rar
+        - https://srv19.mexa.sh:183/d/4fspcgdexoy775ghjh3vagkmb7ibp4jlvvhrj7dstvnqv2peu6a7fb23bt7jtd4yomdtja4n/G-RJ01173120-v1.2.part1.rar
+        - https://srv581.mexa.sh:183/d/6rsfh3tpxoy775ghep3fug2aa7272f3zh4sd7v533xwgfk4v4yzui2b6buizjcgs3dsrr55h/DLJ-01302746_v25.04.05-ML.part2.rar
+        - https://srv140.mexa.sh:183/d/gjsff3tpxoy775ghep3bgestda6odx77q2giohfsayao64nhc4sgl2rrsbthueanafoqcrl6/DLJ-01302746_v25.04.05-ML.part3.rar
+        - https://srv43.mexa.sh:183/d/v5snoltixoy775ghfh3bghcecn65n6cuvulrgmspgv3xfffofql4zk45dep4yqr6atpdslw7/DLJ-01162898_v25.04.09-JP.part1.rar
+        - https://srv18.mexa.sh:183/d/cnsdsl3ixoy775ghfh3aorsob4maljgcty6arnnjscfnl2arcilfshm2g6ah6g36an6cwtvm/DLJ-01162898_v25.04.09-JP.part3.rar
+        - https://srv8.mexa.sh:183/d/55sdml3ixoy775ghfh3fagi3byb3vn2z42m5nojrwwbumv6dgvr3kelht4rk4td4ee42557g/DLJ-01162898_v25.04.09-JP.part2.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
