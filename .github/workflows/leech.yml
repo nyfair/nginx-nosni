@@ -11,14 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv17.mexa.sh:183/d/vzsa5oloxoy775ghhx3f2gkekzk7s3xlevojbhmcu3xq3wjp2fk4ejbtdctqy5tragpwt2vs/G-RJ01325945-v25.03.27.part1.rar
-        - https://srv29.mexa.sh:183/d/evsazoloxoy775ghhx3awsq6apmnydgs443vnjrgmbu6qtveapwg5ncvvpqmdgixr7qp4tth/G-RJ01325945-v25.03.27.part2.rar
-        - https://srv22.mexa.sh:183/d/dbsavoloxoy775ghhx3bgdk2bp57mz2bp2f5cp36vyjctvb67epogautv7e27awfrymdhbxw/G-RJ01325945-v25.03.27.part3.rar
-        - https://srv15.mexa.sh:183/d/cjsaroloxoy775ghhx3aoearc7nz6o6qsagbpkx6ph3smoehkh6daex26n243pf42v4nqclw/G-RJ01325945-v25.03.27.part4.rar
-        - https://srv539.mexa.sh:183/d/vnsgz3tpxoy775ghep3fugklaldg4mvucqo6bh53blfhifym4a35z7n34duhqvdvarn3pi4t/DLJ-01302746_v25.04.05-ML.part1.rar
-        - https://srv3.mexa.sh:183/d/ijsdhsdpxoy775ghet3aggklcfo3oreaquqhn7y6oo6iaiz53jzhdf2p3ggydqhr6gjzvpms/DLJ-01219535_v25.03.31-JP.part1.rar
-        - https://srv164.mexa.sh:183/d/brsc3sdpxoy775ghet3bgf2qcoxegtgcx4wvhrxgyzmpld55mlrelcsjzwsipxe7ytbzxw5b/DLJ-01219535_v25.03.31-JP.part2.rar
-        - https://srv683.mexa.sh:183/d/zzsbhsdpxoy775ghet3a2esllgtq6nklpiftbp5gqe2vi4ke3omqhemujgtvpi4mvw3ppxw6/DLJ-01219535_v25.03.31-JP.part3.rar
+        - https://srv389.mexa.sh:183/d/7bsbvsdpxoy775ghet3bst2pbr535zwgopanxzon5gojr5xqxo7skatq7oninozuhcjt7i4o/DLJ-01219535_v25.03.31-JP.part4.rar  
+        - https://srv721.mexa.sh:183/d/zbsahsdpxoy775ghet3butkqkminpfniboptqpxdkfakiv5wqywbvlscrdeprcdltysqcvcu/DLJ-01219535_v25.03.31-JP.part5.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
