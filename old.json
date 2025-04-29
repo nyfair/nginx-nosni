@@ -23,7 +23,7 @@
       "version": "2.30.1"
     },
     "Iceweasel": {
-      "version": "137.0.2"
+      "version": "138.0"
     },
     "Megatools": {
       "version": "1.11.4.20250411"
@@ -74,7 +74,7 @@
       "version": "1.0.16"
     },
     "harfbuzz": {
-      "version": "11.1.0"
+      "version": "11.2.0"
     },
     "lame": {
       "version": "3.100",
