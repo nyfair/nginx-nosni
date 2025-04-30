@@ -11,7 +11,11 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv389.mexa.sh:183/d/7bspeqlzxoy775ghmp3vabaydhe6snxm7m67z2ti77z5jx2nu52gfsbkrfens3cjjqlgpdcq/DLJ-01248379_v24.12.06-JP.rar
+        - https://srv61.mexa.sh:183/d/vrsg5zl3xoy775ghih3rqtq6lhcda3hhjr2xyi7ox6t6gqobwf7fzwvg3isthqcwlryv7hfp/OD2501121.part3.rar
+        - https://srv30.mexa.sh:183/d/dfsfvzl3xoy775ghih3vygy2bzudnuikem35kkeipoz7ac73snemlhb4ywktii46xw4dubi2/OD2501121.part2.rar
+        - https://srv24.mexa.sh:183/d/fbsmgothxoy775ghsd3qebslktivr7lgs2saj672nuenslwz5r3tnpvqote5opb7jwqkhu5j/G-RJ01336589.zip
+        - https://srv131.mexa.sh:183/d/5vsfec3qxoy775gh2xyawsshaafr7tdgoaiie7lkbiujidzlipaceyushusj52qmrmfnnpa2/G-RJ01279179.zip
+        - https://srv997.mexa.sh:183/d/2vsfxzl3xoy775ghih3r6c2pbqnv2cglcl2gvjrcjcghcgsi3jyk7htgr23jaoudtmaz5heo/OD2501121.part1.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
