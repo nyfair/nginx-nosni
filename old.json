@@ -117,7 +117,7 @@
       "version": "7.349.0"
     },
     "libpng": {
-      "version": "1.6.47",
+      "version": "1.6.48",
       "url": "https://archlinux.org/packages/extra/x86_64/libpng/"
     },
     "libtiff": {
