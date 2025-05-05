@@ -11,7 +11,21 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/IVxxRLhA#Y_uQFo5GHnoo6Qv-5tob_Vqzdb6EETeLM0_oLHCiNRI
+        - https://srv12.mexa.sh:183/d/4nseq5tzxoy775ghml3r4h2acbuz3f7ihiploq6yndovc777pl4n42gfspszdensovfenl6r/vDLJ-01236167_v24.12.17-JP.rar
+        - https://srv213.mexa.sh:183/d/crspogtoxoy775ghg33acfsnbld2xljqxqvxotwhwvug3qtf7gyzqebrax7adr5t5shgevhj/DMJ-aman_0729no-JP.part2.rar
+        - https://srv709.mexa.sh:183/d/z5sb3vtlxoy775ghoh3acsctbj3t24365g55ni6wwcadaim25auhkeagc6xh4el6teecjqrp/DLJ-01086617_v25.05.03-JP-CN-EN.part5.rar
+        - https://srv1.mexa.sh:183/d/lvsbbvtlxoy775ghoh3aafkcamsqli4gv3qi6nj5r4tycx6srmoiugrn36mr4pg62fsyruen/DLJ-01086617_v25.05.03-JP-CN-EN.part3.rar
+        - https://srv68.mexa.sh:183/d/7nsb7vtlxoy775ghoh3aab2lcydnnt74rlemc34whyj5qy42hnskcblwsro4skmoer4ozw5b/DLJ-01086617_v25.05.03-JP-CN-EN.part4.rar
+        - https://srv107.mexa.sh:183/d/hjsbdvtlxoy775ghoh3aos2kkbqepiy32rbuwenrn24djzxafnbqa454lqqpp3vx6njwyxjd/DLJ-01086617_v25.05.03-JP-CN-EN.part2.rar
+        - https://srv198.mexa.sh:183/d/vjsbjvtlxoy775ghoh3a4hklblobntsvu5t2qlirxkzhtbibkuygx2k7gmhhgk5p2ahzrrxx/DLJ-01086617_v25.05.03-JP-CN-EN.part1.rar
+        - https://srv26.mexa.sh:183/d/fjsi2gtoxoy775ghg33aqscok36akxdnwmfgikigdjn3gbjopig3glwueyurea322axwcfk2/DMJ-aman_0729no-JP.part1.rar
+        - https://srv198.mexa.sh:183/d/vjscbf3gxoy775ghvd3vurqrccgoaoieqhahyerj5f6surh4t4g2h3egqialejj7n3d26wen/DMJ-aman_0866no-JP.part1.rar
+        - https://srv709.mexa.sh:183/d/z5scvf3gxoy775ghvd3rytctkrgefrct34ktrgcynvivykj3ghn5jj35iz3dvibqldf3o327/DMJ-aman_0866no-JP.part2.rar
+        - https://srv68.mexa.sh:183/d/7nsdyqtkxoy775ghat3a4h2nkqgxkci5x5azjseoclvyw7jo5ypz4x3urjxa4r4m5buqsgmb/DMJ-aman_0568no-JP.rar
+        - https://srv25.mexa.sh:183/d/2zskk2lgxoy775ghv73qct2lat4medhmy43gc2pu3k3s5mh2kvsfdlynwonz7rfayqvgeuhe/DMJ-aman_0471no-JP.part1.rar
+        - https://srv13.mexa.sh:183/d/kvsk22lgxoy775ghv73vyf2dc5ou2t6qewaoys5nde34sckhqxg2feo6y3ybksf33pc43v7d/DMJ-aman_0471no-JP.part2.rar
+        - https://srv581.mexa.sh:183/d/6rsios3ixoy775ghf33bqcy4ay3hg2feijyy475tzfhfn75odz55l44xikmghtg7putikyl4/DMJ-aman_0705no-JP.part2.rar
+        - https://srv5.mexa.sh:183/d/lrsfe4lcxoy775gh7t3qafy6bkomjwxie64umhyxqmx27empw5form5mdgrci2j7fdwswr6b/DMJ-aman_0627no-JP.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
