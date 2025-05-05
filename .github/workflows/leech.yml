@@ -11,7 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv913.mexa.sh:183/d/3vslo4vjxoy775gh27zf6ekgc6dfjwusluqcgdw5wn3uhryrvajz3gcmdiqhzi3d3bg55ieg/ESR-6854.rar
+        - https://mega.nz/file/IVxxRLhA#Y_uQFo5GHnoo6Qv-5tob_Vqzdb6EETeLM0_oLHCiNRI
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
