@@ -20,7 +20,7 @@
       "version": "2.5.0.0"
     },
     "Iceraven": {
-      "version": "2.30.1"
+      "version": "2.31.0"
     },
     "Iceweasel": {
       "version": "138.0"
@@ -150,9 +150,6 @@
     },
     "shaderc": {
       "version": "2025.2"
-    },
-    "spirv-cross": {
-      "version": "1.3.261.1"
     },
     "uEmuera": {
       "version": "20230622.160922",
