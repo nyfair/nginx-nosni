@@ -208,7 +208,7 @@ regex = 'VulkanSDK-([\d\.]+)-Installer'
 [spirv-cross]
 source = 'regex'
 url = 'https://github.com/KhronosGroup/SPIRV-Cross/tags'
-regex = 'releases/tag/sdk-([\d\.]+)"'
+regex = 'releases/tag/vulkan-sdk-([\d\.]+)"'
 
 [shaderc]
 source = 'regex'
