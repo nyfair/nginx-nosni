@@ -151,6 +151,9 @@
     "shaderc": {
       "version": "2025.2"
     },
+    "spirv-cross": {
+      "version": "1.4.313.0"
+    },
     "uEmuera": {
       "version": "20230622.160922",
       "revision": "cb66a45fd44d910b15ebd288b96b9de3853d3fdf",
