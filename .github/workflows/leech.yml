@@ -11,9 +11,12 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv11.mexa.sh:183/d/lnsi2j3yxoy775ghpp3q2r2nk6klwtnzx34iq6twknqwq3wnwdbalh72zumwn4nf4oo3uoxa/DLJ-01177792_v24.10.07-CHS.part2.rar
-        - https://srv721.mexa.sh:183/d/zbsn65mixoy775ghihyaeb2dboyf5bmc5nccc3a2qor3vywidxbkioigsa6c5wecmldyae4e/DLJ-01010738_v24.08.17-JP-CHS-EN.rar
-        - https://srv1.mexa.sh:183/d/lvsi4j3yxoy775ghpp3qiekna7b7xdhm74ultjg4cyao5f6gjz4uamkbbqjtyeuvabwnisom/DLJ-01177792_v24.10.07-CHS.part1.rar
+        - https://srv14.mexa.sh:183/d/kzsg5bdrxoy775ghylybwtcybimd6wvz3ld7opebphmujd553l3jkohdvawbehjgeszywfne/G-RJ01088175-v1.06.part6.rar
+        - https://srv2.mexa.sh:183/d/2jsfpbdrxoy775ghylyawga6cjfict54nf2puqjm7rbfnboprnfympkqopjjyhj36vfd44l2/G-RJ01088175-v1.06.part2.rar
+        - https://srv495.mexa.sh:183/d/vfsgfbdrxoy775ghylyfyekparptsrqochipwahjvcelybmz4aihbv4e2b3u5owfdihoyire/G-RJ01088175-v1.06.part3.rar
+        - https://srv642.mexa.sh:183/d/dzsfnbdrxoy775ghylyacdy5cboffmu7iyur232khz7hvl7ktl2nqce5nwhnmufmo6ir2ufv/G-RJ01088175-v1.06.part4.rar
+        - https://srv213.mexa.sh:183/d/crsfdbdrxoy775ghylybsgqzdfmnp66ct5dyecek6gpc6pifixvbu2tbh6jf45q7uuzqhxio/G-RJ01088175-v1.06.part5.rar
+        - https://srv14.mexa.sh:183/d/kzsgpbdrxoy775ghylyaktsmbx3moaezvq57jseiv4i5z2dzbbdui6pl6ygg43oz3arq2wia/G-RJ01088175-v1.06.part1.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
