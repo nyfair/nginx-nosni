@@ -11,12 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv14.mexa.sh:183/d/kzsg5bdrxoy775ghylybwtcybimd6wvz3ld7opebphmujd553l3jkohdvawbehjgeszywfne/G-RJ01088175-v1.06.part6.rar
-        - https://srv2.mexa.sh:183/d/2jsfpbdrxoy775ghylyawga6cjfict54nf2puqjm7rbfnboprnfympkqopjjyhj36vfd44l2/G-RJ01088175-v1.06.part2.rar
-        - https://srv495.mexa.sh:183/d/vfsgfbdrxoy775ghylyfyekparptsrqochipwahjvcelybmz4aihbv4e2b3u5owfdihoyire/G-RJ01088175-v1.06.part3.rar
-        - https://srv642.mexa.sh:183/d/dzsfnbdrxoy775ghylyacdy5cboffmu7iyur232khz7hvl7ktl2nqce5nwhnmufmo6ir2ufv/G-RJ01088175-v1.06.part4.rar
-        - https://srv213.mexa.sh:183/d/crsfdbdrxoy775ghylybsgqzdfmnp66ct5dyecek6gpc6pifixvbu2tbh6jf45q7uuzqhxio/G-RJ01088175-v1.06.part5.rar
-        - https://srv14.mexa.sh:183/d/kzsgpbdrxoy775ghylyaktsmbx3moaezvq57jseiv4i5z2dzbbdui6pl6ygg43oz3arq2wia/G-RJ01088175-v1.06.part1.rar
+        - https://drive.google.com/file/d/1xSmTD4JZqgD1dYTrhkxJjhr_TFVtLpV-
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
