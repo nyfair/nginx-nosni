@@ -11,7 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://drive.google.com/file/d/1xSmTD4JZqgD1dYTrhkxJjhr_TFVtLpV-/view
+        - https://drive.google.com/uc?id=1xSmTD4JZqgD1dYTrhkxJjhr_TFVtLpV-
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
