@@ -11,7 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://pixeldrain.com/api/file/EHXWeXBY?download
+        - https://srv241.mexa.sh:183/d/7jsm3duoxoy775ghklybys2ibs65wvahwcwtdmnt5lttryl6s26b74ru5cmhutznmvvjho6u/DLJ-263212_v19.11.23-JP.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
