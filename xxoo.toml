@@ -34,18 +34,14 @@ url = 'https://mh-nexus.de/en/hxd/changelog.php'
 regex = 'id="v_([\d\.]+)"'
 
 [NeeView]
-source = 'bitbucket'
-bitbucket = 'neelabo/neeview'
-use_sorted_tags = true
+source = 'regex'
+url = 'https://github.com/neelabo/NeeView/tags'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [xtls]
 source = 'regex'
 url = 'https://github.com/XTLS/Xray-core/tags'
-regex = 'releases/tag/v([\d\.]+)"'
-
-[uEmuera]
-source = 'github'
-github = 'xerysherry/uEmuera'
+regex = 'releases/tag/([\d\.]+)"'
 
 [CheatEngine]
 source = 'regex'
