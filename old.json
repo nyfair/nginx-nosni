@@ -16,9 +16,6 @@
     "GCC": {
       "version": "15.1"
     },
-    "HxD": {
-      "version": "2.5.0.0"
-    },
     "Iceraven": {
       "version": "2.31.0"
     },
@@ -32,8 +29,7 @@
       "version": "20250516_15.1.1_x64-ucrt_524fed2c76ca858e081e33165408360e1baf0da1"
     },
     "NeeView": {
-      "version": "42.5",
-      "url": "https://bitbucket.org/neelabo/neeview/commits/tag/42.5"
+      "version": "43.3"
     },
     "Python": {
       "version": "3.13.3"
@@ -153,11 +149,6 @@
     },
     "spirv-cross": {
       "version": "1.4.313.0"
-    },
-    "uEmuera": {
-      "version": "20230622.160922",
-      "revision": "cb66a45fd44d910b15ebd288b96b9de3853d3fdf",
-      "url": "https://github.com/xerysherry/uEmuera/commit/cb66a45fd44d910b15ebd288b96b9de3853d3fdf"
     },
     "vulkan": {
       "version": "1.4.309.0"
