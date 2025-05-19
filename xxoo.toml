@@ -28,11 +28,6 @@ source = 'regex'
 url = 'https://www.voidtools.com/forum/viewtopic.php?f=12&t=9787'
 regex = 'Everything-([\w\.]+).x64.zip'
 
-[HxD]
-source = 'regex'
-url = 'https://mh-nexus.de/en/hxd/changelog.php'
-regex = 'id="v_([\d\.]+)"'
-
 [NeeView]
 source = 'regex'
 url = 'https://github.com/neelabo/NeeView/tags'
