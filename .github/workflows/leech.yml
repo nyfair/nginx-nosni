@@ -11,9 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv17.mexa.sh:183/d/vzsblbkvxoy775ghkp3bstkac337mlaa7lpg4wbplu6v4nbp5t23elowaranrcs3mllqlpuq/DLJ-01214867_v25.05.17-JP.part2.rar
-        - https://srv3.mexa.sh:183/d/ijsbhbkvxoy775ghkp3auf25bfgqmz73zotozj3p2hvmqbau4vdk6dnopsoofjww2fvtkhgh/DLJ-01214867_v25.05.17-JP.part3.rar
-        - https://srv2.mexa.sh:183/d/2jsbnbkvxoy775ghkp3aqgcbc26hyn76ullh3lro4v7vly2nabudtthjp7umzrefd246nthq/DLJ-01214867_v25.05.17-JP.part1.rar
+        - https://pixeldrain.com/api/file/J6TJcKjg?download
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
