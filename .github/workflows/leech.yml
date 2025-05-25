@@ -11,7 +11,10 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://pixeldrain.com/api/file/J6TJcKjg?download
+        - https://srv15.mexa.sh:183/d/cjsccselxoy775ghvlyaysc7bvurv4fl6k3zbviqv2ouitxayvonjhvfcwhkaio622gu6mim/vDLJ-01064403_v24.04.01-JP-CHS-EN.part1.rar
+        - https://srv721.mexa.sh:183/d/zbscmvm4xoy775ghlhyquh2raldxyedmtqf3dwcfr4y5dhealwgpubv3pzv2crxde2mmhq3j/DLJ-245463_v24.02.16-JP-CHS-EN.rar
+        - https://srv642.mexa.sh:183/d/dzscoselxoy775ghvlyfyfktbtq3tkvykjt5hbqsxqwktt6outo4cp6pneyxwpkcqbtkszjj/DLJ-313605_v24.02.16-JP-CHS-EN.rar
+        - https://srv403.mexa.sh:183/d/vvsdsvm4xoy775ghlhyrqbstcs7up6ty4ykigkdurwwevg5axquaga3g5lbukgn7lc7cxwn4/DLJ-201655_v24.02.12-JP-CHS-EN.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
