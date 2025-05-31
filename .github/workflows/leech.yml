@@ -11,7 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://drive.google.com/uc?id=1IRl8SrNVIZQ8c8-gQlIIhrzHqWLfEPAX
+        - https://mega.nz/file/1O0gRIYI#eEoY0DYco5cXBA6Pvs4MymbPHf5GZGgggdgZ9vKhrdY
+        - https://pixeldrain.com/api/file/DvwGAuqN?download
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
