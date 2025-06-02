@@ -11,45 +11,11 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/Pd8HwJwT#Xqrq47C6PTthxRQvw9sNOYjavwUnugoJxPl8PaZDtVA
-        - https://mega.nz/file/nZ1QVS6C#MUQd09zNeIH08rxlHsOoCGNV0DcHjxTNAp8ZMwFBTlw
-        - https://mega.nz/file/4mN1WSTB#T7VZ-U5DUnTmACZ6WYTdREAWwC8j3Zdg2sumCLxlwbQ
-        - https://mega.nz/file/Fq8CDLpT#gtjf2MTquhA3dNmDTdznzVrY-4PtXDDX_I-Vdn_lVGc
-        - https://mega.nz/file/o7d32CrZ#m4Sf4ge7tYybVAdaZ24dlxVvVMyDi-1Hc48bfRguMgg
-        - https://mega.nz/file/Fm9CnCLC#I2oVoQM-bDeo5nBmRkSYjLZE1lQso0nkYQ3jTMFq4I4
-        - https://mega.nz/file/5iNnHB7K#LqUozPT2Y8ZUD35yzxvFLNYam3srobbW16LFbmmnLIQ
-        - https://mega.nz/file/Eu0wBYTC#82nwuaj289ComYTqYrZe-ZOoZrKzajyWcvItbsktyGk
-        - https://mega.nz/file/srNQSIBB#nCJdGW6BiM_SIZcvC4u9SZnFVCdQnMqngcZL7tDow2A
-        - https://mega.nz/file/V7tDCApZ#VIz4U7QLr3Y1sHQN7V39hFllLAb72xTSTBLOAmsRxJw
-        - https://mega.nz/file/8mlEHRTa#QdA6_MDqqNor-9lqAI-pQ3_MUI1sGHlBMUiwkQx_3rs
-        - https://mega.nz/file/gytCXATY#dkge1kabjx4_Jqh9SQ7HJnma-THMPFLD6r9z5aRHlyQ
-        - https://mega.nz/file/QqtXAbJR#eJQcXOd8FprdTtB8u1PZzMrpk_vrQ2L1IwWiyhIEzR8
-        - https://mega.nz/file/4rMChSxB#YIWvZ1hBGo6j76jkZPEdLhQGakfYbBsGtHksjUUV-Ic
-        - https://mega.nz/file/dyF2Eb5B#hnePz_cDvM8-hUOWlAYDRqj_1fndTJxCDfqtt7YhYtQ
-        - https://mega.nz/file/s79Q3bob#cIgbmX-LH5Py9zClhcyztuHUu0p9eSmdplTkxWg5vJ4
-        - https://mega.nz/file/cud31aZJ#KZmmj94MSWoSpts22-WFOzI8CYHaUSzqhAw_U9evjxM
-        - https://mega.nz/file/Eztx3TTK#rpLP1r_J9GQALBLJcVRh7_heR5c3tgvPZp3qDNM7980
-        - https://mega.nz/file/wjMQHCYL#7hsIaRuj3653d4BnCzY7b4WnrC70Bwz9JAEo80EZ_pU
-        - https://mega.nz/file/E2Fk2BzJ#dK1cW_VZEWU38ocd2LX9m9MjkkwxCAOgdZytKWm9U50
-        - https://mega.nz/file/ku0HFZBJ#ThW48S1GPOu02vLXvocFjdjkq6G1tQul_R_938sVd_A
-        - https://mega.nz/file/FrsUxBoC#Dg4EVxsBWtcnkSMsJnpqgKccgai_JfT_EuAbrtfqe2Q
-        - https://mega.nz/file/ouEmWTKA#NloxhtzGu82F2yi0jGzneQ27v3LsDcxNwuIgwokTBDw
-        - https://mega.nz/file/9nUlCaxZ#ya1CtD08bb4jzYcGTxTb3cMA900LQjxbuEyRrEzq1XA
-        - https://mega.nz/file/9r13FIyJ#v4t7Fk60Z43ka70aTJNYUMYez6c0NlXyORxAMbttErY
-        - https://mega.nz/file/YiE20Swb#7tgRCLkh2-KSfbatfqLOSByzGUaAHQhAGr8MilSFEv0
-        - https://mega.nz/file/ljFXHaxa#TMeTvhT1TQ_x5_lGe5p1sfvfTnVZzoARsM0XzdoL2V4
-        - https://mega.nz/file/Rr9AhY7Y#VSUmsGcKXmK24ojXfXdNTQ2tO-4QuLOiYKiPWzsMVuM
-        - https://mega.nz/file/0icWwIgI#nbrA540tf5ArWO2XegWoBtMEvxnJku6f9aidANbcq_o
-        - https://srv21.mexa.sh:183/d/gnsd5f3hxoy775ghtp3vcr2gbzo2rnfavxd3wzjeh3o5nwyfgnxmsmegt2cpwht7conlog7x/A-RJ395876.rar
-        - https://mega.nz/file/57F0wY7A#cyDdxhza2bBnBTG1HDHGaqDGTVWYYbm2fNalBf8fWmQ
-        - https://srv12.mexa.sh:183/d/4nsfbmlcxoy775gh4l3r4f2pk66e6hr33oqgq4ezqcffbe7qjxktkvjhaeya33zjgsikts7d/A-RJ402109.part2.rar
-        - https://srv403.mexa.sh:183/d/vvsehmlcxoy775gh4l3qcfcico6brbglogir7t5xx5zkmnmeum6tvjry5wsd2lkzruqdwd5c/A-RJ402109.part1.rar
-        - https://mega.nz/file/8uMlnAII#cHYTLyn6ozHBygnq-O5G6tWCKPAikj5SJAOCRIOQ2tM
-        - https://mega.nz/file/IqUH0bLJ#knbmXjlyDCJTsYjovoCQ44aNcSosjTKd_RBNmB6pIwQ
-        - https://mega.nz/file/s6ERVBbQ#CiHm44nAh17nuIgbX4S7G2tNQGhgQ-DffDtIOIxNpa4
-        - https://mega.nz/file/p7UmGbyT#DULYMLr4XxyhNw1TbL4x0KpXwnk5aXWWILI9JBGvVqc
-        - https://mega.nz/file/sikykbhb#gMk-qolflEugQnNAi5O3TxhaIgQBG0WTzTdHlFw4dOw
-        - https://mega.nz/file/R6sACJhD#vzgOC3tE0DUFN4bvZ_goMEFgi5QOpi2znBFlYcELbNM
+        - https://srv403.mexa.sh:183/d/vvsbyn3oxoy775ghgt3bwb2ba7bce3toaerada5uaz76hxuvhu4k5pm77osbcibf7h2rmj4t/DLJ-01327055-JP-CHS-EN.part5.rar
+        - https://srv43.mexa.sh:183/d/v5sb2n3oxoy775ghgt3a2ec6bwuwwkvxiahgyetw466g5j2kq7zecz7j2zcaivcakgtlta3v/DLJ-01327055-JP-CHS-EN.part4.rar
+        - https://srv427.mexa.sh:183/d/zrsbcn3oxoy775ghgt3a6g2bc2cc7fqqc5yi6isxsxb63hac762id2z5cgglbqe5tsbplzso/DLJ-01327055-JP-CHS-EN.part3.rar
+        - https://srv26.mexa.sh:183/d/fjsbgn3oxoy775ghgt3aif2ckri3lduqaw2eg6ogdqjx733oaoax3iiluld22kgm2coyg5nr/DLJ-01327055-JP-CHS-EN.part2.rar
+        - https://srv403.mexa.sh:183/d/vvscyn3oxoy775ghgt3f2tsnkt5kiiemfwmozzlewk4iaixluhiihdtny2capfhxbq5uku74/DLJ-01327055-JP-CHS-EN.part1.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
