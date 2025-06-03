@@ -38,9 +38,9 @@
       "version": "1.87.0"
     },
     "VapourSynth": {
-      "version": "R71",
-      "gitref": "refs/tags/R71",
-      "url": "https://github.com/vapoursynth/vapoursynth/releases/tag/R71"
+      "version": "R72",
+      "gitref": "refs/tags/R72",
+      "url": "https://github.com/vapoursynth/vapoursynth/releases/tag/R72"
     },
     "WinRAR": {
       "version": "7.11"
