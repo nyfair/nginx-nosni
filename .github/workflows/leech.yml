@@ -11,15 +11,10 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/broDgRID#27CDCcm9DHofvnoaSxEqMbnFcNbqjEBo6ugC7uSZ_Y4
-        - https://pixeldrain.com/api/file/VyraZeLF?download
-        - https://pixeldrain.com/api/file/csgBqv89?download
-        - https://pixeldrain.com/api/file/prJczzsX?download
-        - https://pixeldrain.com/api/file/jgh83auq?download
-        - https://pixeldrain.com/api/file/iAzfdSPh?download
-        - https://pixeldrain.com/api/file/9ZQvKPka?download
-        - https://pixeldrain.com/api/file/q7fbDjLp?download
-        - https://pixeldrain.com/api/file/wfjRtjYS?download
+        - https://pixeldrain.com/api/file/1eb4JcRh?download
+        - https://pixeldrain.com/api/file/pkthfX9X?download
+        - https://pixeldrain.com/api/file/LY5gpL2R?download
+        - https://pixeldrain.com/api/file/WbDhn8Fb?download
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
