@@ -17,6 +17,7 @@ jobs:
         token: ${{ secrets.BOT }}
     - name: Check Latest Version
       run: |
+        sudo apt update
         sudo apt install python3-pycurl python3-tornado
         pip3 install nvchecker in_place
         nvchecker -c xxoo.toml
