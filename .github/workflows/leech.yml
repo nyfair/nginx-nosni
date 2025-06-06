@@ -11,20 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://pixeldrain.com/api/file/yhksL9i8
-        - https://pixeldrain.com/api/file/pxvfXxAw
-        - https://pixeldrain.com/api/file/w851r4UU
-        - https://pixeldrain.com/api/file/xwNgzPK7
-        - https://pixeldrain.com/api/file/Aq3R6XpH
-        - https://pixeldrain.com/api/file/BT34MGZZ
-        - https://pixeldrain.com/api/file/Djv2JW7g
-        - https://pixeldrain.com/api/file/DBTD1mVK
-        - https://pixeldrain.com/api/file/4UNyZVAm
-        - https://pixeldrain.com/api/file/V4oqLvdY
-        - https://pixeldrain.com/api/file/mj7UWkqn
-        - https://pixeldrain.com/api/file/nXPS9M8f
-        - https://pixeldrain.com/api/file/CVATSRbk
-        - https://pixeldrain.com/api/file/LCioWo1c
+        - https://mega.nz/file/E20l2SRC#hI3aUCaZekfQGQ_uii7aowPcaMXBSEzP-L8jxm1g3mw
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
