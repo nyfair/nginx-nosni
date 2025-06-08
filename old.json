@@ -17,7 +17,7 @@
       "version": "15.1"
     },
     "Iceraven": {
-      "version": "2.32.0"
+      "version": "2.32.1"
     },
     "Iceweasel": {
       "version": "139.0"
@@ -81,7 +81,7 @@
       "url": "https://archlinux.org/packages/extra/x86_64/lcms2/"
     },
     "libass": {
-      "version": "0.17.3"
+      "version": "0.17.4"
     },
     "libbluray": {
       "version": "1.3.4",
@@ -157,7 +157,7 @@
       "version": "6.1.0.5"
     },
     "xtls": {
-      "version": "25.5.16"
+      "version": "25.6.7"
     },
     "yt-dlp": {
       "version": "2025.05.22"
