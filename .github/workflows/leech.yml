@@ -11,8 +11,14 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/6QtnxR7S#N2RHUpWAAnEHMtjuP7lCNrMLJmORCMSlBhXMlc5hP9g
-        - https://mega.nz/file/fUNkCBDB#tjzT_yK_nYuHTYhFHEvvIBJjHSAhj0LOsIQHnnFFjYU
+        - https://srv36.mexa.sh:183/d/djsecgcrxoy775ghux3bgdshcadmye4al5mooidvx4kyrmnydtnz4i35uooanyb4us2snxky/DLJ-01384864-JP.part6.rar
+        - https://srv111.mexa.sh:183/d/vbse2gcrxoy775ghux3actqrbzlcafb6t4h6f5p5qv2bba4yyevt4qvuonu7nbgaktodau42/DLJ-01384864-JP.part5.rar
+        - https://srv478.mexa.sh:183/d/zvsfsgcrxoy775ghux3b2dq7bkamveyfptzzaokopxpqovpr7nrjessr76gbpaarm24mx5jg/DLJ-01384864-JP.part4.rar
+        - https://srv164.mexa.sh:183/d/brsfegcrxoy775ghux3fwfscatskqsrufepujipgrirpgm3urakc5pllmeh5zptuc5iflfr4/DLJ-01384864-JP.part1.rar
+        - https://srv24.mexa.sh:183/d/fbsf6psqxoy775ghwh3bytk6lel6xzfxmji6lj3bar5gljhh7xzjyfe3qljai4t5rbhaiqtu/DLJ-01388633no-JP.part3.rar
+        - https://srv43.mexa.sh:183/d/v5sfepsqxoy775ghwh3aqds3k7yfaccavukm7yf4gmyb5e6zo3yfgagqkdbtwfir7o3lvwfm/DLJ-01388633no-JP.part2.rar
+        - https://srv11.mexa.sh:183/d/lnsfmpsqxoy775ghwh3b6ey5cxcbtav7f5gzqjfv2etwq7xnmixdn564qbegybo7twqj3spx/DLJ-01388633no-JP.part1.rar
+        - https://srv61.mexa.sh:183/d/vrsfagcrxoy775ghux3fcs2abbd7fqqatbu6hcan27vhf7hooq5edfyjxclhwjvjcmxsorth/DLJ-01384864-JP.part2.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
