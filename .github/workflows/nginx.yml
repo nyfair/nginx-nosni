@@ -8,20 +8,15 @@ on:
 
 jobs:
   build:
-    runs-on: windows-2022
+    runs-on: windows-latest
     steps:
     - name: Prepare
       run: git config --global core.autocrlf false
-    - uses: msys2/setup-msys2@v2
-      with:
-        msystem: MSYS
-        update: true
-        install: base-devel gcc zlib-devel openssl-devel
     - uses: actions/checkout@v4
     - name: Build
-      shell: msys2 {0}
       run: |
-        cd /d/a/nginx-nosni/nginx-nosni; /c/hostedtoolcache/windows/python/3.9.13/x64/python init.py; source init.sh; makepkg
+        C:\msys64\usr\bin\bash -lc 'pacman -Sy base-devel gcc zlib-devel openssl-devel --noconfirm'
+        C:\msys64\usr\bin\bash -lc 'cd /c/a/nginx-nosni/nginx-nosni; /c/hostedtoolcache/windows/python/3.9.13/x64/python init.py; source init.sh; makepkg'
     - name: Delete
       uses: mknejp/delete-release-assets@v1
       with:
