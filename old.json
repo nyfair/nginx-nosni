@@ -20,7 +20,7 @@
       "version": "2.32.1"
     },
     "Iceweasel": {
-      "version": "139.0.4"
+      "version": "140.0"
     },
     "Megatools": {
       "version": "1.11.4.20250411"
@@ -135,7 +135,7 @@
       "version": "0.40.0"
     },
     "nginx": {
-      "version": "1.28.0"
+      "version": "1.29.0"
     },
     "openssl": {
       "version": "3.5.0"
