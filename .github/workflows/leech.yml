@@ -11,7 +11,21 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/c1BRRTbb#IRBJf_ZlyjO4tJ-bj1yWKMYS_XOI3dWMuEJtjhiQ9UQ
+        - https://mega.nz/file/3A1RxB7D#sjI1M5EvofSf9J5Cg0zf5Z877QHz78DFmztnvZRXATI
+        - https://mega.nz/file/PVEmyBKR#CpqHMcSHzGkNvHpvDMHs8mXj4Nj6v9qTafmr2jCWdTg
+        - https://mega.nz/file/SMlzkSwS#U5W34AYYRr2rfOrhp5yTZrmobZncda01DUP1oiMHDA8
+        - https://mega.nz/file/LMMGBDJZ#znvrUWESvPhvvenGbVt7Z6iAFiRJ-Wp8Jyz2YcJS-AU
+        - https://mega.nz/file/3R9EDQ5K#kfHYon3jjOg2JPHw9cdKFUqI_CNSIXetkT84fBM0OPY
+        - https://srv55.mexa.sh:183/d/efsexd4rxoy775ghmxyrahcclhnr5zgk3jbzf6eff7qka2hp7w75ljrwt3xkw4oxfdjyt2gm/A2403152.part1.rar
+        - https://srv25.mexa.sh:183/d/2zshrd4rxoy775ghmxyraeayaudcfkl6ioi7cpixid42bxfrmzymkjf63rhmuwdexanhnnsi/A2403152.part2.rar
+        - https://srv30.mexa.sh:183/d/dfsfgq3kxoy775ghat3aatchctxzrsbh3xkoo6gfiinmxoc6sysnjocsd2hopelpwpy7trmg/A-RJ01360333.part1.rar
+        - https://srv734.mexa.sh:183/d/zfsbsq3kxoy775ghat3aafkmkrs4gjba4p6qbwduolayiva2qizt67btx3fulggwhrn6ajrg/A-RJ01360333.part2.rar
+        - https://srv36.mexa.sh:183/d/djsdqq3kxoy775ghat3fsrq7ctbvib7zgdkurnje5yp2g7i6h6qg777cb5fp7obj6l6anbvi/A-RJ01360333.part3.rar
+        - https://srv445.mexa.sh:183/d/yjsmmaesxoy775ghn7yqcds5b4vhibrcuahkwdshs6uzucg3evaeamjablhwjbw5n37jxax5/A2403183.part1.rar
+        - https://srv709.mexa.sh:183/d/z5spdelqxoy775gh2dyacgsylcy74fttyyq6ij5c7rft36mcopty3z2ycekjcrfponotn56k/d_411904.zip
+        - https://srv131.mexa.sh:183/d/5vsolaelxoy775ghshyb4bc7ldwpqa4v47wl5pqkttfrbxjuvge2jj3tlbuq5cipmbqmnwoz/C2409156.rar
+        - https://srv36.mexa.sh:183/d/djsoyaesxoy775ghn7yvyekqdccyenazbz2su5vpgz3thb2kfdh7apkgk6tduiljhym3yhcd/A2403183.part3.rar
+        - https://srv122.mexa.sh:183/d/4jsdmamsxoy775ghn7yqyc2yko2q4caw25igvjr3pl74azusqlc5l6woz7zooaouikfmjzub/A2403183.part2.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
