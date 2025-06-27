@@ -35,20 +35,10 @@
       "version": "3.13.5"
     },
     "Rust": {
-      "version": "1.87.0"
-    },
-    "VapourSynth": {
-      "version": "R72",
-      "gitref": "refs/tags/R72",
-      "url": "https://github.com/vapoursynth/vapoursynth/releases/tag/R72"
+      "version": "1.88.0"
     },
     "WinRAR": {
       "version": "7.12"
-    },
-    "aria2": {
-      "version": "20240630.124736",
-      "revision": "b519ce04e3f3a0651fcec43550bc71f09771b069",
-      "url": "https://github.com/aria2/aria2/commit/b519ce04e3f3a0651fcec43550bc71f09771b069"
     },
     "bdp": {
       "version": "3.9.7"
