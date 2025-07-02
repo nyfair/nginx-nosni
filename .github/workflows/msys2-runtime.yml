@@ -13,7 +13,7 @@ jobs:
     - name: Build
       run: |
         C:\msys64\usr\bin\bash -lc 'pacman -Sy base-devel gcc git fish --noconfirm'
-        C:\msys64\usr\bin\bash -lc 'cd /c/a/nginx-nosni/nginx-nosni; fish build_msys2.fish'
+        C:\msys64\usr\bin\bash -lc 'cd /d/a/nginx-nosni/nginx-nosni; fish build_msys2.fish'
     # - uses: mxschmitt/action-tmate@v3
     - name: Upload
       uses: svenstaro/upload-release-action@v2
