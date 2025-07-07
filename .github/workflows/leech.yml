@@ -17,12 +17,12 @@ jobs:
     - uses: actions/cache@v4
       id: cache
       with:
-        path: megatools-1.11.4.20250411-linux-x86_64
-        key: megatools-1.11.4.20250411-linux-x86_64
+        path: megatools-1.11.5.20250706-linux-x86_64
+        key: megatools-1.11.5.20250706-linux-x86_64
     - name: Mega
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
-        curl -OL https://xff.cz/megatools/builds/builds/megatools-1.11.4.20250411-linux-x86_64.tar.gz
+        curl -OL https://xff.cz/megatools/builds/builds/megatools-1.11.5.20250706-linux-x86_64.tar.gz
         tar xvf *.gz
     - name: Leech
       run: |
