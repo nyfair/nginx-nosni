@@ -23,7 +23,7 @@
       "version": "140.0.2"
     },
     "Megatools": {
-      "version": "1.11.4.20250411"
+      "version": "1.11.5.20250706"
     },
     "Mingw-w64": {
       "version": "20250623_15.1.1_x64-ucrt_cbeb24896e3d75b16e8b315e7f4ea3ab08ca3467"
@@ -60,7 +60,7 @@
       "version": "13.0.19.0"
     },
     "foobar2000": {
-      "version": "2.24.5"
+      "version": "2.24.6"
     },
     "freetype2": {
       "version": "2.13.3",
