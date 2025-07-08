@@ -17,7 +17,7 @@
       "version": "15.1"
     },
     "Iceraven": {
-      "version": "2.32.1"
+      "version": "2.33.0"
     },
     "Iceweasel": {
       "version": "140.0.2"
@@ -26,7 +26,7 @@
       "version": "1.11.5.20250706"
     },
     "Mingw-w64": {
-      "version": "20250623_15.1.1_x64-ucrt_cbeb24896e3d75b16e8b315e7f4ea3ab08ca3467"
+      "version": "20250707_15.1.1_x64-ucrt_7bd9de6beb74460b17ec9c27f8b77722d6d5867c"
     },
     "NeeView": {
       "version": "43.3"
@@ -154,7 +154,7 @@
       "version": "1.4.309.0"
     },
     "xplorer²": {
-      "version": "6.2.0.0"
+      "version": "6.2.0.1"
     },
     "xtls": {
       "version": "25.6.8"
