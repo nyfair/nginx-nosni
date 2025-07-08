@@ -11,9 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv734.mexa.sh:183/d/zfsnzcs4xoy775gh673b4syya6gz7a7abwifgd5la4d7f67bec7qpy4z5fkgr5gtjudizgjr/G-RJ01414296.rar
-        - https://srv107.mexa.sh:183/d/hjsjutldxoy775gh4d3r4fclkct6lxrijrz5mrud22637luwosjifmt5fqgzf7egd2olvkrn/G-RJ01340704.rar
-        - https://mega.nz/file/sb9RzRaT#WlKO3kfZMvXKFJ0q4v0SUbmDjXYmPPSn2qfyyjsHU1I
+        - https://pixeldrain.com/api/file/hNisr13a?download
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
