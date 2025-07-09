@@ -11,13 +11,19 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://pixeldrain.com/api/file/95a5HQDj?download
-        - https://pixeldrain.com/api/file/1Ft6LAyo?download
-        - https://pixeldrain.com/api/file/Btzjia2B?download
-        - https://pixeldrain.com/api/file/sgPRabmS?download
-        - https://pixeldrain.com/api/file/5VMhGSCs?download
-        - https://pixeldrain.com/api/file/8WqicE9i?download
-        - https://pixeldrain.com/api/file/8WqicE9i?download
+        - https://srv164.mexa.sh:183/d/brsopjdmxoy775ghy73r2diyadre3e4uaqdjjz3arqtzgqufraokvamqtd2clsqkzkfns2bz/A-RJ01174957-v24.11.20.part01.rar
+        - https://srv478.mexa.sh:183/d/zvsnljdmxoy775ghy73qkr2datozhishh4x5nvf7nrolwrgjmggxx7dwwwdeugycnehl7w2o/A-RJ01174957-v24.11.20.part02.rar
+        - https://srv12.mexa.sh:183/d/4nshxjlmxoy775ghy73r4hk3bkgmtf4m5ipypiutbjp6zty66dkezwuyz2cgqlznwb4adz4m/A-RJ01174957-v24.11.20.part06.rar
+        - https://srv107.mexa.sh:183/d/hjsg5jlmxoy775ghy73rutkhchszgpieaqnmj7f7nwfsumtjeaa7yxlvmeudjtf6tmbjxddc/A-RJ01174957-v24.11.20.part07.rar
+        - https://srv964.mexa.sh:183/d/3jsp5jlmxoy775ghy73r6csdarkspzdxyfuck5jcih2iqomhgvqwnc42k2mu72w7ft3skdp3/A-RJ01174957-v24.11.20.part11.rar
+        - https://srv131.mexa.sh:183/d/5vsovjlmxoy775ghy73qkdktak4adf35p2dii6mfypkurugcw3bjn46kkuugwul7fhyj3x7g/A-RJ01174957-v24.11.20.part13.rar
+        - https://srv846.mexa.sh:183/d/y5sbljlmxoy775ghy73rae22bxgiqwmdn3yloj26kiad4ipovec2vkdufkj2ankxgaar3p2o/A-RJ01174957-v24.11.20.part04.rar
+        - https://srv2.mexa.sh:183/d/2jsatjlmxoy775ghy73vytq7ktypgpnbjbxbcjag3ym5m6f5fsmmiz2glvr3na3zoscto7a3/A-RJ01174957-v24.11.20.part05.rar
+        - https://srv36.mexa.sh:183/d/djsmhjdmxoy775ghy73qydczdmm6ew5htwlvzwu3ysw4z5sbjq2r3u5x7l63bpv6ril3dg43/A-RJ01174957-v24.11.20.part03.rar
+        - https://srv610.mexa.sh:183/d/6vslxjlmxoy775ghy73qosy6b2ppwmdg6qinmmyb7plrxfgnbe5msquj2v2pdaxjj3qc4fsi/A-RJ01174957-v24.11.20.part08.rar
+        - https://srv12.mexa.sh:183/d/4nsobjlmxoy775ghy73rweyrcnnpx3kdbwmd3gkrdiupwuiu3rz7bwwphu6x73malubdwvea/A-RJ01174957-v24.11.20.part12.rar
+        - https://srv427.mexa.sh:183/d/zrsppjlmxoy775ghy73ratarbsu2poyp6ctrgso2xioy5hnvokbh2mpcsgz5u6gm6quu3436/A-RJ01174957-v24.11.20.part10.rar
+        - https://srv182.mexa.sh:183/d/7zsjtjlmxoy775ghy73qirq6b2vxwgfxi5t6ie3cfz7vxwrglb4nstsmiu77gza3k4z2d72b/A-RJ01174957-v24.11.20.part09.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
