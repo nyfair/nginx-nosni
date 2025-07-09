@@ -11,18 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/eEMBVSwJ#SHMcSaAwDz5OaJ9C6poy_0zOJHtP8TQz8p4dZFkVHiU
-        - https://mega.nz/file/Ddl3gDAI#kAmQeriSq8brUgo1RyNaPjQtlKlhXxCw-Zgo8rdJqFc
-        - https://mega.nz/file/Dc1UnL5C#grvx7aDGDgaPxBVORjmCEjZLYEOrV-bZjYR3iiJ9VE4
-        - https://mega.nz/file/fYV1GbpJ#6lHxY9RjiNJ779ke1ARGc2x9CNj8kpw7scx7R4E4vkw
-        - https://mega.nz/file/l6Mn2aZZ#6S6K4nYazgmvtdvQuCLNcjgzS9lfxJdyvyaiA3KLkhk
-        - https://mega.nz/file/pmtBgDRT#Ao4DD5FHG1od20IxCS9-_gqvY2PUAgo8tCLGfF4Hg_A
-        - https://mega.nz/file/UmFjFaII#wASNfZoTIfEMTG5X2yRGHYBYh4_zFEhC98Gi2VD-yMg
-        - https://mega.nz/file/Q29T2b5b#v-laStLJOrrIKwGLai_APbG2qBylJVacRTqOm5PoEIQ
-        - https://mega.nz/file/p7s1xJjK#fVQap8JZr9rEWns9gyo0QsxaPtfCmqTiMS14W0ilUNg
-        - https://srv28.mexa.sh:183/d/urskf4c4xoy775ghrl3bcgkeaxoystjydhumkrwlid7ztjv37so4cyvsnusvirveojx4lxcx/Ani-RJ01395694.part1.rar
-        - https://srv136.mexa.sh:183/d/gfskz4c4xoy775ghrl3aufc4b3yd6q4egx7m7noip7qkpeve62pys3kgfuxukygeisv7w4vn/Ani-RJ01395694.part3.rar
-        - https://srv30.mexa.sh:183/d/dfsk54c4xoy775ghrl3awdcfa3oabz3ur5cpfymqgr7ct6yzrdilmayuxf6hmbtjdpz7uvnd/Ani-RJ01395694.part2.rar
+        - https://srv18.mexa.sh:183/d/cnsekwtcxoy775gh7x3q6cy3cagpppl5u4p45fof45kncdp72uimgrpwdpdil62ktkjnkkg2/DMJ-122380-JP.part2.rar
+        - https://srv131.mexa.sh:183/d/5vsemwtcxoy775gh7x3qadktdnrh4tdrxiaosfjynegwpcsugy5hgklc3toobwzklf37x7b7/DMJ-122380-JP.part1.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
