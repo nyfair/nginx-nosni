@@ -11,8 +11,13 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv18.mexa.sh:183/d/cnsekwtcxoy775gh7x3q6cy3cagpppl5u4p45fof45kncdp72uimgrpwdpdil62ktkjnkkg2/DMJ-122380-JP.part2.rar
-        - https://srv131.mexa.sh:183/d/5vsemwtcxoy775gh7x3qadktdnrh4tdrxiaosfjynegwpcsugy5hgklc3toobwzklf37x7b7/DMJ-122380-JP.part1.rar
+        - https://pixeldrain.com/api/file/95a5HQDj?download
+        - https://pixeldrain.com/api/file/1Ft6LAyo?download
+        - https://pixeldrain.com/api/file/Btzjia2B?download
+        - https://pixeldrain.com/api/file/sgPRabmS?download
+        - https://pixeldrain.com/api/file/5VMhGSCs?download
+        - https://pixeldrain.com/api/file/8WqicE9i?download
+        - https://pixeldrain.com/api/file/8WqicE9i?download
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
