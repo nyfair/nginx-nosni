@@ -125,7 +125,7 @@
       "url": "https://archlinux.org/packages/extra/x86_64/libvorbis/"
     },
     "libwebp": {
-      "version": "1.5.0",
+      "version": "1.6.0",
       "url": "https://archlinux.org/packages/extra/x86_64/libwebp/"
     },
     "mozjpeg": {
