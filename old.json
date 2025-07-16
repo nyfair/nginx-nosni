@@ -148,7 +148,7 @@
       "version": "2025.3"
     },
     "spirv-cross": {
-      "version": "1.4.313.0"
+      "version": "1.4.321.0"
     },
     "vulkan": {
       "version": "1.4.309.0"
