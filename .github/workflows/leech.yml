@@ -11,21 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/ATdCmDxR#RilTJiDiHplAMrT0pQyqHaHz2tu4wXZKwoLRPRIIxwY
-        - https://srv198.mexa.sh:183/d/vjsceq2uxoy775ghpl3a2es4bx4owud27hyfxwd7grv4jqxcopefipfoezlj4sstib3oxtli/DLJ-01181519-JP.part4.rar
-        - https://srv131.mexa.sh:183/d/5vsccq2uxoy775ghpl3bcr2cbwhb7rh7g4mjcohabduqkm5ijavr42xafo65jqkx357ddq77/DLJ-01181519-JP.part3.rar
-        - https://srv107.mexa.sh:183/d/hjsc6q2uxoy775ghpl3fss2nk3f323fftvfrmqpzprvcllnboy62ehlsuo4jhhhzheikrf5t/DLJ-01181519-JP.part5.rar
-        - https://mega.nz/file/IJYSwIBb#uhMn2w-LoImJFJj3tRb6ATV3hg22l-XvsHr-C91Oz-g
-        - https://srv9.mexa.sh:183/d/2bscgq2uxoy775ghpl3aggi3cf5en5actnh5ztd4hmwx2xz3crpr7ll4b6atpx5tdsknlllp/DLJ-01181519-JP.part2.rar
-        - https://mega.nz/file/SwImwTqT#dnCcuRdOgTEZyJ_KIAxQ19gWVbg9spfbTiaC3HdQCpI
-        - https://mega.nz/file/qxBRCDRL#ZKw6Tfou-XWKBkWk443JKGg1eeR_jt29I2BbxF2pWLI
-        - https://srv445.mexa.sh:183/d/yjsciq2uxoy775ghpl3fwskgkfeyknus4ec66oc6lqxygrprhrxba4etnetkuwkoomqw3nsi/DLJ-01181519-JP.part1.rar
-        - https://srv164.mexa.sh:183/d/brsfwhdkxoy775ghah3bgbczkeefti63duukk6hkwv5ellntqxq5rfmy6y3vxtqhmjsxeuz7/DLJ-01281924-JP.part1.rar
-        - https://srv136.mexa.sh:183/d/gfslghdkxoy775ghah3bgrsdkwilk2eaamwy7jh6krdprvfzyyaweovnisnnktj7csh7p4mf/DLJ-01281924-JP.part2.rar
-        - https://mega.nz/file/mt4CmRZB#36gCfY_4-8RPaxmVBq8tm-1DoTWElbnzPExKOFQ_JoM
-        - https://mega.nz/file/S1JAGDYS#tBNEIMwnl-W6_ArDVbozouMqfHAV0qCfkIKLCoKYNTk
-        - https://srv85.mexa.sh:183/d/hbsgwvtsxoy775ghydyfugsokkzpw7ivxcgkc6driqzvcg5j5ihbmehcmtivjeqiju6ykgsw/DLJ-01099080-JP.part1.rar
-        - https://srv734.mexa.sh:183/d/zfsfyvtsxoy775ghydyfqgk2cccz3cm6fjl4fpdjlunm2agvudt3kvg44grt4ev2kudezlli/DLJ-01099080-JP.part2.rar
+        - https://srv9.mexa.sh:183/d/2bsctud3xoy775ghip3rcgcmadob2sd55wruperdrydvo4vznieeru6m2vjonnhnedcj4thv/DLJ-363193-JP.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
