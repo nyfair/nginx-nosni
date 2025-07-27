@@ -11,7 +11,7 @@ cmd = "curl https://www.7-zip.org | grep -Po '>7-Zip \\d.*</A' | sort -r | head 
 
 [WinRAR]
 source = 'cmd'
-cmd = "curl https://www.rarlab.com/rarnew.htm | grep 'Version ' | head -1 | cut -c 12-"
+cmd = 'curl https://www.rarlab.com/rarnew.htm | grep "Version " | head -1 | sed "s/[ \s]*Version[ \s]*//'
 
 [foobar2000]
 source = 'regex'
