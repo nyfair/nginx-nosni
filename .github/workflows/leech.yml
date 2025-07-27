@@ -11,18 +11,16 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/jwBR0ACR#QNc1cAw6HQZMwNbHNd1vdSYs-UxUpDZVfD2aE_GO1YQ
-        - https://mega.nz/file/aphhEbrY#hc0lBQ0Mg4pEzkF-jUaI9877aksLrl8Z4v25ibK2k4E
-        - https://mega.nz/file/yhwWBThY#hC54B5X3mlzGeP6d_i5GAYVD_w9-k3YOXSctXUXF63E
-        - https://mega.nz/file/OtBRiJaQ#3r2IK72fbP8Eonzn_nTbgWnl96e0C8_bfAyGWO79L00
-        - https://srv14.mexa.sh:183/d/kzsdacv7xoy775ghydzqkei5c2osadikliup4qzd4qtasabw4valdlqvsost3eb7szxyn22f/G-RJ01068002-v1.02.rar
-        - https://srv19.mexa.sh:183/d/4fsp4v3qxoy775gh5lybuesaanpuqjui64lo7vs4wyx2qho5zszjgrgu27hypjonburlvizh/G-RJ01274937.zip
-        - https://srv8.mexa.sh:183/d/55sawclrxoy775gh3dya2cchcslvjq7dkyxdxugixo3gpz6s3e7zxtrjygdr4aepggtbxxsl/G-RJ01237781.zip
-        - https://srv26.mexa.sh:183/d/fjsgio3mxoy775gh333qggknkhhlrpba2z7uduq3whue6njm7ghpqg2zsk7nbstveuuau3y5/G-RJ01338300.zip
-        - https://srv721.mexa.sh:183/d/zbsffd3exoy775ghwh3vces3k4lkmotoojfhrpjrc6hjoklzoj3f47bjnsmminn3qyxrlkvt/G-RJ01234893-v1.11a.zip
-        - https://srv8.mexa.sh:183/d/55sawclrxoy775gh3dya2cchcslvjq7dkyxdxugixo3gg33gp4xdfey3fqg63zys3vjhgv22/G-RJ01237781.zip
-        - https://srv136.mexa.sh:183/d/gfsgma3rxoy775gh3dya2tkbk3dxrmowuywohb2n3iqfkpl4racbjmgn6ctd4w4cxm7nnuez/G-RJ01146733.zip
-        - https://srv182.mexa.sh:183/d/7zsfwollxoy775ghol3fwey4dnnpuz6fkuxptsyqahvcxg7ikx37m25uvyclrl5b2w4xuok6/G-RJ01383565.zip
+        - https://pixeldrain.com/api/file/41eAu7UN?download
+        - https://pixeldrain.com/api/file/EPadZdPF?download
+        - https://pixeldrain.com/api/file/ofDahLWo?download
+        - https://pixeldrain.com/api/file/NciQGtZX?download
+        - https://pixeldrain.com/api/file/5TSaKNWT?download
+        - https://pixeldrain.com/api/file/bvksoTiZ?download
+        - https://srv976.mexa.sh:183/d/3nsc6cs7xoy775gh233f6e25bdnxw4vefakneu4tr6budoixumsbxbnvohwuqqhgtxdxoiwc/G-RJ01214867-v1.29.part4.rar
+        - https://srv6.mexa.sh:183/d/6bscocs7xoy775gh233byf2mb4zikcmopp7cz5onwcayqrghfus76hekl2ndw2idmjnxte4m/G-RJ01214867-v1.29.part2.rar
+        - https://srv111.mexa.sh:183/d/vbsckcs7xoy775gh233agr2baxgvoahauvvcozzveag3vn5tpmioyu6e4id5667qrfo3kxu3/G-RJ01214867-v1.29.part3.rar
+        - https://srv389.mexa.sh:183/d/7bsdscs7xoy775gh233fcrszbywwyomlohfwxjtkln4y3tfqjeqo3gyx7jnp2xjkpq5y5nfo/G-RJ01214867-v1.29.part1.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
