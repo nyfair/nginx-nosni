@@ -13,6 +13,9 @@
     "Everything": {
       "version": "1.5.0.1396a"
     },
+    "GCC": {
+      "version": "15.1"
+    },
     "Iceraven": {
       "version": "2.33.1"
     },
@@ -67,7 +70,7 @@
       "version": "1.0.16"
     },
     "harfbuzz": {
-      "version": "11.3.2"
+      "version": "11.3.3"
     },
     "lame": {
       "version": "3.100",
@@ -154,7 +157,7 @@
       "version": "6.2.0.1"
     },
     "xtls": {
-      "version": "25.7.25"
+      "version": "25.7.26"
     },
     "yt-dlp": {
       "version": "2025.07.21"
