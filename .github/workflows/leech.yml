@@ -12,15 +12,6 @@ jobs:
       matrix:
         url:
         - https://pixeldrain.com/api/file/41eAu7UN?download
-        - https://pixeldrain.com/api/file/EPadZdPF?download
-        - https://pixeldrain.com/api/file/ofDahLWo?download
-        - https://pixeldrain.com/api/file/NciQGtZX?download
-        - https://pixeldrain.com/api/file/5TSaKNWT?download
-        - https://pixeldrain.com/api/file/bvksoTiZ?download
-        - https://srv976.mexa.sh:183/d/3nsc6cs7xoy775gh233f6e25bdnxw4vefakneu4tr6budoixumsbxbnvohwuqqhgtxdxoiwc/G-RJ01214867-v1.29.part4.rar
-        - https://srv6.mexa.sh:183/d/6bscocs7xoy775gh233byf2mb4zikcmopp7cz5onwcayqrghfus76hekl2ndw2idmjnxte4m/G-RJ01214867-v1.29.part2.rar
-        - https://srv111.mexa.sh:183/d/vbsckcs7xoy775gh233agr2baxgvoahauvvcozzveag3vn5tpmioyu6e4id5667qrfo3kxu3/G-RJ01214867-v1.29.part3.rar
-        - https://srv389.mexa.sh:183/d/7bsdscs7xoy775gh233fcrszbywwyomlohfwxjtkln4y3tfqjeqo3gyx7jnp2xjkpq5y5nfo/G-RJ01214867-v1.29.part1.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
