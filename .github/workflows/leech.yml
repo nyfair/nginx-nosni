@@ -11,7 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://mega.nz/file/8chjWCZB#cyPJx0AAZzARsBCAzgXN6mTrtHF_LkQUnPdaUML2nME
+        - https://git.xeondev.com/fadia-rs/symphonic/releases/download/0.1.0/symphonic.tar.gz
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
