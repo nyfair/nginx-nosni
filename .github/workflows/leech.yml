@@ -11,7 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://pixeldrain.com/api/file/fDeYRUTd?download
+        - https://srv495.mexa.sh:183/d/vfsodck7xoy775gh373a2ecpbqypgsf3rrqmi27vnakfsq64r6yckfbhxx7v4qfpgysuoh2p/G-RJ01433459.zip
+        - https://srv198.mexa.sh:183/d/vjsamucuxoy775ghpp3aagy7bkv2uay6cikdyegilzqsg2zdbxbflyvosn4o7ifzyrplxieq/G-RJ01380509.zip
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
