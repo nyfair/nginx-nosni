@@ -11,8 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv495.mexa.sh:183/d/vfsodck7xoy775gh373a2ecpbqypgsf3rrqmi27vnakfsq64r6yckfbhxx7v4qfpgysuoh2p/G-RJ01433459.zip
-        - https://srv198.mexa.sh:183/d/vjsamucuxoy775ghpp3aagy7bkv2uay6cikdyegilzqsg2zdbxbflyvosn4o7ifzyrplxieq/G-RJ01380509.zip
+        - https://srv48.mexa.sh:183/d/2fsh5hezxoy775ghrxyvyssoay4h3glk7lbekntvljymb744xsgqyx7bpeo6ojw5oyq6naub/Game-RJ194521_v1.51-JP.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
