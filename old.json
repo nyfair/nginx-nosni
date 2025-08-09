@@ -14,7 +14,7 @@
       "version": "1.5.0.1396a"
     },
     "GCC": {
-      "version": "15.1"
+      "version": "15.2"
     },
     "Iceraven": {
       "version": "2.34.1"
@@ -26,7 +26,7 @@
       "version": "1.11.5.20250706"
     },
     "Mingw-w64": {
-      "version": "20250722_15.1.1_x64-ucrt_388768b185c6f1d641b9976f5b872a049ed7d973"
+      "version": "20250808_15.2.0_x64-ucrt_dc944a4edbfc3e4f06d68ecc5eec773634c5ba40"
     },
     "NeeView": {
       "version": "43.3"
