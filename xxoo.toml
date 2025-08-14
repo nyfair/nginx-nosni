@@ -154,7 +154,7 @@ regex = 'releases/tag/([\d\.]+)"'
 [freetype2]
 source = 'regex'
 url = 'https://freetype.org/'
-regex = 'FreeType ([\d\-]+)'
+regex = 'FreeType ([\d\-\.]+)'
 
 [fribidi]
 source = 'regex'
