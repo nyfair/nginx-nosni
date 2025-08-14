@@ -63,7 +63,7 @@
       "version": "2.24.6"
     },
     "freetype2": {
-      "version": "2"
+      "version": "2.13.3"
     },
     "fribidi": {
       "version": "1.0.16"
