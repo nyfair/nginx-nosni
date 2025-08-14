@@ -96,9 +96,9 @@ url = 'https://nginx.org/en/download.html'
 regex = 'nginx-([\d\.]+)'
 
 [zlib]
-source = 'archpkg'
-archpkg = 'zlib'
-strip_release = true
+source = 'regex'
+url = 'https://github.com/madler/zlib/tags'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [openssl]
 source = 'regex'
@@ -122,29 +122,29 @@ url = 'https://github.com/FFmpeg/nv-codec-headers/tags'
 regex = 'releases/tag/n([\d\.]+)"'
 
 [lame]
-source = 'archpkg'
-archpkg = 'lame'
-strip_release = true
+source = 'regex'
+url = 'https://lame.sourceforge.io/'
+regex = 'v([\d\.]+)'
 
 [libogg]
-source = 'archpkg'
-archpkg = 'libogg'
-strip_release = true
+source = 'regex'
+url = 'https://github.com/xiph/ogg/tags'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [libvorbis]
-source = 'archpkg'
-archpkg = 'libvorbis'
-strip_release = true
+source = 'regex'
+url = 'https://github.com/xiph/vorbis/tags'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [opus]
-source = 'archpkg'
-archpkg = 'opus'
-strip_release = true
+source = 'regex'
+url = 'https://github.com/xiph/opus/tags'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [lcms2]
-source = 'archpkg'
-archpkg = 'lcms2'
-strip_release = true
+source = 'regex'
+url = 'https://github.com/mm2/Little-CMS/tags'
+regex = 'releases/tag/lcms([\d\.]+)"'
 
 [libass]
 source = 'regex'
@@ -152,9 +152,9 @@ url = 'https://github.com/libass/libass/tags'
 regex = 'releases/tag/([\d\.]+)"'
 
 [freetype2]
-source = 'archpkg'
-archpkg = 'freetype2'
-strip_release = true
+source = 'regex'
+url = 'https://download.savannah.gnu.org/releases/freetype/'
+regex = 'freetype-([\d\-]+).tar.gz.sig'
 
 [fribidi]
 source = 'regex'
@@ -167,9 +167,9 @@ url = 'https://github.com/harfbuzz/harfbuzz/tags'
 regex = 'releases/tag/([\d\.]+)"'
 
 [libbluray]
-source = 'archpkg'
-archpkg = 'libbluray'
-strip_release = true
+source = 'regex'
+url = 'https://download.videolan.org/pub/videolan/libbluray/'
+regex = '([\d\.]+)'
 
 [libdovi]
 source = 'regex'
@@ -177,19 +177,19 @@ url = 'https://github.com/quietvoid/dovi_tool/tags'
 regex = 'releases/tag/libdovi-([\d\.]+)"'
 
 [libdvdnav]
-source = 'archpkg'
-archpkg = 'libdvdnav'
-strip_release = true
+source = 'regex'
+url = 'https://download.videolan.org/pub/videolan/libdvdnav/'
+regex = '([\d\.]+)'
 
 [libdvdread]
-source = 'archpkg'
-archpkg = 'libdvdread'
-strip_release = true
+source = 'regex'
+url = 'https://download.videolan.org/pub/videolan/libdvdread/'
+regex = '([\d\.]+)'
 
 [libdvdcss]
-source = 'archpkg'
-archpkg = 'libdvdcss'
-strip_release = true
+source = 'regex'
+url = 'https://download.videolan.org/pub/videolan/libdvdcss/'
+regex = '([\d\.]+)'
 
 [vulkan]
 source = 'regex'
@@ -213,19 +213,19 @@ regex = 'releases/tag/v([\d\.]+)"'
 
 # image
 [libpng]
-source = 'archpkg'
-archpkg = 'libpng'
-strip_release = true
+source = 'regex'
+url = 'https://github.com/pnggroup/libpng/tags'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [libtiff]
-source = 'archpkg'
-archpkg = 'libtiff'
-strip_release = true
+source = 'regex'
+url = 'https://github.com/libsdl-org/libtiff/tags'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [libwebp]
-source = 'archpkg'
-archpkg = 'libwebp'
-strip_release = true
+source = 'regex'
+url = 'https://github.com/webmproject/libwebp/tags'
+regex = 'releases/tag/v([\d\.]+)"'
 
 [mozjpeg]
 source = 'regex'
