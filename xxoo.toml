@@ -153,8 +153,8 @@ regex = 'releases/tag/([\d\.]+)"'
 
 [freetype2]
 source = 'regex'
-url = 'https://download.savannah.gnu.org/releases/freetype/'
-regex = 'freetype-([\d\-]+).tar.gz.sig'
+url = 'https://freetype.org/'
+regex = 'FreeType ([\d\-]+)'
 
 [fribidi]
 source = 'regex'
@@ -169,7 +169,7 @@ regex = 'releases/tag/([\d\.]+)"'
 [libbluray]
 source = 'regex'
 url = 'https://download.videolan.org/pub/videolan/libbluray/'
-regex = '([\d\.]+)'
+regex = '([\d\.]+)/"'
 
 [libdovi]
 source = 'regex'
@@ -179,17 +179,17 @@ regex = 'releases/tag/libdovi-([\d\.]+)"'
 [libdvdnav]
 source = 'regex'
 url = 'https://download.videolan.org/pub/videolan/libdvdnav/'
-regex = '([\d\.]+)'
+regex = '([\d\.]+)/"'
 
 [libdvdread]
 source = 'regex'
 url = 'https://download.videolan.org/pub/videolan/libdvdread/'
-regex = '([\d\.]+)'
+regex = '([\d\.]+)/"'
 
 [libdvdcss]
 source = 'regex'
 url = 'https://download.videolan.org/pub/videolan/libdvdcss/'
-regex = '([\d\.]+)'
+regex = '([\d\.]+)/"'
 
 [vulkan]
 source = 'regex'
