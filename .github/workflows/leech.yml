@@ -11,15 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv734.mexa.sh:183/d/zfsl3l3dxoy775gh2t3rwsa2bxler5tnt3p4zatdzme3yh57i6bdnbfrurdae4vlfhjwgfdi/A-RJ251934.rar
-        - https://mega.nz/file/8itkyTbI#dHl4-4GU5eueH8_o3a4Kr6pN8OSMxMkibBW6YRMZFMg
-        - https://mega.nz/file/CQYhDITa#JXI8Y6ml1hD_wdv1fUX-L3AqN9e8kpoYdwBxSms6rWQ
-        - https://mega.nz/file/3Vh1RITC#hTeaer54Nw3sFe_YMifVltQtWMhOjJvULQQPPAV4Qik
-        - https://mega.nz/file/Zv9UCCJK#Emb5sQRK2rbdPF8XDHImn2_TgmEPM-E3wRFMWRA4KcM
-        - https://srv61.mexa.sh:183/d/vrsl2zwixoy775gha7zv6ta5cu7jjl3i22ks6b572f2y6h6lpz53a5pfj2yfkfwizwoxdxki/A-RJ407335.part1.rar
-        - https://srv18.mexa.sh:183/d/cnsluzwixoy775gha7zr6t2qaaqzqcg32xa5rsao5dirrryjyl7azff4z5wczmchyv3dpxjq/A-RJ407335.part2.rar
-        - https://srv8.mexa.sh:183/d/55sn5pgnxoy775ghexzr4bspcivjggv4iejh5mybk4jyirchi6gkm46m4wycwtgoytjmhmbw/A-RJ01055413.part1.rar
-        - https://srv495.mexa.sh:183/d/vfsnzpgnxoy775ghexzqqdkokj2xbpo34rhbnufkmos7shi3ah73ibltmn5iku4yjbawfgsa/A-RJ01055413.part2.rar
+        - https://srv24.mexa.sh:183/d/fbshca3hxoy775ghsh3rueazb2ygzvhjpaxfeinii3q4hvffmavxn36cl7lhdcoo747yd73u/DMJ-aman_0868no-JP.part1.rar
+        - https://srv495.mexa.sh:183/d/vfshya3hxoy775ghsh3quec4kqkxyxfe2yibzw63wutsjg5fncnlj5qxetmd6hom2q6ehfv2/DMJ-aman_0868no-JP.part2.rar
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
