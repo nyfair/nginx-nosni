@@ -11,8 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://srv24.mexa.sh:183/d/fbshca3hxoy775ghsh3rueazb2ygzvhjpaxfeinii3q4hvffmavxn36cl7lhdcoo747yd73u/DMJ-aman_0868no-JP.part1.rar
-        - https://srv495.mexa.sh:183/d/vfshya3hxoy775ghsh3quec4kqkxyxfe2yibzw63wutsjg5fncnlj5qxetmd6hom2q6ehfv2/DMJ-aman_0868no-JP.part2.rar
+        - https://srv709.mexa.sh:183/d/z5shfqkyxoy775ghy33a4ba5cuwqfowzyi3utaoffbdhe23h5hy4b3ii6eblkrbvy7viiuts/G-RJ01433459-v25.07.29.zip
     runs-on: ubuntu-latest
     steps:
     - uses: actions/cache@v4
