@@ -211,6 +211,11 @@ source = 'regex'
 url = 'https://github.com/google/shaderc/tags'
 regex = 'releases/tag/v([\d\.]+)"'
 
+[libplacebo]
+source = 'regex'
+url = 'https://github.com/haasn/libplacebo/tags'
+regex = 'releases/tag/v([\d\.]+)"'
+
 [highway]
 source = 'regex'
 url = 'https://github.com/google/highway/tags'
