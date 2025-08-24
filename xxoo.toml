@@ -63,6 +63,11 @@ source = 'regex'
 url = 'https://github.com/yt-dlp/yt-dlp/tags'
 regex = 'releases/tag/([\d\.]+)"'
 
+[ComfyUI]
+source = 'regex'
+url = 'https://github.com/comfyanonymous/ComfyUI/tags'
+regex = 'releases/tag/v([\d\.]+)"'
+
 # toy
 [Rust]
 source = 'regex'
@@ -206,9 +211,14 @@ source = 'regex'
 url = 'https://github.com/google/shaderc/tags'
 regex = 'releases/tag/v([\d\.]+)"'
 
-[libplacebo]
+[highway]
 source = 'regex'
-url = 'https://github.com/haasn/libplacebo/tags'
+url = 'https://github.com/google/highway/tags'
+regex = 'releases/tag/([\d\.]+)"'
+
+[brotli]
+source = 'regex'
+url = 'https://github.com/google/brotli/tags'
 regex = 'releases/tag/v([\d\.]+)"'
 
 # image
@@ -232,7 +242,7 @@ source = 'regex'
 url = 'https://github.com/mozilla/mozjpeg/tags'
 regex = 'releases/tag/v([\d\.]+)"'
 
-[libjpeg-xl]
+[libjxl]
 source = 'regex'
 url = 'https://github.com/libjxl/libjxl/tags'
 regex = 'releases/tag/v([\d\.]+)"'
