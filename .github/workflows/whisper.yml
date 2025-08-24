@@ -12,7 +12,7 @@ jobs:
         git clone https://github.com/openai/whisper
         git clone https://github.com/ggerganov/whisper.cpp
         cd whisper.cpp/models
-        pip install -U "huggingface_hub[cli]" torch numpy
+        pip install -U "huggingface_hub[cli]" torch numpy transformers
         huggingface-cli download efwkjn/whisper-ja-anime-v0.3 --local-dir ./anime-whisper
         python ./convert-h5-to-ggml.py ./anime-whisper/ ../../whisper .
     - name: Upload
