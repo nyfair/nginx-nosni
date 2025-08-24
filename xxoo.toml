@@ -226,11 +226,6 @@ source = 'regex'
 url = 'https://github.com/google/brotli/tags'
 regex = 'releases/tag/v([\d\.]+)"'
 
-[whisper]
-source = 'regex'
-url = 'https://github.com/ggml-org/whisper.cpp/tags'
-regex = 'releases/tag/v([\d\.]+)"'
-
 # image
 [libpng]
 source = 'regex'
