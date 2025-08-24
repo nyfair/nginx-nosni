@@ -13,7 +13,7 @@ jobs:
         git clone https://github.com/openai/whisper
         pip install -U "huggingface_hub[cli]" torch numpy transformers safetensors
         huggingface-cli download efwkjn/whisper-ja-anime-v0.3 --local-dir ./anime-whisper
-        python ./turbo2ggml.py ./anime-whisper/ whisper .
+        python ./turbo2ggml.py ./anime-whisper/ whisper . [use-f32]
     - name: Upload
       uses: svenstaro/upload-release-action@v2
       with:
