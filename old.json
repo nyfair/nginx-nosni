@@ -149,6 +149,9 @@
     "vulkan": {
       "version": "1.4.309.0"
     },
+    "whisper": {
+      "version": "1.7.6"
+    },
     "xplorer²": {
       "version": "6.2.0.2"
     },
