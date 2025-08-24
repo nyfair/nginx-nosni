@@ -14,11 +14,13 @@ jobs:
         pip install -U "huggingface_hub[cli]" torch numpy transformers safetensors
         huggingface-cli download efwkjn/whisper-ja-anime-v0.3 --local-dir ./anime-whisper
         python ./turbo2ggml.py ./anime-whisper/ whisper . [use-f32]
+        find . -size +2000M -exec split -b 1G --numeric-suffixes=1 {} {}.0 \;
+        find . -size +2000M -exec rm {} \;
     - name: Upload
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ggml-model-f32.bin
+        file: ggml*
         tag: latest
         overwrite: true
         file_glob: true
